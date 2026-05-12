@@ -213,28 +213,34 @@ export default function Homepage() {
     <main className="main">
       {/* Hero Section */}
       <section id="hero" className="hero section">
-        <div id="hero-carousel" className="carousel slide carousel-fade">
-          <div className="carousel-inner">
+        <div id="hero-carousel" className="carousel slide carousel-fade hero-carousel">
+          <div className="carousel-inner hero-carousel__backgrounds">
             {heroSlides.map((slide, idx) => (
-              <div key={idx} className={`carousel-item ${idx === currentSlide ? 'active' : ''}`} style={{ transition: 'opacity 0.8s ease-in-out' }}>
-                <img
-                  src={slide.img}
-                  alt={slide.title}
-                  style={{
-                    width: '100%',
-                    objectFit: 'cover',
-                    objectPosition: slide.objectPosition || 'center',
-                    height: '60svh',
-                    minHeight: '450px',
-                  }}
-                />
-                <div className="container">
-                  <h2>{slide.title}</h2>
-                  <p>{slide.text}</p>
-                  <a href={slide.link} className="btn-get-started">{slide.linkText}</a>
-                </div>
-              </div>
+              <div
+                key={slide.img}
+                className={`carousel-item hero-carousel__slide ${idx === currentSlide ? 'active' : ''}`}
+                style={{
+                  backgroundImage: `url(${slide.img})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: slide.objectPosition || 'center center',
+                  backgroundRepeat: 'no-repeat',
+                }}
+                aria-hidden={idx !== currentSlide}
+              />
             ))}
+          </div>
+
+          <div className="hero-carousel__caption" aria-live="polite">
+            <div className="hero-carousel__caption-panel container">
+              <h2>{heroSlides[currentSlide].title}</h2>
+              <p>{heroSlides[currentSlide].text}</p>
+              <a
+                href={heroSlides[currentSlide].link}
+                className="btn-get-started"
+              >
+                {heroSlides[currentSlide].linkText}
+              </a>
+            </div>
           </div>
 
           <button className="carousel-control-prev border-0 bg-transparent" type="button" onClick={prevSlide}>
