@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AI Technology - DermaScan</title>
+  <meta name="description" content="Learn about the AI technology powering DermaScan.">
+  <meta name="keywords" content="AI, machine learning, melanoma, DermaScan">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header sticky-top">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-shield-check me-1"></i> Your Skin Health Matters
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-envelope me-1"></i> Contact us: project@dermascan.com
+        </div>
+      </div>
+    </div>
+
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">DermaScan</h1> 
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#about">About Project</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn" href="index.html#scan">Scan Your Skin</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1 class="heading-title">Our AI Technology</h1>
+              <p class="mb-0">
+                Dive deep into the machine learning algorithms that power DermaScan. Built for accuracy, efficiency, and early detection of melanoma.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">AI Technology</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active">Image Processing</a>
+              <a href="#">Convolutional Neural Networks</a>
+              <a href="#">Data Augmentation</a>
+              <a href="#">Risk Classification</a>
+            </div>
+
+            <h4>Lab Two Project Focus</h4>
+            <p>Our main focus for Lab Two was to implement a functional deep learning model that can take a user-uploaded image from a smartphone and accurately classify it.</p>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>How DermaScan Analyzes Your Skin</h3>
+            <p>
+              When you upload a photo to DermaScan, it goes through a multi-step pipeline. First, the image is cropped and normalized to ensure our model only focuses on the lesion itself, removing background noise like hair or uneven lighting.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Trained on thousands of dermoscopic images (HAM10000 dataset).</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Utilizes advanced CNN architectures (e.g., ResNet, EfficientNet).</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Provides a probability score indicating the likelihood of malignancy.</span></li>
+            </ul>
+            <p>
+              We've heavily relied on open-source libraries and frameworks such as TensorFlow and PyTorch to build and train our models. Our team spent weeks fine-tuning hyperparameters to reduce false negatives, which is crucial in medical applications.
+            </p>
+            <p>
+              It is important to remember that while our AI is highly capable, it is not infallible. A biopsy and examination by a certified dermatologist remain the gold standard for diagnosing melanoma. DermaScan is designed to be the first step in your journey to better skin health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">DermaScan</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by the DermaScan Team for Lab Two. Template based on <a href="https://bootstrapmade.com/">BootstrapMade</a>.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
