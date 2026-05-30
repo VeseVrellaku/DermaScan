@@ -1,30 +1,32 @@
 import { useState } from 'react'
+import './App.css'
+import LiveKitModal from './components/LiveKitModal';
 
 function App() {
   const [showSupport, setShowSupport] = useState(false);
 
-  const handleClick = () => {
+  const handleSupportClick = () => {
     setShowSupport(true)
   }
-  
-  return (
-    <>
-      <div className='app'>
-        <header className='header'>
-          <div className='logo'>DermaScan</div>
-        </header>
 
-        <main>
-          <section>
-            <h1>Consult with the AI Doctor</h1>
-            <p>Speech to Speech</p>
-          </section>
-          <button className='ai-button' onClick={}>
-            Talk to the AI Doctor
-          </button>
-        </main>
-      </div>
-    </>
+  return (
+    <div className="app">
+      <header className="header">
+        <div className="logo">Derma Scan</div>
+      </header>
+
+      <main>
+        <section className="hero">
+          <h1>Content</h1>
+        </section>
+
+        <button className="support-button" onClick={handleSupportClick}>
+          Consult with AI Doctor
+        </button>
+      </main>
+
+      {showSupport && <LiveKitModal setShowSupport={setShowSupport}/>}
+    </div>
   )
 }
 
