@@ -1,6 +1,6 @@
 import uuid
 
-from src.core.exceptions import NotFoundException
+from src.core.exceptions import NotFoundException, ValidationException
 from src.repositories.user_repository import UserRepository
 from src.schemas.user import UpdateUserRequest, UserResponse
 
@@ -30,6 +30,14 @@ class UserService:
             user.last_name = payload.last_name
         if payload.phone is not None:
             user.phone = payload.phone
+        if (payload.latitude is None) != (payload.longitude is None):
+            raise ValidationException("Both latitude and longitude must be provided together")
+        if payload.city is not None:
+            user.city = payload.city.strip()
+        if payload.latitude is not None:
+            user.latitude = payload.latitude
+        if payload.longitude is not None:
+            user.longitude = payload.longitude
 
         updated = await self.user_repository.update(user)
         return UserResponse.model_validate(updated)

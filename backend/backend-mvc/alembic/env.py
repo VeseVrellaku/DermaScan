@@ -8,8 +8,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from src.config import Config
 from src.db.database import Base
-from src.models import ScanImage, ScanSession, User  # noqa: F401
-# from src.models import Prediction  # noqa: F401
+from src.models import Clinic, ScanImage, ScanSession, User  # noqa: F401
 
 config = context.config
 

@@ -17,7 +17,10 @@ async def register(
     auth_service: Annotated[AuthService, Depends(get_auth_service)],
 ):
     user = await auth_service.register(payload)
-    return success_response(data=user, message="User registered successfully")
+    return success_response(
+        data=user,
+        message="User registered successfully. Nearest clinics have been suggested based on your location.",
+    )
 
 
 @router.post("/login")

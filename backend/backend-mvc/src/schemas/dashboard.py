@@ -4,6 +4,7 @@ from uuid import UUID
 from pydantic import BaseModel, ConfigDict
 
 from src.models.enums import ScanStatus
+from src.schemas.clinic import NearestClinicsResponse
 from src.schemas.scan import ScanResponse
 
 
@@ -29,6 +30,7 @@ class RecentScanActivity(BaseModel):
 class DashboardResponse(BaseModel):
     overview: DashboardOverviewResponse
     recent_activity: list[RecentScanActivity]
+    suggested_clinics: NearestClinicsResponse
 
 
 class RecentScansResponse(BaseModel):

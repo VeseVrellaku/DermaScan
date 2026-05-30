@@ -9,7 +9,9 @@ from fastapi.staticfiles import StaticFiles
 
 from src.config import Config
 from src.controllers import (
+    admin_clinic_router,
     auth_router,
+    clinic_router,
     dashboard_router,
     # prediction_router,
     scan_router,
@@ -63,6 +65,8 @@ app.include_router(user_router, prefix="/api")
 app.include_router(scan_router, prefix="/api")
 # app.include_router(prediction_router, prefix="/api")
 app.include_router(dashboard_router, prefix="/api")
+app.include_router(clinic_router, prefix="/api")
+app.include_router(admin_clinic_router, prefix="/api")
 
 Path(Config.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)
 app.mount("/uploads", StaticFiles(directory=Config.UPLOAD_DIR), name="uploads")

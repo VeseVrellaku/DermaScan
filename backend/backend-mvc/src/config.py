@@ -19,6 +19,9 @@ class Settings(BaseSettings):
     # AI_MODEL_VERSION: str = "melanoma-v1.0"
     # AI_MODEL_ENDPOINT: str | None = None
 
+    ADMIN_EMAILS: str = ""
+    CLINIC_SUGGESTION_LIMIT: int = 5
+
     CORS_ORIGINS: str = "*"
 
     model_config = SettingsConfigDict(
@@ -39,6 +42,14 @@ class Settings(BaseSettings):
         if self.CORS_ORIGINS == "*":
             return ["*"]
         return [origin.strip() for origin in self.CORS_ORIGINS.split(",") if origin.strip()]
+
+    @property
+    def admin_emails(self) -> set[str]:
+        return {
+            email.strip().lower()
+            for email in self.ADMIN_EMAILS.split(",")
+            if email.strip()
+        }
 
 
 Config = Settings()

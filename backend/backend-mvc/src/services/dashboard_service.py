@@ -8,6 +8,7 @@ from src.schemas.dashboard import (
     RecentScanActivity,
     RecentScansResponse,
 )
+from src.services.clinic_service import ClinicService
 from src.services.scan_service import ScanService
 
 
@@ -16,21 +17,15 @@ class DashboardService:
         self,
         scan_repository: ScanRepository,
         scan_service: ScanService,
+        clinic_service: ClinicService,
     ) -> None:
         self.scan_repository = scan_repository
         self.scan_service = scan_service
+        self.clinic_service = clinic_service
 
     async def get_overview(self, user_id: uuid.UUID) -> DashboardResponse:
         total_scans = await self.scan_repository.count_user_scans(user_id)
         total_images = await self.scan_repository.count_user_images(user_id)
-        # melanoma_count = await self.scan_repository.count_predictions_by_class(
-        #     user_id,
-        #     PredictionClass.MELANOMA,
-        # )
-        # benign_count = await self.scan_repository.count_predictions_by_class(
-        #     user_id,
-        #     PredictionClass.BENIGN,
-        # )
         melanoma_count = 0
         benign_count = 0
         pending_scans = await self.scan_repository.count_scans_by_status(
@@ -49,18 +44,6 @@ class DashboardService:
         recent_scans = await self.scan_repository.get_recent_scans(user_id, limit=5)
         recent_activity = []
         for scan in recent_scans:
-            # melanoma_in_scan = sum(
-            #     1
-            #     for image in scan.images
-            #     if image.prediction
-            #     and image.prediction.predicted_class == PredictionClass.MELANOMA
-            # )
-            # benign_in_scan = sum(
-            #     1
-            #     for image in scan.images
-            #     if image.prediction
-            #     and image.prediction.predicted_class == PredictionClass.BENIGN
-            # )
             melanoma_in_scan = 0
             benign_in_scan = 0
             recent_activity.append(
@@ -74,6 +57,8 @@ class DashboardService:
                 )
             )
 
+        suggested_clinics = await self.clinic_service.get_nearest_clinics(user_id)
+
         return DashboardResponse(
             overview=DashboardOverviewResponse(
                 total_scans=total_scans,
@@ -85,6 +70,7 @@ class DashboardService:
                 failed_scans=failed_scans,
             ),
             recent_activity=recent_activity,
+            suggested_clinics=suggested_clinics,
         )
 
     async def get_recent_scans(
