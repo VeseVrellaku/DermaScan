@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from src.models.enums import ScanStatus
-from src.models.prediction import Prediction
+# from src.models.prediction import Prediction
 from src.models.scan_image import ScanImage
 from src.models.scan_session import ScanSession
 
@@ -32,9 +32,10 @@ class ScanRepository:
         if user_id is not None:
             stmt = stmt.where(ScanSession.user_id == user_id)
         if load_images:
-            stmt = stmt.options(
-                selectinload(ScanSession.images).selectinload(ScanImage.prediction)
-            )
+            stmt = stmt.options(selectinload(ScanSession.images))
+            # stmt = stmt.options(
+            #     selectinload(ScanSession.images).selectinload(ScanImage.prediction)
+            # )
         result = await self.session.execute(stmt)
         return result.scalar_one_or_none()
 
@@ -57,9 +58,10 @@ class ScanRepository:
         stmt = (
             select(ScanSession)
             .where(*filters)
-            .options(
-                selectinload(ScanSession.images).selectinload(ScanImage.prediction)
-            )
+            .options(selectinload(ScanSession.images))
+            # .options(
+            #     selectinload(ScanSession.images).selectinload(ScanImage.prediction)
+            # )
             .order_by(ScanSession.scan_date.desc())
             .offset(offset)
             .limit(page_size)
@@ -118,22 +120,22 @@ class ScanRepository:
         )
         return (await self.session.execute(stmt)).scalar_one() or 0
 
-    async def count_predictions_by_class(
-        self,
-        user_id: uuid.UUID,
-        predicted_class: str,
-    ) -> int:
-        stmt = (
-            select(func.count())
-            .select_from(Prediction)
-            .join(ScanImage)
-            .join(ScanSession)
-            .where(
-                ScanSession.user_id == user_id,
-                Prediction.predicted_class == predicted_class,
-            )
-        )
-        return (await self.session.execute(stmt)).scalar_one() or 0
+    # async def count_predictions_by_class(
+    #     self,
+    #     user_id: uuid.UUID,
+    #     predicted_class: str,
+    # ) -> int:
+    #     stmt = (
+    #         select(func.count())
+    #         .select_from(Prediction)
+    #         .join(ScanImage)
+    #         .join(ScanSession)
+    #         .where(
+    #             ScanSession.user_id == user_id,
+    #             Prediction.predicted_class == predicted_class,
+    #         )
+    #     )
+    #     return (await self.session.execute(stmt)).scalar_one() or 0
 
     async def get_recent_scans(
         self,
@@ -144,9 +146,10 @@ class ScanRepository:
         stmt = (
             select(ScanSession)
             .where(ScanSession.user_id == user_id)
-            .options(
-                selectinload(ScanSession.images).selectinload(ScanImage.prediction)
-            )
+            .options(selectinload(ScanSession.images))
+            # .options(
+            #     selectinload(ScanSession.images).selectinload(ScanImage.prediction)
+            # )
             .order_by(ScanSession.scan_date.desc())
             .limit(limit)
         )
@@ -172,9 +175,10 @@ class ScanRepository:
         stmt = (
             select(ScanSession)
             .where(*filters)
-            .options(
-                selectinload(ScanSession.images).selectinload(ScanImage.prediction)
-            )
+            .options(selectinload(ScanSession.images))
+            # .options(
+            #     selectinload(ScanSession.images).selectinload(ScanImage.prediction)
+            # )
             .order_by(ScanSession.scan_date.desc())
             .offset(offset)
             .limit(page_size)

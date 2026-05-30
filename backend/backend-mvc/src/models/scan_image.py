@@ -33,9 +33,9 @@ class ScanImage(Base):
     scan_session: Mapped["ScanSession"] = relationship(
         "ScanSession", back_populates="images"
     )
-    prediction: Mapped["Prediction | None"] = relationship(
-        "Prediction",
-        back_populates="scan_image",
-        uselist=False,
-        cascade="all, delete-orphan",
-    )
+    # prediction: Mapped["Prediction | None"] = relationship(
+    #     "Prediction",
+    #     back_populates="scan_image",
+    #     uselist=False,
+    #     cascade="all, delete-orphan",
+    # )

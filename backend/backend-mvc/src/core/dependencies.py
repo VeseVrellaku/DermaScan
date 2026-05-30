@@ -9,13 +9,13 @@ from src.core.exceptions import UnauthorizedException
 from src.core.security import decode_access_token
 from src.db.database import get_db
 from src.models.user import User
-from src.repositories.prediction_repository import PredictionRepository
+# from src.repositories.prediction_repository import PredictionRepository
 from src.repositories.scan_repository import ScanRepository
 from src.repositories.user_repository import UserRepository
-from src.services.ai_model_service import AIModelService, get_ai_model_service
+# from src.services.ai_model_service import AIModelService, get_ai_model_service
 from src.services.auth_service import AuthService
 from src.services.dashboard_service import DashboardService
-from src.services.prediction_service import PredictionService
+# from src.services.prediction_service import PredictionService
 from src.services.scan_service import ScanService
 from src.services.user_service import UserService
 from src.utils.file_storage import FileStorageService
@@ -54,10 +54,10 @@ def get_scan_repository(
     return ScanRepository(db)
 
 
-def get_prediction_repository(
-    db: Annotated[AsyncSession, Depends(get_db)],
-) -> PredictionRepository:
-    return PredictionRepository(db)
+# def get_prediction_repository(
+#     db: Annotated[AsyncSession, Depends(get_db)],
+# ) -> PredictionRepository:
+#     return PredictionRepository(db)
 
 
 def get_file_storage_service() -> FileStorageService:
@@ -78,26 +78,26 @@ def get_user_service(
 
 def get_scan_service(
     scan_repository: Annotated[ScanRepository, Depends(get_scan_repository)],
-    prediction_repository: Annotated[
-        PredictionRepository, Depends(get_prediction_repository)
-    ],
+    # prediction_repository: Annotated[
+    #     PredictionRepository, Depends(get_prediction_repository)
+    # ],
     file_storage: Annotated[FileStorageService, Depends(get_file_storage_service)],
-    ai_model_service: Annotated[AIModelService, Depends(get_ai_model_service)],
+    # ai_model_service: Annotated[AIModelService, Depends(get_ai_model_service)],
 ) -> ScanService:
     return ScanService(
         scan_repository,
-        prediction_repository,
+        # prediction_repository,
         file_storage,
-        ai_model_service,
+        # ai_model_service,
     )
 
 
-def get_prediction_service(
-    prediction_repository: Annotated[
-        PredictionRepository, Depends(get_prediction_repository)
-    ],
-) -> PredictionService:
-    return PredictionService(prediction_repository)
+# def get_prediction_service(
+#     prediction_repository: Annotated[
+#         PredictionRepository, Depends(get_prediction_repository)
+#     ],
+# ) -> PredictionService:
+#     return PredictionService(prediction_repository)
 
 
 def get_dashboard_service(

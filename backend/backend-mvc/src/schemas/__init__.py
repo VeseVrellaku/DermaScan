@@ -5,7 +5,7 @@ from src.schemas.dashboard import (
     RecentScanActivity,
     RecentScansResponse,
 )
-from src.schemas.prediction import PredictionResponse
+# from src.schemas.prediction import PredictionResponse
 from src.schemas.scan import (
     CreateScanRequest,
     ScanImageResponse,
@@ -24,7 +24,7 @@ __all__ = [
     "ScanResponse",
     "ScanImageResponse",
     "ScanListResponse",
-    "PredictionResponse",
+    # "PredictionResponse",
     "DashboardOverviewResponse",
     "DashboardResponse",
     "RecentScanActivity",

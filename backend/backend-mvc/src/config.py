@@ -16,8 +16,8 @@ class Settings(BaseSettings):
     MAX_UPLOAD_SIZE_MB: int = 10
     ALLOWED_IMAGE_EXTENSIONS: str = "jpg,jpeg,png,webp"
 
-    AI_MODEL_VERSION: str = "melanoma-v1.0"
-    AI_MODEL_ENDPOINT: str | None = None
+    # AI_MODEL_VERSION: str = "melanoma-v1.0"
+    # AI_MODEL_ENDPOINT: str | None = None
 
     CORS_ORIGINS: str = "*"
 

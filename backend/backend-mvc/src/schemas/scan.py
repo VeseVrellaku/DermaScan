@@ -10,15 +10,15 @@ class CreateScanRequest(BaseModel):
     notes: str | None = Field(default=None, max_length=2000)
 
 
-class PredictionSummaryResponse(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
-
-    id: UUID
-    predicted_class: str
-    confidence_score: float
-    model_version: str
-    processing_date: datetime
-    status: ScanStatus
+# class PredictionSummaryResponse(BaseModel):
+#     model_config = ConfigDict(from_attributes=True)
+#
+#     id: UUID
+#     predicted_class: str
+#     confidence_score: float
+#     model_version: str
+#     processing_date: datetime
+#     status: ScanStatus
 
 
 class ScanImageResponse(BaseModel):
@@ -30,7 +30,7 @@ class ScanImageResponse(BaseModel):
     mime_type: str
     file_size_bytes: int
     uploaded_at: datetime
-    prediction: PredictionSummaryResponse | None = None
+    # prediction: PredictionSummaryResponse | None = None
 
 
 class ScanResponse(BaseModel):

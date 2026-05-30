@@ -11,7 +11,7 @@ from src.config import Config
 from src.controllers import (
     auth_router,
     dashboard_router,
-    prediction_router,
+    # prediction_router,
     scan_router,
     user_router,
 )
@@ -61,7 +61,7 @@ app.add_exception_handler(Exception, unhandled_exception_handler)
 app.include_router(auth_router, prefix="/api")
 app.include_router(user_router, prefix="/api")
 app.include_router(scan_router, prefix="/api")
-app.include_router(prediction_router, prefix="/api")
+# app.include_router(prediction_router, prefix="/api")
 app.include_router(dashboard_router, prefix="/api")
 
 Path(Config.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)

@@ -30,7 +30,7 @@ async def upload_scan_images(
     files: list[UploadFile] = File(...),
 ):
     scan = await scan_service.upload_images(user_id, scan_id, files)
-    return success_response(data=scan, message="Images uploaded and processed successfully")
+    return success_response(data=scan, message="Images uploaded successfully")
 
 
 @router.get("")

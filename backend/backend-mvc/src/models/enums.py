@@ -8,6 +8,6 @@ class ScanStatus(str, enum.Enum):
     FAILED = "Failed"
 
 
-class PredictionClass(str, enum.Enum):
-    MELANOMA = "Melanoma"
-    BENIGN = "Benign"
+# class PredictionClass(str, enum.Enum):
+#     MELANOMA = "Melanoma"
+#     BENIGN = "Benign"

@@ -1,6 +1,6 @@
 import uuid
 
-from src.models.enums import PredictionClass, ScanStatus
+from src.models.enums import ScanStatus
 from src.repositories.scan_repository import ScanRepository
 from src.schemas.dashboard import (
     DashboardOverviewResponse,
@@ -23,14 +23,16 @@ class DashboardService:
     async def get_overview(self, user_id: uuid.UUID) -> DashboardResponse:
         total_scans = await self.scan_repository.count_user_scans(user_id)
         total_images = await self.scan_repository.count_user_images(user_id)
-        melanoma_count = await self.scan_repository.count_predictions_by_class(
-            user_id,
-            PredictionClass.MELANOMA,
-        )
-        benign_count = await self.scan_repository.count_predictions_by_class(
-            user_id,
-            PredictionClass.BENIGN,
-        )
+        # melanoma_count = await self.scan_repository.count_predictions_by_class(
+        #     user_id,
+        #     PredictionClass.MELANOMA,
+        # )
+        # benign_count = await self.scan_repository.count_predictions_by_class(
+        #     user_id,
+        #     PredictionClass.BENIGN,
+        # )
+        melanoma_count = 0
+        benign_count = 0
         pending_scans = await self.scan_repository.count_scans_by_status(
             user_id,
             ScanStatus.PENDING,
@@ -47,18 +49,20 @@ class DashboardService:
         recent_scans = await self.scan_repository.get_recent_scans(user_id, limit=5)
         recent_activity = []
         for scan in recent_scans:
-            melanoma_in_scan = sum(
-                1
-                for image in scan.images
-                if image.prediction
-                and image.prediction.predicted_class == PredictionClass.MELANOMA
-            )
-            benign_in_scan = sum(
-                1
-                for image in scan.images
-                if image.prediction
-                and image.prediction.predicted_class == PredictionClass.BENIGN
-            )
+            # melanoma_in_scan = sum(
+            #     1
+            #     for image in scan.images
+            #     if image.prediction
+            #     and image.prediction.predicted_class == PredictionClass.MELANOMA
+            # )
+            # benign_in_scan = sum(
+            #     1
+            #     for image in scan.images
+            #     if image.prediction
+            #     and image.prediction.predicted_class == PredictionClass.BENIGN
+            # )
+            melanoma_in_scan = 0
+            benign_in_scan = 0
             recent_activity.append(
                 RecentScanActivity(
                     scan_id=scan.id,
