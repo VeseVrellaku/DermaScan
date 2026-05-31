@@ -1,56 +1,59 @@
 # =========================
 # FASTAPI CORE
 # =========================
-fastapi==0.115.6
-uvicorn==0.34.0
-starlette==0.41.3
-python-multipart==0.0.20
+fastapi>=0.115.6
+uvicorn>=0.34.0
+starlette>=0.41.3
+python-multipart>=0.0.20
 
 # =========================
 # LIVEKIT (REALTIME)
 # =========================
-livekit==1.1.8
+livekit>=1.1.8
+livekit-agents
+livekit-plugins-openai
 
 # =========================
 # HTTP / NETWORK
 # =========================
-httpx==0.28.1
-requests==2.32.5
-websockets==15.0.1
+httpx>=0.28.1
+requests>=2.32.5
+websockets>=15.0.1
 
 # =========================
 # DATA / MODELS
 # =========================
-pydantic==2.10.4
-pydantic-settings==2.7.0
+pydantic>=2.10.4
+pydantic-settings>=2.7.0
 
 # =========================
 # DATABASE
 # =========================
-sqlalchemy==2.0.36
-asyncpg==0.31.0
-psycopg==3.2.3
+sqlalchemy>=2.0.36
+asyncpg>=0.31.0
+psycopg>=3.2.3
 
 # =========================
 # REDIS (optional realtime scaling)
 # =========================
-redis==5.2.1
+redis>=5.2.1
 
 # =========================
 # AUTH / SECURITY
 # =========================
-python-jose==3.3.0
-passlib==1.7.4
-bcrypt==4.0.1
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
 
 # =========================
 # ENV / CONFIG
 # =========================
-python-dotenv==1.2.1
+python-dotenv>=1.2.1
 
 # =========================
 # UTILITIES
 # =========================
-anyio==4.12.1
-tenacity==9.0.0
-rich==14.2.0
+anyio>=4.12.1
+tenacity>=9.0.0
+rich>=14.2.0
+PyMuPDF

@@ -9,7 +9,7 @@ from livekit.agents import (
 from livekit.agents.voice import Agent, AgentSession
 from livekit.plugins import openai
 from dotenv import load_dotenv
-from api import AssistentFunction
+from agent_api import AssistentFunction
 from prompts import WELCOME_MESSAGE, INSTRUCTIONS
 import os
 
