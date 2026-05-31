@@ -50,9 +50,9 @@ class UpdateClinicRequest(BaseModel):
 
 
 class NearestClinicsResponse(BaseModel):
-    user_city: str
-    user_latitude: float
-    user_longitude: float
+    user_city: str | None
+    user_latitude: float | None
+    user_longitude: float | None
     clinics: list[ClinicResponse]
 
 

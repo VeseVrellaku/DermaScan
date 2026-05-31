@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, model_validator
 
 from src.schemas.clinic import NearestClinicsResponse
 from src.schemas.user import UserResponse
@@ -10,9 +10,15 @@ class RegisterRequest(BaseModel):
     first_name: str = Field(min_length=1, max_length=100)
     last_name: str = Field(min_length=1, max_length=100)
     phone: str | None = Field(default=None, max_length=30)
-    city: str = Field(min_length=1, max_length=100, description="User's city or area")
-    latitude: float = Field(ge=-90, le=90, description="User location latitude")
-    longitude: float = Field(ge=-180, le=180, description="User location longitude")
+    city: str | None = Field(default=None, max_length=100)
+    latitude: float | None = Field(default=None, ge=-90, le=90)
+    longitude: float | None = Field(default=None, ge=-180, le=180)
+
+    @model_validator(mode="after")
+    def validate_location_pair(self) -> "RegisterRequest":
+        if (self.latitude is None) != (self.longitude is None):
+            raise ValueError("Both latitude and longitude must be provided together")
+        return self
 
 
 class RegisterResponse(BaseModel):

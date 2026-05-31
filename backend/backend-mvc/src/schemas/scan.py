@@ -41,6 +41,11 @@ class ScanResponse(BaseModel):
     scan_date: datetime
     notes: str | None
     status: ScanStatus
+    classification_label: str | None = None
+    confidence_score: float | None = None
+    risk_level: str | None = None
+    report_summary: str | None = None
+    report_url: str | None = None
     created_at: datetime
     updated_at: datetime
     images: list[ScanImageResponse] = Field(default_factory=list)

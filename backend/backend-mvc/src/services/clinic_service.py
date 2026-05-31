@@ -29,7 +29,7 @@ class ClinicService:
         self,
         clinics: list[Clinic],
         *,
-        city: str,
+        city: str | None,
         latitude: float,
         longitude: float,
         limit: int,
@@ -73,12 +73,20 @@ class ClinicService:
     async def suggest_clinics_for_location(
         self,
         *,
-        city: str,
-        latitude: float,
-        longitude: float,
+        city: str | None,
+        latitude: float | None,
+        longitude: float | None,
         limit: int | None = None,
         max_distance_km: float | None = None,
     ) -> NearestClinicsResponse:
+        if latitude is None or longitude is None:
+            return NearestClinicsResponse(
+                user_city=city,
+                user_latitude=latitude,
+                user_longitude=longitude,
+                clinics=[],
+            )
+
         clinics = await self.clinic_repository.list_active()
         return self._rank_clinics(
             clinics,
@@ -99,6 +107,14 @@ class ClinicService:
         user = await self.user_repository.get_by_id(user_id)
         if not user:
             raise NotFoundException("User not found")
+
+        if user.latitude is None or user.longitude is None:
+            return NearestClinicsResponse(
+                user_city=user.city,
+                user_latitude=user.latitude,
+                user_longitude=user.longitude,
+                clinics=[],
+            )
 
         return await self.suggest_clinics_for_location(
             city=user.city,

@@ -2,6 +2,7 @@ import uuid
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, File, Query, UploadFile, status
+from fastapi.responses import FileResponse
 
 from src.core.dependencies import get_current_user_id, get_scan_service
 from src.core.responses import paginated_response, success_response
@@ -53,6 +54,20 @@ async def list_scans(
         page=scans.page,
         page_size=scans.page_size,
         message="Scans retrieved successfully",
+    )
+
+
+@router.get("/{scan_id}/report")
+async def download_scan_report(
+    scan_id: uuid.UUID,
+    user_id: Annotated[uuid.UUID, Depends(get_current_user_id)],
+    scan_service: Annotated[ScanService, Depends(get_scan_service)],
+):
+    report_path = await scan_service.get_report_path(user_id, scan_id)
+    return FileResponse(
+        path=report_path,
+        media_type="application/pdf",
+        filename=f"dermascan-report-{scan_id}.pdf",
     )
 
 

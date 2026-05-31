@@ -1,0 +1,10 @@
+/* Marketing landing page overrides (scoped to avoid affecting the portal) */
+.index-page h1,
+.index-page h2,
+.index-page h3,
+.index-page h4,
+.index-page h5,
+.index-page h6,
+.index-page .sitename {
+  color: #000000 !important;
+}

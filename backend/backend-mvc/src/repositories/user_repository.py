@@ -34,3 +34,22 @@ class UserRepository:
             select(func.count()).select_from(User).where(User.email == email)
         )
         return (result.scalar_one() or 0) > 0
+
+    async def list_all(
+        self,
+        *,
+        page: int = 1,
+        page_size: int = 20,
+    ) -> tuple[list[User], int]:
+        count_stmt = select(func.count()).select_from(User)
+        total = (await self.session.execute(count_stmt)).scalar_one() or 0
+
+        offset = (page - 1) * page_size
+        stmt = (
+            select(User)
+            .order_by(User.created_at.desc())
+            .offset(offset)
+            .limit(page_size)
+        )
+        result = await self.session.execute(stmt)
+        return list(result.scalars().all()), total

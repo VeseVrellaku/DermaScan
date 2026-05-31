@@ -17,9 +17,14 @@ async def register(
     auth_service: Annotated[AuthService, Depends(get_auth_service)],
 ):
     user = await auth_service.register(payload)
+    message = (
+        "User registered successfully. Nearest clinics have been suggested based on your location."
+        if payload.latitude is not None and payload.longitude is not None
+        else "User registered successfully. Share your location anytime to get nearby clinic recommendations."
+    )
     return success_response(
         data=user,
-        message="User registered successfully. Nearest clinics have been suggested based on your location.",
+        message=message,
     )
 
 

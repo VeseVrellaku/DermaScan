@@ -14,9 +14,9 @@ class UserResponse(BaseModel):
     first_name: str
     last_name: str
     phone: str | None
-    city: str
-    latitude: float
-    longitude: float
+    city: str | None
+    latitude: float | None
+    longitude: float | None
     role: UserRole
     created_at: datetime
     updated_at: datetime

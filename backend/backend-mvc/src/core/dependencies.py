@@ -15,6 +15,7 @@ from src.repositories.clinic_repository import ClinicRepository
 from src.repositories.scan_repository import ScanRepository
 from src.repositories.user_repository import UserRepository
 # from src.services.ai_model_service import AIModelService, get_ai_model_service
+from src.services.admin_user_service import AdminUserService
 from src.services.auth_service import AuthService
 from src.services.clinic_service import ClinicService
 from src.services.dashboard_service import DashboardService
@@ -103,6 +104,7 @@ def get_user_service(
 
 def get_scan_service(
     scan_repository: Annotated[ScanRepository, Depends(get_scan_repository)],
+    user_repository: Annotated[UserRepository, Depends(get_user_repository)],
     # prediction_repository: Annotated[
     #     PredictionRepository, Depends(get_prediction_repository)
     # ],
@@ -111,6 +113,7 @@ def get_scan_service(
 ) -> ScanService:
     return ScanService(
         scan_repository,
+        user_repository,
         # prediction_repository,
         file_storage,
         # ai_model_service,
@@ -123,6 +126,14 @@ def get_scan_service(
 #     ],
 # ) -> PredictionService:
 #     return PredictionService(prediction_repository)
+
+
+def get_admin_user_service(
+    user_repository: Annotated[UserRepository, Depends(get_user_repository)],
+    scan_repository: Annotated[ScanRepository, Depends(get_scan_repository)],
+    scan_service: Annotated[ScanService, Depends(get_scan_service)],
+) -> AdminUserService:
+    return AdminUserService(user_repository, scan_repository, scan_service)
 
 
 def get_dashboard_service(

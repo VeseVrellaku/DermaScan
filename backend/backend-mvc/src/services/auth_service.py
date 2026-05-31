@@ -31,7 +31,7 @@ class AuthService:
             first_name=payload.first_name,
             last_name=payload.last_name,
             phone=payload.phone,
-            city=payload.city.strip(),
+            city=payload.city.strip() if payload.city else None,
             latitude=payload.latitude,
             longitude=payload.longitude,
             role=role,

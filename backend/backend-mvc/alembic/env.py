@@ -4,10 +4,10 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import pool
 from sqlalchemy.engine import Connection
-from sqlalchemy.ext.asyncio import async_engine_from_config
+from sqlalchemy.ext.asyncio import create_async_engine
 
 from src.config import Config
-from src.db.database import Base
+from src.db.database import Base, prepare_asyncpg_url
 from src.models import Clinic, ScanImage, ScanSession, User  # noqa: F401
 
 config = context.config
@@ -19,11 +19,7 @@ target_metadata = Base.metadata
 
 
 def get_url() -> str:
-    url = Config.DATABASE_URL
-    if url.startswith("postgresql://"):
-        return url.replace("postgresql://", "postgresql+asyncpg://", 1)
-    if url.startswith("postgres://"):
-        return url.replace("postgres://", "postgresql+asyncpg://", 1)
+    url, _ = prepare_asyncpg_url(Config.DATABASE_URL)
     return url
 
 
@@ -47,11 +43,10 @@ def do_run_migrations(connection: Connection) -> None:
 
 
 async def run_async_migrations() -> None:
-    configuration = config.get_section(config.config_ini_section, {})
-    configuration["sqlalchemy.url"] = get_url()
-    connectable = async_engine_from_config(
-        configuration,
-        prefix="sqlalchemy.",
+    url, connect_args = prepare_asyncpg_url(Config.DATABASE_URL)
+    connectable = create_async_engine(
+        url,
+        connect_args=connect_args,
         poolclass=pool.NullPool,
     )
 

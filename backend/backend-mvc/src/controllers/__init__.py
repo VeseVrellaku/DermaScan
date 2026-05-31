@@ -1,4 +1,5 @@
 from src.controllers.admin_clinic_controller import router as admin_clinic_router
+from src.controllers.admin_user_controller import router as admin_user_router
 from src.controllers.auth_controller import router as auth_router
 from src.controllers.clinic_controller import router as clinic_router
 from src.controllers.dashboard_controller import router as dashboard_router
@@ -14,4 +15,5 @@ __all__ = [
     "dashboard_router",
     "clinic_router",
     "admin_clinic_router",
+    "admin_user_router",
 ]

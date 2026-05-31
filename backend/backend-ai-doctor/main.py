@@ -9,11 +9,14 @@ from livekit.agents import (
 from livekit.agents.voice import Agent, AgentSession
 from livekit.plugins import openai
 from dotenv import load_dotenv
-from agent_api import AssistentFunction
+from api import AssistentFunction
 from prompts import WELCOME_MESSAGE, INSTRUCTIONS
 import os
 
 load_dotenv()
+
+# HTTP token API lives in server.py — re-export so `uvicorn main:app` also works.
+from server import app  # noqa: E402, F401
 
 async def entrypoint(ctx: JobContext):
     await ctx.connect(auto_subscribe=AutoSubscribe.SUBSCRIBE_ALL)
