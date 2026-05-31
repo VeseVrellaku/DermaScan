@@ -12,9 +12,9 @@ const LiveKitModal = ({ setShowSupport }) => {
       setLoading(true);
 
       const response = await fetch("/api/getToken");
-      const token = await response.text();
+      const data = await response.json();
 
-      setToken(token);
+      setToken(data.token);
     } catch (error) {
       console.error(error);
     } finally {
@@ -25,11 +25,12 @@ const LiveKitModal = ({ setShowSupport }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
+        <button className="close-button" onClick={() => setShowSupport(false)}>&times;</button>
         <div className="support-room">
           {token ? (
             <LiveKitRoom
               serverUrl={import.meta.env.VITE_LIVEKIT_URL}
-              token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODAxNDYzOTQsImlkZW50aXR5IjoibWF4eCIsImlzcyI6IkFQSXVQRFJTeUhSRnNnVCIsIm5iZiI6MTc4MDE0NTQ5NCwic3ViIjoibWF4eCIsInZpZGVvIjp7ImNhblB1Ymxpc2giOnRydWUsImNhblB1Ymxpc2hEYXRhIjp0cnVlLCJjYW5TdWJzY3JpYmUiOnRydWUsInJvb20iOiJyb29tMSIsInJvb21Kb2luIjp0cnVlfX0.1dHvhRfv2YgQTfKBvzgxh3Yg6vv5kKjd3GsTLYbqNiQ"
+              token={token}
               connect={true}
               video={false}
               audio={true}
