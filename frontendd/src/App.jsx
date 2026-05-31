@@ -17,7 +17,25 @@ function App() {
   });
 
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [adminSubView, setAdminSubView] = useState('database'); // 'database', 'logs', 'stats'
+
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.classList.add('az-header-menu-show');
+    } else {
+      document.body.classList.remove('az-header-menu-show');
+    }
+    return () => document.body.classList.remove('az-header-menu-show');
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const backdrop = document.querySelector('.az-navbar-backdrop');
+    const closeMenu = () => setMobileMenuOpen(false);
+    backdrop?.addEventListener('click', closeMenu);
+    return () => backdrop?.removeEventListener('click', closeMenu);
+  }, [mobileMenuOpen]);
 
   // Audit Logs State (Local state with persistence)
   const [auditLogs, setAuditLogs] = useState(() => {
@@ -111,9 +129,18 @@ function App() {
     localStorage.setItem('dermascan_scans', JSON.stringify(scanHistory));
   }, [scanHistory]);
 
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  const navigateTo = (view) => {
+    setCurrentView(view);
+    closeMobileMenu();
+    setProfileDropdownOpen(false);
+  };
+
   // Handle support trigger
   const handleSupportClick = (e) => {
     if (e) e.preventDefault();
+    closeMobileMenu();
     setShowSupport(true);
   }
 
@@ -273,6 +300,8 @@ function App() {
     localStorage.removeItem('dermascan_user');
     setUser(null);
     setCurrentView('login');
+    closeMobileMenu();
+    setProfileDropdownOpen(false);
   };
 
   // Admin CRUD Operations (Manual scan creation form removed)
@@ -323,12 +352,21 @@ function App() {
       <div className="az-header">
         <div className="container">
           <div className="az-header-left">
+            <a
+              href=""
+              id="azMenuShow"
+              className="az-header-menu-icon d-lg-none"
+              onClick={(e) => { e.preventDefault(); setMobileMenuOpen((open) => !open); }}
+              aria-label="Toggle navigation menu"
+            >
+              <span></span>
+            </a>
             <a href="/" className="az-logo" style={{ textTransform: 'none' }} onClick={(e) => { 
               e.preventDefault(); 
               if (user) {
-                setCurrentView(user.role === 'admin' ? 'admin-dashboard' : 'dashboard');
+                navigateTo(user.role === 'admin' ? 'admin-dashboard' : 'dashboard');
               } else {
-                setCurrentView('login');
+                navigateTo('login');
               }
             }}>
               <span style={{ marginRight: '8px' }}>
@@ -339,16 +377,20 @@ function App() {
           </div>
           
           <div className="az-header-menu">
+            <div className="az-header-menu-header">
+              <a href="" className="close" onClick={(e) => { e.preventDefault(); closeMobileMenu(); }}>&times;</a>
+              <div className="az-header-menu-title font-weight-bold text-dark">Menu</div>
+            </div>
             <ul className="nav">
               {!user ? (
                 <>
                   <li className="nav-item">
-                    <a href="" className={`nav-link ${currentView === 'login' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); setCurrentView('login'); }}>
+                    <a href="" className={`nav-link ${currentView === 'login' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); navigateTo('login'); }}>
                       <i className="typcn typcn-key-outline"></i> Sign In
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="" className={`nav-link ${currentView === 'register' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); setCurrentView('register'); }}>
+                    <a href="" className={`nav-link ${currentView === 'register' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); navigateTo('register'); }}>
                       <i className="typcn typcn-user-add-outline"></i> Register
                     </a>
                   </li>
@@ -364,12 +406,12 @@ function App() {
               ) : (
                 <>
                   <li className="nav-item">
-                    <a href="" className={`nav-link ${currentView === 'dashboard' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); setCurrentView('dashboard'); }}>
+                    <a href="" className={`nav-link ${currentView === 'dashboard' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); navigateTo('dashboard'); }}>
                       <i className="typcn typcn-home-outline"></i> Home Page
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="" className={`nav-link ${currentView === 'history' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); setCurrentView('history'); }}>
+                    <a href="" className={`nav-link ${currentView === 'history' ? 'active' : ''}`} onClick={(e) => { e.preventDefault(); navigateTo('history'); }}>
                       <i className="typcn typcn-time"></i> Scan History
                     </a>
                   </li>
@@ -411,8 +453,8 @@ function App() {
                   </div>
                   {user.role !== 'admin' && (
                     <>
-                      <a href="" className="dropdown-item" onClick={(e) => { e.preventDefault(); setCurrentView('dashboard'); setProfileDropdownOpen(false); }}><i className="typcn typcn-home-outline"></i> Home Page</a>
-                      <a href="" className="dropdown-item" onClick={(e) => { e.preventDefault(); setCurrentView('history'); setProfileDropdownOpen(false); }}><i className="typcn typcn-time"></i> Scan History</a>
+                      <a href="" className="dropdown-item" onClick={(e) => { e.preventDefault(); navigateTo('dashboard'); }}><i className="typcn typcn-home-outline"></i> Home Page</a>
+                      <a href="" className="dropdown-item" onClick={(e) => { e.preventDefault(); navigateTo('history'); }}><i className="typcn typcn-time"></i> Scan History</a>
                     </>
                   )}
                   <a href="" className="dropdown-item" onClick={(e) => { handleLogout(e); setProfileDropdownOpen(false); }}><i className="typcn typcn-power-outline"></i> Sign Out</a>
