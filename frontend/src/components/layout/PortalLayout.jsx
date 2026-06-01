@@ -1,5 +1,5 @@
-import Footer from '../../apps/marketing/components/Footer';
-import PortalHeader from './PortalHeader';
+import Footer from './Footer';
+import Header from './Header';
 
 export default function PortalLayout({
   user,
@@ -16,7 +16,7 @@ export default function PortalLayout({
         style={{ backgroundImage: 'url(/assets/img/hero-carousel/hero-carousel-1.jpg)' }}
         aria-hidden="true"
       />
-      <PortalHeader
+      <Header
         user={user}
         currentView={currentView}
         onNavigate={onNavigate}

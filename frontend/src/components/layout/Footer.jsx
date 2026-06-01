@@ -23,21 +23,21 @@ export default function Footer() {
           <div className="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About Project</a></li>
-              <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#team">Team</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a href="/#hero">Home</a></li>
+              <li><a href="/#about">About Project</a></li>
+              <li><a href="/#how-it-works">How It Works</a></li>
+              <li><a href="/#team">Team</a></li>
+              <li><a href="/#faq">FAQ</a></li>
             </ul>
           </div>
 
           <div className="col-lg-2 col-md-3 footer-links">
             <h4>Features</h4>
             <ul>
-              <li><a href="#features">AI Detection</a></li>
-              <li><a href="#features">Image Analysis</a></li>
-              <li><a href="#features">Risk Assessment</a></li>
-              <li><a href="#abcde">ABCDE Rule Guide</a></li>
+              <li><a href="/#features">AI Detection</a></li>
+              <li><a href="/#features">Image Analysis</a></li>
+              <li><a href="/#features">Risk Assessment</a></li>
+              <li><a href="/#abcde">ABCDE Rule Guide</a></li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { mvcApi, riskBadgeClass } from '../../../services/mvcApi.js';
 
 export default function Homepage() {
   // 1. Hero Carousel State
@@ -111,6 +112,108 @@ export default function Homepage() {
       a: 'Yes. Images uploaded for scanning are processed momentarily by our server and are not stored permanently without your explicit consent.'
     }
   ];
+  // 4. Scan Interaction State & Handlers
+  const navigate = useNavigate();
+  const fileInputRef = useRef(null);
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const savedUser = localStorage.getItem('dermascan_user');
+    const token = localStorage.getItem('dermascan_access_token');
+    if (savedUser && token) {
+      setUser(JSON.parse(savedUser));
+    } else {
+      setUser(null);
+    }
+  }, []);
+
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [previewUrl, setPreviewUrl] = useState(null);
+  const [symptoms, setSymptoms] = useState('');
+  const [scanState, setScanState] = useState('idle'); // idle, scanning, completed
+  const [scanProgress, setScanProgress] = useState(0);
+  const [scanResult, setScanResult] = useState(null);
+  const [scanError, setScanError] = useState('');
+
+  const handleBrowseClick = () => {
+    if (!user) {
+      navigate('/app', { state: { view: 'login' } });
+    } else {
+      fileInputRef.current?.click();
+    }
+  };
+
+  const handleFileChange = (e) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      setSelectedFile(file);
+      setPreviewUrl(URL.createObjectURL(file));
+      setScanState('idle');
+      setScanResult(null);
+      setScanError('');
+    }
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+  };
+
+  const handleDrop = (e) => {
+    e.preventDefault();
+    if (!user) {
+      navigate('/app', { state: { view: 'login' } });
+      return;
+    }
+    const file = e.dataTransfer.files?.[0];
+    if (file) {
+      setSelectedFile(file);
+      setPreviewUrl(URL.createObjectURL(file));
+      setScanState('idle');
+      setScanResult(null);
+      setScanError('');
+    }
+  };
+
+  const startScan = async (e) => {
+    e.preventDefault();
+    if (!selectedFile) return;
+    if (!user) {
+      navigate('/app', { state: { view: 'login' } });
+      return;
+    }
+
+    setScanState('scanning');
+    setScanProgress(15);
+    setScanError('');
+
+    try {
+      setScanProgress(40);
+      const scanSession = await mvcApi.createScan(symptoms || null);
+      setScanProgress(70);
+      const completedScan = await mvcApi.uploadScanImages(scanSession.id, [selectedFile]);
+      setScanProgress(100);
+      setScanResult(completedScan);
+      setScanState('completed');
+    } catch (error) {
+      setScanState('idle');
+      setScanError(error.message || 'Scan failed. Please try again.');
+    }
+  };
+
+  const handleDownloadReport = () => {
+    if (scanResult) {
+      mvcApi.downloadScanReport(scanResult.id);
+    }
+  };
+
+  const resetScan = () => {
+    setSelectedFile(null);
+    setPreviewUrl(null);
+    setSymptoms('');
+    setScanState('idle');
+    setScanResult(null);
+    setScanError('');
+  };
 
   return (
     <main className="main">
@@ -309,6 +412,225 @@ export default function Homepage() {
                 <h3>4. View Results</h3>
                 <p>Receive an instant probability score. If the risk is high, we strongly advise consulting a doctor.</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Restored Scan Section */}
+      <section id="scan" className="appointment section light-background">
+        <div className="container section-title">
+          <h2>Scan Your Mole</h2>
+          <p>Upload a clear image of your skin lesion for AI analysis</p>
+        </div>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 card border-0 shadow-sm p-4" style={{ borderRadius: '24px', backgroundColor: '#ffffff' }}>
+              <form onSubmit={startScan}>
+                <div className="form-group mb-3">
+                  <label className="form-label fw-semibold text-secondary">Upload Image of Lesion</label>
+                  
+                  {/* File input (hidden) */}
+                  <input
+                    type="file"
+                    ref={fileInputRef}
+                    style={{ display: 'none' }}
+                    accept="image/*"
+                    onChange={handleFileChange}
+                  />
+
+                  {/* Drag and Drop Container (matching screenshot) */}
+                  <div
+                    onDragOver={handleDragOver}
+                    onDrop={handleDrop}
+                    onClick={handleBrowseClick}
+                    className="text-center cursor-pointer p-4 d-flex flex-column align-items-center justify-content-center"
+                    style={{
+                      minHeight: '220px',
+                      backgroundColor: '#f8fafc',
+                      border: '1px solid #e2e8f0',
+                      borderRadius: '16px',
+                      transition: 'all 0.2s ease',
+                    }}
+                  >
+                    {!previewUrl ? (
+                      <>
+                        <i className="bi bi-cloud-arrow-up text-primary" style={{ fontSize: '54px', color: '#2563eb' }}></i>
+                        <p className="mt-2 mb-1 fw-bold text-dark" style={{ fontSize: '16px', color: '#1e293b' }}>
+                          Drag & drop your skin photo here
+                        </p>
+                        <p className="text-muted small mb-2">Supports JPG, PNG (Max 5MB)</p>
+                        <button
+                          type="button"
+                          className="btn btn-primary"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleBrowseClick();
+                          }}
+                          style={{
+                            backgroundColor: '#2563eb',
+                            borderColor: '#2563eb',
+                            borderRadius: '6px',
+                            padding: '8px 18px',
+                            fontWeight: '600',
+                            fontSize: '14px',
+                          }}
+                        >
+                          Browse Image
+                        </button>
+                      </>
+                    ) : (
+                      <div className="position-relative w-100 text-center" onClick={(e) => e.stopPropagation()}>
+                        <img
+                          src={previewUrl}
+                          alt="Skin Lesion Preview"
+                          className="img-fluid rounded-3"
+                          style={{ maxHeight: '200px', objectFit: 'contain' }}
+                        />
+                        {scanState === 'scanning' && (
+                          <div
+                            className="position-absolute w-100 start-0"
+                            style={{
+                              height: '4px',
+                              background: 'linear-gradient(to right, transparent, #ff3b3b, transparent)',
+                              boxShadow: '0 0 12px #ff3b3b',
+                              top: '50%',
+                              animation: 'scanLaser 2s infinite ease-in-out',
+                            }}
+                          ></div>
+                        )}
+                        {scanState === 'idle' && (
+                          <button
+                            type="button"
+                            className="btn btn-sm btn-danger position-absolute top-0 end-0 m-1 rounded-circle"
+                            onClick={resetScan}
+                          >
+                            <i className="bi bi-trash"></i>
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Symptoms Text Area */}
+                <div className="form-group mb-3">
+                  <textarea
+                    className="form-control"
+                    rows="3"
+                    value={symptoms}
+                    onChange={(e) => setSymptoms(e.target.value)}
+                    placeholder="Any additional symptoms (itching, bleeding, changing shape)?"
+                    style={{ borderRadius: '12px', border: '1px solid #cbd5e1', padding: '12px' }}
+                  ></textarea>
+                </div>
+
+                {/* Scan Status / Error Feedback */}
+                {scanState === 'scanning' && (
+                  <div className="mt-3 text-center text-primary fw-bold">
+                    <span className="spinner-border spinner-border-sm me-2" role="status"></span>
+                    Running Neural Network Mole Scan...
+                    <div className="progress mt-3 mx-auto" style={{ maxWidth: '400px', height: '8px', borderRadius: '4px' }}>
+                      <div className="progress-bar bg-primary" role="progressbar" style={{ width: `${scanProgress}%` }}></div>
+                    </div>
+                  </div>
+                )}
+
+                {scanError && (
+                  <div className="alert alert-danger rounded-3 p-3 mt-3">
+                    <i className="bi bi-exclamation-octagon-fill me-2"></i>
+                    {scanError}
+                  </div>
+                )}
+
+                {/* Scan Result Feedback (if completed) */}
+                {scanState === 'completed' && scanResult && (
+                  <div className="mt-4 alert alert-success border-0 shadow-sm rounded-4 p-4" style={{ background: '#f0fdf4', color: '#15803d' }}>
+                    <div className="d-flex align-items-center mb-3">
+                      <i className="bi bi-check-circle-fill me-2 fs-4 text-success"></i>
+                      <h4 className="alert-heading m-0 fw-bold">Analysis Complete!</h4>
+                    </div>
+                    <div className="row gy-3">
+                      <div className="col-md-6 border-end">
+                        <p className="text-secondary small mb-1">CLASSIFICATION RESULT</p>
+                        <p className="fw-bold fs-5 text-dark">{scanResult.classification_label || 'Analysis Complete'}</p>
+                      </div>
+                      <div className="col-md-3 border-end text-center">
+                        <p className="text-secondary small mb-1">CONFIDENCE</p>
+                        <p className="fw-bold fs-5 text-dark">{scanResult.confidence_score}%</p>
+                      </div>
+                      <div className="col-md-3 text-center">
+                        <p className="text-secondary small mb-1">RISK LEVEL</p>
+                        <span className={`badge bg-${riskBadgeClass(scanResult.risk_level)} px-3 py-2 fs-6 rounded-pill`}>
+                          {scanResult.risk_level || 'Low Risk'}
+                        </span>
+                      </div>
+                    </div>
+                    <hr className="my-3" style={{ opacity: 0.15 }} />
+                    <p className="mb-0 text-dark" style={{ lineHeight: '1.6' }}>{scanResult.report_summary}</p>
+                    <div className="mt-3 d-flex gap-2">
+                      {scanResult.report_url && (
+                        <button type="button" className="btn btn-sm btn-outline-success" onClick={handleDownloadReport}>
+                          <i className="bi bi-file-earmark-pdf me-1"></i> Download PDF Report
+                        </button>
+                      )}
+                      <button type="button" className="btn btn-sm btn-success" onClick={() => navigate('/app', { state: { view: 'dashboard', openSupport: true } })}>
+                        <i className="bi bi-telephone-outbound me-1"></i> Consult Voice Doctor
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                {/* Conditional Actions based on Authentication */}
+                {!user ? (
+                  <>
+                    <p className="text-center small text-muted mb-3">
+                      Sign in is required to upload images and generate PDF reports.
+                    </p>
+                    <div className="text-center">
+                      <button
+                        type="button"
+                        onClick={() => navigate('/app', { state: { view: 'login' } })}
+                        className="btn text-white px-5 rounded-pill shadow-sm"
+                        style={{
+                          backgroundColor: '#3fbbc0',
+                          borderColor: '#3fbbc0',
+                          fontWeight: '600',
+                          padding: '12px 30px',
+                        }}
+                      >
+                        Sign In to Scan Your Skin
+                      </button>
+                    </div>
+                  </>
+                ) : (
+                  scanState !== 'completed' && (
+                    <div className="text-center mt-3">
+                      <button
+                        type="submit"
+                        disabled={!selectedFile || scanState === 'scanning'}
+                        className="btn text-white px-5 rounded-pill shadow-sm"
+                        style={{
+                          backgroundColor: '#3fbbc0',
+                          borderColor: '#3fbbc0',
+                          fontWeight: '600',
+                          padding: '12px 30px',
+                        }}
+                      >
+                        {scanState === 'scanning' ? 'Scanning...' : 'Analyze Skin Image'}
+                      </button>
+                    </div>
+                  )
+                )}
+
+                {scanState === 'completed' && (
+                  <div className="text-center mt-3">
+                    <button type="button" className="btn btn-outline-secondary rounded-pill px-4" onClick={resetScan}>
+                      Scan Another Image
+                    </button>
+                  </div>
+                )}
+              </form>
             </div>
           </div>
         </div>
