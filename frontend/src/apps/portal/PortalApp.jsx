@@ -754,7 +754,9 @@ function PortalApp() {
         </section>
       )}
 
-      {currentView === 'admin-dashboard' && user?.role === 'admin' && <AdminDashboard />}
+      {currentView === 'admin-dashboard' && user?.role === 'admin' && (
+        <AdminDashboard user={user} onLogout={handleLogout} />
+      )}
 
       {showSupport && <LiveKitModal setShowSupport={setShowSupport} userName={user?.name || 'DermaScan User'} />}
     </PortalLayout>

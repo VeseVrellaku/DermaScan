@@ -9,6 +9,16 @@ export default function PortalLayout({
   onSupportClick,
   children,
 }) {
+  const isAdmin = currentView === 'admin-dashboard';
+
+  if (isAdmin) {
+    return (
+      <div className="index-page portal-app admin-portal-active" style={{ background: '#f4f5f8', minHeight: '100vh' }}>
+        <main className="main portal-main" style={{ minHeight: '100vh' }}>{children}</main>
+      </div>
+    );
+  }
+
   return (
     <div className="index-page portal-app">
       <div
@@ -28,3 +38,4 @@ export default function PortalLayout({
     </div>
   );
 }
+

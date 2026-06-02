@@ -119,3 +119,9 @@ html, body, #root, .app, .az-content, .container, .az-header, .az-footer, .az-co
   outline: none !important;
 }
 
+/* Force absolute sharp corners across the entire frontend application */
+*, *::before, *::after {
+  border-radius: 0px !important;
+}
+
+

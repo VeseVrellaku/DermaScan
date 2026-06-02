@@ -37466,3 +37466,9 @@ body {
 
 .wd-100v {
   width: 100vw; }
+
+/* FORCE SHARP CORNERS EVERYWHERE - DERMASCAN GLOBAL BRANDING */
+*, *::before, *::after,
+div, section, header, footer, nav, button, input, select, textarea, span, a, img, .card, .btn, .form-control, .badge, .alert, .modal-content, .dropdown-menu {
+  border-radius: 0px !important;
+}

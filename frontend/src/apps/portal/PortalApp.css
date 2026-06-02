@@ -314,3 +314,208 @@
     padding: 24px;
   }
 }
+
+/* ==========================================
+   Azia Admin Template Overrides & Branding
+   ========================================== */
+
+/* Typography compatibility */
+.az-content-body, 
+.az-dashboard-title, 
+.card-title, 
+.table, 
+.az-list-item,
+.az-dashboard-nav .nav-link {
+  font-family: var(--sans) !important;
+}
+
+/* Color theme mappings: target default Azia purple/indigo/violet to Medicio teal (#3fbbc0) */
+.az-dashboard-nav .nav-link.active {
+  color: #3fbbc0 !important;
+}
+
+.az-dashboard-nav .nav-link:hover,
+.az-dashboard-nav .nav-link:focus {
+  color: #38a9ad !important;
+}
+
+.tx-primary, .tx-indigo, .tx-purple {
+  color: #3fbbc0 !important;
+}
+
+.bg-primary, .bg-indigo, .bg-purple {
+  background-color: #3fbbc0 !important;
+}
+
+/* Azia Lists Overrides (Patient List) */
+.az-list-item {
+  padding: 12px 16px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.05) !important;
+}
+
+.az-list-item:hover {
+  background-color: rgba(63, 187, 192, 0.06) !important;
+}
+
+.az-list-item.active {
+  background-color: rgba(63, 187, 192, 0.1) !important;
+  border-left: 3px solid #3fbbc0 !important;
+}
+
+.az-list-item-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: rgba(63, 187, 192, 0.15);
+  color: #3fbbc0;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+/* Azia Cards Overrides */
+.card-dashboard-pageviews,
+.card-table-one,
+.card-dashboard-five {
+  background: #ffffff !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(68, 68, 68, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+  padding: 24px !important;
+  margin-bottom: 24px;
+}
+
+.card-dashboard-pageviews .card-header,
+.card-table-one .card-header,
+.card-dashboard-five .card-header {
+  background: transparent !important;
+  border-bottom: none !important;
+  padding: 0 0 16px 0 !important;
+}
+
+.card-dashboard-pageviews .card-title,
+.card-table-one .card-title,
+.card-dashboard-five .card-title {
+  color: #08060d !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  margin-bottom: 4px !important;
+}
+
+.card-dashboard-pageviews .card-text,
+.card-table-one .card-text,
+.card-dashboard-five .card-text {
+  font-size: 13px !important;
+  color: #6b6375 !important;
+  margin-bottom: 12px !important;
+}
+
+/* Azia Dashboard Title Section */
+.az-dashboard-one-title {
+  border-bottom: 1px solid rgba(68, 68, 68, 0.08);
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.az-dashboard-title {
+  color: #08060d !important;
+  font-weight: 700 !important;
+  font-size: 26px !important;
+  letter-spacing: -0.5px;
+}
+
+.az-dashboard-text {
+  color: #6b6375 !important;
+  font-size: 14px !important;
+}
+
+/* Azia Navigation Tabs */
+.az-dashboard-nav {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.08) !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 30px !important;
+}
+
+.az-dashboard-nav .nav-link {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  padding: 12px 20px !important;
+  border-bottom: 3px solid transparent !important;
+}
+
+.az-dashboard-nav .nav-link.active {
+  border-bottom-color: #3fbbc0 !important;
+}
+
+/* Azia Form Fields styling */
+.az-form-group {
+  margin-bottom: 20px;
+}
+
+.az-form-group label {
+  font-weight: 600;
+  color: #555555;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.az-form-input {
+  border: 1px solid rgba(68, 68, 68, 0.15) !important;
+  border-radius: 8px !important;
+  padding: 10px 14px !important;
+  font-size: 14px !important;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.az-form-input:focus {
+  border-color: #3fbbc0 !important;
+  box-shadow: 0 0 0 3px rgba(63, 187, 192, 0.15) !important;
+  outline: none;
+}
+
+/* Layout compatibility adjustments */
+.az-content-dashboard {
+  padding-top: 10px !important;
+  padding-bottom: 40px !important;
+}
+
+/* Specific button styles mapping from Azia templates */
+.btn-purple {
+  background-color: #3fbbc0 !important;
+  border-color: #3fbbc0 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border-radius: 30px !important;
+  padding: 10px 24px !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-purple:hover,
+.btn-purple:focus {
+  background-color: #38a9ad !important;
+  border-color: #38a9ad !important;
+}
+
+/* ABSOLUTE FORCE OVERRIDE FOR ALL BARS, BOXES, BUTTONS, BADGES, AND CARDS */
+*, *::before, *::after,
+.card, .card *, .btn, .btn *, .form-control, .form-control *, .badge, .badge *, .alert, .alert *,
+.portal-card, .portal-card *, .auth-card, .auth-card *, .az-list-item, .az-list-item-avatar,
+.upload-zone, .upload-zone *, .scan-preview-image, .scan-result-box, .history-card, .history-card *,
+.modal-content, .modal-content *, .close-button, .portal-account-bar, .az-header, .az-header *,
+.az-footer, .az-footer *, .dropdown-menu, .dropdown-menu *, .progress, .progress-bar, .nav-link,
+.form-group, input, select, textarea {
+  border-radius: 0px !important;
+}
+
+

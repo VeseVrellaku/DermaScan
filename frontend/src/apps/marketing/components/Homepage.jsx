@@ -242,9 +242,9 @@ export default function Homepage() {
 
           <ol className="carousel-indicators">
             {heroSlides.map((_, idx) => (
-              <li 
-                key={idx} 
-                className={idx === currentSlide ? 'active' : ''} 
+              <li
+                key={idx}
+                className={idx === currentSlide ? 'active' : ''}
                 onClick={() => setCurrentSlide(idx)}
                 style={{ cursor: 'pointer' }}
               ></li>
@@ -429,7 +429,7 @@ export default function Homepage() {
               <form onSubmit={startScan}>
                 <div className="form-group mb-3">
                   <label className="form-label fw-semibold text-secondary">Upload Image of Lesion</label>
-                  
+
                   {/* File input (hidden) */}
                   <input
                     type="file"
@@ -648,7 +648,7 @@ export default function Homepage() {
               <ul className="nav nav-tabs flex-column border-0">
                 {abcdeTabs.map((tab, idx) => (
                   <li key={idx} className="nav-item">
-                    <button 
+                    <button
                       className={`nav-link text-start border-0 w-100 ${idx === activeTab ? 'active show' : ''}`}
                       onClick={() => setActiveTab(idx)}
                       style={{ transition: 'all 0.3s' }}
@@ -769,11 +769,11 @@ export default function Homepage() {
                       <span>{faq.q}</span>
                       <i className={`bi ${idx === activeFaq ? 'bi-chevron-down text-primary' : 'bi-chevron-right text-muted'}`}></i>
                     </h3>
-                    <div 
-                      className="faq-content" 
-                      style={{ 
-                        maxHeight: idx === activeFaq ? '200px' : '0', 
-                        overflow: 'hidden', 
+                    <div
+                      className="faq-content"
+                      style={{
+                        maxHeight: idx === activeFaq ? '200px' : '0',
+                        overflow: 'hidden',
                         transition: 'max-height 0.3s ease-in-out',
                         padding: idx === activeFaq ? '15px 0 0 0' : '0'
                       }}
@@ -823,7 +823,7 @@ export default function Homepage() {
             </div>
 
             <div className="col-lg-6">
-              <form 
+              <form
                 className="php-email-form bg-white shadow-sm p-4 rounded-4"
                 onSubmit={(e) => { e.preventDefault(); alert('Message sent successfully!'); }}
               >
