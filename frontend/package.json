@@ -12,6 +12,7 @@
   "dependencies": {
     "@livekit/components-react": "^2.9.21",
     "@livekit/components-styles": "^1.2.0",
+    "dermascan": "file:..",
     "livekit-client": "^2.19.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",

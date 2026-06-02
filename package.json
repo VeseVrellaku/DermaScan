@@ -1,0 +1,13 @@
+{
+  "name": "dermascan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "frontend": "npm --prefix frontend install && cd frontend && npm run dev",
+    "backend": "cd backend\\backend-mvc && uvicorn main:app --reload",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
