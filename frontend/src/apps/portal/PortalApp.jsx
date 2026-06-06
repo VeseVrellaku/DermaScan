@@ -1,14 +1,30 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './PortalApp.css';
 import LiveKitModal from '../../components/LiveKitModal';
 import PortalLayout from '../../components/layout/PortalLayout';
 import AdminDashboard from './AdminDashboard';
+import DoctorDashboard from './DoctorDashboard';
+import NearbyClinicsPanel from '../../components/clinics/NearbyClinicsPanel';
+import ProfileSettings from '../../components/portal/ProfileSettings';
 import { AUTH_TOKEN_KEY, AUTH_USER_KEY } from '../../config/env.js';
 import { mvcApi, riskBadgeClass, scanImageUrl } from '../../services/mvcApi.js';
 
+function resolveDefaultView(role) {
+  if (role === 'admin') return 'admin-dashboard';
+  if (role === 'doctor') return 'doctor-dashboard';
+  return 'dashboard';
+}
+
+function mapUserRole(apiRole) {
+  if (apiRole === 'admin') return 'admin';
+  if (apiRole === 'doctor') return 'doctor';
+  return 'patient';
+}
+
 function PortalApp() {
   const navigate = useNavigate();
+  const location = useLocation();
   const fileInputRef = useRef(null);
 
   const [user, setUser] = useState(() => {
@@ -20,7 +36,7 @@ function PortalApp() {
     const savedUser = localStorage.getItem(AUTH_USER_KEY);
     if (!savedUser) return 'login';
     const parsed = JSON.parse(savedUser);
-    return parsed.role === 'admin' ? 'admin-dashboard' : 'dashboard';
+    return resolveDefaultView(parsed.role);
   });
 
   const [email, setEmail] = useState('');
@@ -48,6 +64,7 @@ function PortalApp() {
 
   const [scanHistory, setScanHistory] = useState([]);
   const [suggestedClinics, setSuggestedClinics] = useState(null);
+  const [clinicsLoading, setClinicsLoading] = useState(false);
   const [locationMessage, setLocationMessage] = useState('');
   const [profileLocationStatus, setProfileLocationStatus] = useState('idle');
 
@@ -55,7 +72,7 @@ function PortalApp() {
     id: apiUser.id,
     name: `${apiUser.first_name} ${apiUser.last_name}`.trim(),
     email: apiUser.email,
-    role: apiUser.role === 'admin' ? 'admin' : 'patient',
+    role: mapUserRole(apiUser.role),
     city: apiUser.city,
     latitude: apiUser.latitude,
     longitude: apiUser.longitude,
@@ -66,7 +83,7 @@ function PortalApp() {
     localStorage.setItem(AUTH_TOKEN_KEY, token);
     localStorage.setItem(AUTH_USER_KEY, JSON.stringify(mappedUser));
     setUser(mappedUser);
-    setCurrentView(mappedUser.role === 'admin' ? 'admin-dashboard' : 'dashboard');
+    setCurrentView(resolveDefaultView(mappedUser.role));
     return mappedUser;
   };
 
@@ -88,6 +105,7 @@ function PortalApp() {
 
   const loadPatientData = useCallback(async () => {
     if (!localStorage.getItem(AUTH_TOKEN_KEY)) return;
+    setClinicsLoading(true);
     try {
       const [scansResponse, clinicsResponse] = await Promise.all([
         mvcApi.listScans(1, 50),
@@ -101,6 +119,8 @@ function PortalApp() {
       setUser(null);
       setCurrentView('login');
       setAuthError('Your session expired. Please sign in again.');
+    } finally {
+      setClinicsLoading(false);
     }
   }, []);
 
@@ -124,8 +144,17 @@ function PortalApp() {
   }, []);
 
   useEffect(() => {
+    const routeView = location.state?.view;
+    if (routeView) {
+      setCurrentView(routeView);
+      if (location.state?.openSupport) setShowSupport(true);
+      navigate('/app', { replace: true, state: {} });
+    }
+  }, [location.state, navigate]);
+
+  useEffect(() => {
     if (!isAuthenticated() || user?.role === 'admin') return;
-    if (currentView === 'dashboard' || currentView === 'history') {
+    if (currentView === 'dashboard' || currentView === 'history' || currentView === 'profile-settings') {
       loadPatientData();
     }
   }, [currentView, user, isAuthenticated, loadPatientData]);
@@ -138,6 +167,14 @@ function PortalApp() {
     if (currentView === 'history' && !isAuthenticated()) {
       setCurrentView('login');
       setAuthError('Please sign in to view your scan history.');
+    }
+    if (currentView === 'profile-settings' && !isAuthenticated()) {
+      setCurrentView('login');
+      setAuthError('Please sign in to manage your profile.');
+    }
+    if (currentView === 'doctor-dashboard' && (!isAuthenticated() || user?.role !== 'doctor')) {
+      setCurrentView('login');
+      setAuthError('Doctor access required.');
     }
     if (currentView === 'admin-dashboard' && (!isAuthenticated() || user?.role !== 'admin')) {
       setCurrentView('login');
@@ -346,53 +383,10 @@ function PortalApp() {
     setScanError('');
   };
 
-  const renderClinicRecommendations = () => {
-    if (user?.latitude == null || user?.longitude == null) {
-      return (
-        <div className="portal-card mb-4">
-          <h4 className="portal-card-title">Nearby Clinics</h4>
-          <p className="text-muted mb-3">
-            Add your location to receive clinic recommendations sorted by distance from you.
-          </p>
-          <button
-            type="button"
-            className="btn btn-outline-accent"
-            onClick={() => handleUseMyLocation(true)}
-            disabled={profileLocationStatus === 'loading'}
-          >
-            {profileLocationStatus === 'loading' ? 'Getting Location...' : 'Use My Location'}
-          </button>
-          {locationMessage && <p className="small mt-2 mb-0 text-muted">{locationMessage}</p>}
-        </div>
-      );
-    }
-
-    if (!suggestedClinics?.clinics?.length) {
-      return (
-        <div className="portal-card mb-4">
-          <h4 className="portal-card-title">Nearby Clinics</h4>
-          <p className="text-muted mb-0">No active clinics are available near your location yet.</p>
-        </div>
-      );
-    }
-
-    return (
-      <div className="portal-card mb-4">
-        <h4 className="portal-card-title">Nearest Clinics</h4>
-        <p className="text-muted small mb-3">Recommendations sorted by distance from your location.</p>
-        <div className="history-grid">
-          {suggestedClinics.clinics.map((clinic) => (
-            <div className="history-card" key={clinic.id}>
-              <div className="history-details">
-                <h6 className="text-dark">{clinic.name}</h6>
-                <p className="text-muted small mb-1">{clinic.address}, {clinic.city}</p>
-                <p className="text-accent small fw-bold mb-0">{clinic.distance_km} km away</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
+  const handleProfileUpdated = (apiUser) => {
+    const mapped = mapApiUser(apiUser);
+    setUser(mapped);
+    localStorage.setItem(AUTH_USER_KEY, JSON.stringify(mapped));
   };
 
   return (
@@ -495,22 +489,24 @@ function PortalApp() {
       {currentView === 'dashboard' && user && user.role !== 'admin' && (
         <section className="section portal-section light-background">
           <div className="container">
-            <div className="portal-account-bar d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4">
-              <div>
-                <p className="text-muted small mb-1">Signed in as</p>
-                <p className="mb-0 fw-semibold text-dark">{user.name || user.email}</p>
-              </div>
-              <button type="button" className="btn btn-outline-secondary btn-sm" onClick={handleLogout}>
-                <i className="bi bi-box-arrow-right me-1"></i> Sign Out
-              </button>
-            </div>
-
             <div className="section-title">
               <h2 className="text-dark">Patient Dashboard</h2>
               <p>Upload a mole image for AI analysis, download reports, and view nearby clinics.</p>
             </div>
 
-            {renderClinicRecommendations()}
+            <NearbyClinicsPanel
+              clinics={suggestedClinics?.clinics || []}
+              userLocation={
+                user.latitude != null && user.longitude != null
+                  ? { latitude: user.latitude, longitude: user.longitude }
+                  : null
+              }
+              hasUserLocation={user.latitude != null && user.longitude != null}
+              loading={clinicsLoading}
+              locationStatus={profileLocationStatus}
+              locationMessage={locationMessage}
+              onUseMyLocation={() => handleUseMyLocation(true)}
+            />
 
             <div className="portal-card p-4 mb-4 text-start" style={{ borderRadius: '24px', backgroundColor: '#ffffff' }}>
               <form onSubmit={handleAnalyzeClick}>
@@ -752,6 +748,33 @@ function PortalApp() {
             )}
           </div>
         </section>
+      )}
+
+      {currentView === 'profile-settings' && user && (
+        <section className="section portal-section light-background">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-8">
+                <ProfileSettings
+                  user={user}
+                  onUserUpdated={handleProfileUpdated}
+                  onUseMyLocation={() => handleUseMyLocation(true)}
+                  locationStatus={profileLocationStatus}
+                  locationMessage={locationMessage}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {currentView === 'doctor-dashboard' && user?.role === 'doctor' && (
+        <DoctorDashboard
+          user={user}
+          onOpenAiDoctor={() => {
+            if (requireAuth('Please sign in to use the AI Doctor.')) setShowSupport(true);
+          }}
+        />
       )}
 
       {currentView === 'admin-dashboard' && user?.role === 'admin' && (

@@ -7,25 +7,19 @@ export default function Homepage() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const heroSlides = [
     {
-      img: '/assets/img/hero-carousel/hero-carousel-1.jpg',
+      img: '/assets/img/hero-carousel/photo1.png',
       title: 'Welcome to DermaScan',
-      text: 'Advanced AI and Machine Learning to detect melanoma from a simple smartphone photo. Early detection saves lives.',
+      text: 'Advanced AI and machine learning to detect melanoma from a simple smartphone photo. Early detection saves lives.',
       link: '#how-it-works',
       linkText: 'Learn More'
     },
     {
-      img: '/assets/img/hero-carousel/hero-carousel-2.jpg',
-      title: 'Powered by Machine Learning',
-      text: 'Our algorithms have been trained on thousands of dermatoscopic images to accurately identify malignant melanomas and benign moles.',
+      img: '/assets/img/hero-carousel/photo2.jpeg',
+      title: 'AI-Powered Skin Analysis',
+      text: 'Our intelligent screening tools help you assess skin lesions quickly and guide you toward professional care when needed.',
       link: '#call-to-action',
-      linkText: 'Get Started'
-    },
-    {
-      img: '/assets/img/hero-carousel/hero-carousel-3.jpg',
-      title: 'Lab Two Academic Project',
-      text: 'Built by a dedicated team of four students, DermaScan represents the intersection of healthcare and cutting-edge artificial intelligence.',
-      link: '#team',
-      linkText: 'Meet the Team'
+      linkText: 'Get Started',
+      objectPosition: 'left center',
     }
   ];
 
@@ -223,7 +217,17 @@ export default function Homepage() {
           <div className="carousel-inner">
             {heroSlides.map((slide, idx) => (
               <div key={idx} className={`carousel-item ${idx === currentSlide ? 'active' : ''}`} style={{ transition: 'opacity 0.8s ease-in-out' }}>
-                <img src={slide.img} alt="" style={{ width: '100%', objectFit: 'cover', height: '60svh', minHeight: '450px' }} />
+                <img
+                  src={slide.img}
+                  alt={slide.title}
+                  style={{
+                    width: '100%',
+                    objectFit: 'cover',
+                    objectPosition: slide.objectPosition || 'center',
+                    height: '60svh',
+                    minHeight: '450px',
+                  }}
+                />
                 <div className="container">
                   <h2>{slide.title}</h2>
                   <p>{slide.text}</p>

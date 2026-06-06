@@ -11,6 +11,7 @@ class ScanStatus(str, enum.Enum):
 class UserRole(str, enum.Enum):
     USER = "user"
     ADMIN = "admin"
+    DOCTOR = "doctor"
 
 
 # class PredictionClass(str, enum.Enum):

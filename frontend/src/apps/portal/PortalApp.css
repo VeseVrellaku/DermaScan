@@ -15,7 +15,11 @@
   pointer-events: none;
 }
 
-.portal-app .header,
+.portal-app .header {
+  position: relative;
+  z-index: 1100;
+}
+
 .portal-app .main,
 .portal-app .footer {
   position: relative;
@@ -238,66 +242,7 @@
 }
 
 .portal-header {
-  z-index: 1000;
-}
-
-.portal-user-menu {
-  position: relative;
-  flex-shrink: 0;
-}
-
-.portal-user-menu__toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  max-width: 220px;
-  cursor: pointer;
-}
-
-.portal-user-menu__name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 140px;
-}
-
-.portal-user-menu__dropdown {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  min-width: 220px;
-  margin: 0;
-  padding: 8px 0;
-  list-style: none;
-  background: #ffffff;
-  border: 1px solid rgba(68, 68, 68, 0.12);
-  border-radius: 8px;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
-  z-index: 10001;
-}
-
-.portal-user-menu__dropdown .dropdown-item {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 10px 16px;
-  border: none;
-  background: transparent;
-  color: #444444;
-  text-align: left;
-  font-size: 14px;
-}
-
-.portal-user-menu__dropdown .dropdown-item:hover,
-.portal-user-menu__dropdown .dropdown-item:focus {
-  background: rgba(63, 187, 192, 0.08);
-  color: #3fbbc0;
-}
-
-.portal-user-menu__dropdown .dropdown-item.text-danger:hover,
-.portal-user-menu__dropdown .dropdown-item.text-danger:focus {
-  background: rgba(220, 53, 69, 0.08);
-  color: #dc3545;
+  z-index: 1100;
 }
 
 .portal-account-bar {
@@ -306,6 +251,101 @@
   border-radius: 12px;
   padding: 16px 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Nearby clinics */
+.clinic-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 520px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.clinic-card {
+  background: #ffffff;
+  border: 1px solid rgba(68, 68, 68, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.clinic-card:hover,
+.clinic-card:focus-visible {
+  border-color: #3fbbc0;
+  box-shadow: 0 8px 24px rgba(63, 187, 192, 0.12);
+  outline: none;
+}
+
+.clinic-card--selected {
+  border-color: #3fbbc0;
+  box-shadow: 0 0 0 2px rgba(63, 187, 192, 0.2);
+}
+
+.clinic-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.clinic-card__title {
+  color: #060606;
+  font-weight: 700;
+  margin: 0;
+}
+
+.clinic-card__distance {
+  flex-shrink: 0;
+}
+
+.clinic-card__estimate {
+  font-size: 12px;
+  color: #64748b;
+  background: #f7fcfc;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.clinic-map-wrapper {
+  width: 100%;
+}
+
+.clinic-map {
+  height: 420px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(68, 68, 68, 0.1);
+}
+
+.clinic-map-user-marker__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #2563eb;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+}
+
+.clinic-map-popup__navigate {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+@media (max-width: 991px) {
+  .clinic-card-list {
+    max-height: none;
+  }
+
+  .clinic-map {
+    height: 300px;
+  }
 }
 
 @media (max-width: 768px) {
