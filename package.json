@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "frontend": "npm --prefix frontend install && cd frontend && npm run dev",
-    "backend": "cd backend\\backend-mvc && uvicorn main:app --reload",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm install && npm run install:frontend",
+    "frontend": "npm --prefix frontend run dev",
+    "backend:mvc": "cd backend/backend-mvc && .\\venv\\Scripts\\uvicorn main:app --reload --port 8000",
+    "backend:ai": "cd backend/backend-ai-doctor && .\\venv\\Scripts\\uvicorn server:app --reload --port 8001",
+    "dev": "concurrently --names \"FRONTEND,BACKEND-MVC,AI-DOCTOR\" --prefix-colors \"cyan,green,yellow\" \"npm run frontend\" \"npm run backend:mvc\" \"npm run backend:ai\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
 }
+
