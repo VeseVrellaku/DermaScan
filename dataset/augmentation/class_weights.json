@@ -1,0 +1,32 @@
+{
+  "random_seed": 42,
+  "class_weights_by_diagnosis": {
+    "NEV": 0.3788034539473684,
+    "MEL": 2.2607361963190185,
+    "BCC": 1.937434279705573,
+    "AKIEC": 2.489864864864865
+  },
+  "class_weights_by_label_code": {
+    "0": 0.3788034539473684,
+    "1": 2.2607361963190185,
+    "2": 1.937434279705573,
+    "3": 2.489864864864865
+  },
+  "oversampling_evaluation": {
+    "original_counts": {
+      "NEV": 4864,
+      "BCC": 951,
+      "MEL": 815,
+      "AKIEC": 740
+    },
+    "max_class_count": 4864,
+    "min_class_count": 740,
+    "imbalance_ratio_max_over_min": 6.573,
+    "recommended_target_per_class_for_full_balance": 4864,
+    "strategies": {
+      "class_weighting": "Use exported inverse-frequency weights during training.",
+      "random_oversampling": "Duplicate minority-class samples until each class reaches the majority count.",
+      "augmentation_oversampling": "Generate synthetic variants for minority classes using the augmentation pipeline (implemented in this script)."
+    }
+  }
+}
