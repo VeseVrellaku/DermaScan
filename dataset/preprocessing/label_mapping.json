@@ -1,0 +1,21 @@
+{
+  "random_seed": 42,
+  "target_classes": [
+    "NEV",
+    "MEL",
+    "BCC",
+    "AKIEC"
+  ],
+  "diagnosis_to_label_code": {
+    "NEV": 0,
+    "MEL": 1,
+    "BCC": 2,
+    "AKIEC": 3
+  },
+  "label_code_to_diagnosis": {
+    "0": "NEV",
+    "1": "MEL",
+    "2": "BCC",
+    "3": "AKIEC"
+  }
+}

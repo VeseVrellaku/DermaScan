@@ -1,0 +1,15 @@
+{
+  "normalize_to_unit_interval": true,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "formula": "((pixel / 255.0) - mean) / std per RGB channel",
+  "note": "Apply normalization at training/inference time using these statistics. Stage 2 stores uint8 JPEG images on disk."
+}
