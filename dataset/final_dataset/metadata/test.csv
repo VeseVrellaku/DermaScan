@@ -1,0 +1,1581 @@
+record_id,source_dataset,diagnosis,label_code,split,image_path,sex,age,localization_clean
+dataset_b_003770,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003770.jpg,male,25.0,back
+dataset_b_011168,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011168.jpg,female,75.0,lower extremity
+dataset_b_012025,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012025.jpg,male,60.0,upper extremity
+dataset_b_008330,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008330.jpg,male,45.0,back
+dataset_b_008748,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008748.jpg,male,45.0,trunk
+dataset_b_011257,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011257.jpg,male,70.0,lower extremity
+dataset_b_005672,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005672.jpg,male,55.0,trunk
+dataset_b_004223,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004223.jpg,male,85.0,upper extremity
+dataset_b_005398,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005398.jpg,male,65.0,abdomen
+dataset_b_010194,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010194.jpg,male,30.0,lower extremity
+dataset_b_007790,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007790.jpg,female,50.0,trunk
+dataset_b_011307,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011307.jpg,male,75.0,upper extremity
+dataset_b_007596,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007596.jpg,male,50.0,lower extremity
+dataset_b_007988,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007988.jpg,female,45.0,lower extremity
+dataset_b_006609,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006609.jpg,female,50.0,abdomen
+dataset_a_001904,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001904.jpg,male,47.0,face
+dataset_a_000677,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000677.jpg,male,43.0,face
+dataset_b_010193,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010193.jpg,female,65.0,upper extremity
+dataset_b_005322,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005322.jpg,male,45.0,abdomen
+dataset_b_006304,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006304.jpg,female,60.0,upper extremity
+dataset_b_006340,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006340.jpg,male,50.0,trunk
+dataset_b_009966,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009966.jpg,female,50.0,back
+dataset_b_005242,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005242.jpg,male,75.0,lower extremity
+dataset_b_007954,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007954.jpg,female,45.0,trunk
+dataset_b_006370,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006370.jpg,male,55.0,trunk
+dataset_b_007576,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007576.jpg,male,40.0,lower extremity
+dataset_b_006453,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006453.jpg,male,50.0,back
+dataset_a_000617,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000617.jpg,female,53.0,back
+dataset_b_005281,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005281.jpg,female,45.0,upper extremity
+dataset_b_004375,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004375.jpg,female,35.0,abdomen
+dataset_b_007996,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007996.jpg,male,80.0,trunk
+dataset_b_007701,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007701.jpg,female,60.0,lower extremity
+dataset_b_008219,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008219.jpg,male,50.0,trunk
+dataset_b_005720,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005720.jpg,female,45.0,back
+dataset_b_005243,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005243.jpg,male,75.0,lower extremity
+dataset_b_012028,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012028.jpg,male,75.0,upper extremity
+dataset_b_006602,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006602.jpg,female,50.0,trunk
+dataset_a_001851,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001851.jpg,female,38.0,nose
+dataset_a_001205,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001205.jpg,female,85.0,neck
+dataset_b_004895,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004895.jpg,male,75.0,trunk
+dataset_b_012125,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012125.jpg,female,75.0,lower extremity
+dataset_b_006808,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006808.jpg,male,45.0,trunk
+dataset_b_004344,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004344.jpg,male,70.0,back
+dataset_b_008186,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008186.jpg,male,80.0,back
+dataset_b_005678,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005678.jpg,female,40.0,lower extremity
+dataset_b_007399,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007399.jpg,female,45.0,upper extremity
+dataset_b_009244,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009244.jpg,female,85.0,lower extremity
+dataset_b_006985,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006985.jpg,female,55.0,lower extremity
+dataset_b_011874,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011874.jpg,female,40.0,unknown
+dataset_b_005954,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005954.jpg,male,60.0,trunk
+dataset_a_000141,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000141.jpg,male,55.0,nose
+dataset_b_003620,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003620.jpg,male,80.0,unknown
+dataset_b_007464,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007464.jpg,male,35.0,back
+dataset_b_011507,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011507.jpg,female,25.0,lower extremity
+dataset_b_009655,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009655.jpg,male,70.0,lower extremity
+dataset_b_011509,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011509.jpg,female,35.0,unknown
+dataset_b_007716,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007716.jpg,male,60.0,abdomen
+dataset_b_009634,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009634.jpg,male,30.0,upper extremity
+dataset_b_011330,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011330.jpg,male,75.0,back
+dataset_b_007846,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007846.jpg,female,55.0,lower extremity
+dataset_b_012126,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012126.jpg,female,75.0,lower extremity
+dataset_b_004028,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004028.jpg,male,50.0,abdomen
+dataset_b_007538,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007538.jpg,male,50.0,upper extremity
+dataset_b_006416,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006416.jpg,male,75.0,trunk
+dataset_a_001080,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001080.jpg,female,46.0,chest
+dataset_b_005708,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005708.jpg,female,45.0,lower extremity
+dataset_b_012094,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012094.jpg,male,75.0,neck
+dataset_b_007061,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007061.jpg,female,55.0,back
+dataset_b_009296,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009296.jpg,female,10.0,foot
+dataset_a_001992,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001992.jpg,,56.0,back
+dataset_b_010861,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010861.jpg,female,40.0,lower extremity
+dataset_b_006206,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006206.jpg,female,50.0,lower extremity
+dataset_b_009433,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009433.jpg,male,40.0,upper extremity
+dataset_b_005001,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005001.jpg,male,60.0,back
+dataset_b_011939,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011939.jpg,female,50.0,back
+dataset_a_001445,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001445.jpg,female,51.0,back
+dataset_b_008202,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008202.jpg,female,25.0,trunk
+dataset_b_011289,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011289.jpg,female,50.0,upper extremity
+dataset_b_008513,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008513.jpg,male,45.0,trunk
+dataset_b_007669,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007669.jpg,male,75.0,trunk
+dataset_b_008096,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008096.jpg,male,35.0,lower extremity
+dataset_b_009480,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009480.jpg,female,45.0,chest
+dataset_b_004589,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004589.jpg,female,45.0,lower extremity
+dataset_a_000138,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000138.jpg,,54.0,face
+dataset_b_004786,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004786.jpg,male,85.0,scalp
+dataset_b_006356,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006356.jpg,male,65.0,back
+dataset_a_001093,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001093.jpg,,45.0,face
+dataset_b_012299,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012299.jpg,female,60.0,face
+dataset_a_002243,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002243.jpg,female,58.0,hand
+dataset_b_010267,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010267.jpg,female,5.0,lower extremity
+dataset_b_009531,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009531.jpg,male,40.0,lower extremity
+dataset_b_010972,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010972.jpg,male,35.0,upper extremity
+dataset_a_000129,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000129.jpg,male,83.0,forearm
+dataset_a_001517,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001517.jpg,,36.0,lip
+dataset_a_000896,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000896.jpg,female,57.0,nose
+dataset_a_000449,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000449.jpg,male,75.0,face
+dataset_b_010487,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010487.jpg,male,70.0,trunk
+dataset_b_008854,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008854.jpg,male,50.0,lower extremity
+dataset_b_003578,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003578.jpg,male,75.0,unknown
+dataset_b_005201,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005201.jpg,female,75.0,back
+dataset_b_009555,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009555.jpg,female,65.0,back
+dataset_a_000460,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000460.jpg,,54.0,chest
+dataset_b_011875,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011875.jpg,female,40.0,unknown
+dataset_b_012040,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012040.jpg,male,80.0,face
+dataset_b_011630,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011630.jpg,male,25.0,back
+dataset_b_007467,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007467.jpg,male,35.0,trunk
+dataset_b_009464,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009464.jpg,male,10.0,genital
+dataset_b_007492,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007492.jpg,female,45.0,trunk
+dataset_b_010630,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010630.jpg,female,35.0,lower extremity
+dataset_b_011981,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011981.jpg,male,20.0,back
+dataset_b_008726,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008726.jpg,male,50.0,back
+dataset_b_008990,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008990.jpg,male,25.0,upper extremity
+dataset_b_006639,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006639.jpg,female,55.0,trunk
+dataset_b_010105,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010105.jpg,female,45.0,lower extremity
+dataset_b_011944,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011944.jpg,male,30.0,back
+dataset_b_011840,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011840.jpg,male,40.0,unknown
+dataset_b_006004,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006004.jpg,male,60.0,trunk
+dataset_b_006281,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006281.jpg,female,60.0,hand
+dataset_a_002289,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002289.jpg,male,66.0,ear
+dataset_b_005631,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005631.jpg,female,45.0,lower extremity
+dataset_b_011977,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011977.jpg,female,55.0,chest
+dataset_a_001975,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001975.jpg,female,66.0,face
+dataset_b_007057,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007057.jpg,female,55.0,upper extremity
+dataset_a_001911,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001911.jpg,female,72.0,arm
+dataset_b_006216,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006216.jpg,female,50.0,trunk
+dataset_b_004112,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004112.jpg,male,65.0,upper extremity
+dataset_b_006664,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006664.jpg,female,40.0,trunk
+dataset_a_000934,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000934.jpg,,65.0,forearm
+dataset_b_011103,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011103.jpg,female,40.0,scalp
+dataset_b_011272,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011272.jpg,male,50.0,back
+dataset_b_007963,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007963.jpg,male,45.0,trunk
+dataset_b_009581,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009581.jpg,male,80.0,lower extremity
+dataset_b_007025,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007025.jpg,male,40.0,lower extremity
+dataset_b_011274,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011274.jpg,male,60.0,abdomen
+dataset_b_004089,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004089.jpg,female,55.0,upper extremity
+dataset_a_001175,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001175.jpg,female,57.0,back
+dataset_b_011946,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011946.jpg,male,65.0,upper extremity
+dataset_b_010753,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010753.jpg,male,65.0,trunk
+dataset_b_004117,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004117.jpg,male,60.0,abdomen
+dataset_b_011553,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011553.jpg,female,5.0,hand
+dataset_b_010832,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010832.jpg,female,25.0,unknown
+dataset_b_012251,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012251.jpg,female,75.0,lower extremity
+dataset_b_005564,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005564.jpg,male,50.0,abdomen
+dataset_b_006143,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006143.jpg,male,50.0,upper extremity
+dataset_b_004003,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004003.jpg,male,65.0,back
+dataset_b_009103,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009103.jpg,female,40.0,abdomen
+dataset_b_003937,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003937.jpg,female,40.0,back
+dataset_b_006019,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006019.jpg,female,35.0,trunk
+dataset_b_009156,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009156.jpg,male,25.0,face
+dataset_b_010341,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010341.jpg,male,25.0,unknown
+dataset_a_000084,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000084.jpg,,47.0,forearm
+dataset_b_006856,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006856.jpg,female,70.0,trunk
+dataset_b_010979,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010979.jpg,male,75.0,foot
+dataset_b_005020,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005020.jpg,male,65.0,lower extremity
+dataset_b_003853,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003853.jpg,female,30.0,back
+dataset_b_005657,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005657.jpg,male,50.0,trunk
+dataset_b_007739,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007739.jpg,male,70.0,lower extremity
+dataset_b_007288,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007288.jpg,male,60.0,back
+dataset_b_003656,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003656.jpg,female,55.0,back
+dataset_b_005559,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005559.jpg,female,50.0,back
+dataset_a_001358,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001358.jpg,female,57.0,hand
+dataset_b_009017,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009017.jpg,female,80.0,lower extremity
+dataset_b_003834,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003834.jpg,male,70.0,back
+dataset_b_011758,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011758.jpg,male,40.0,trunk
+dataset_a_000865,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000865.jpg,female,46.0,forearm
+dataset_b_005364,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005364.jpg,male,55.0,back
+dataset_b_010103,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010103.jpg,female,15.0,foot
+dataset_b_011433,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011433.jpg,female,30.0,back
+dataset_b_005297,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005297.jpg,male,50.0,lower extremity
+dataset_b_006666,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006666.jpg,female,40.0,trunk
+dataset_b_009379,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009379.jpg,female,35.0,abdomen
+dataset_b_004992,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004992.jpg,male,65.0,chest
+dataset_b_004039,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004039.jpg,male,50.0,abdomen
+dataset_a_000676,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000676.jpg,male,69.0,forearm
+dataset_b_004302,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004302.jpg,male,80.0,lower extremity
+dataset_a_000740,dataset_a,MEL,1,test,images/test/MEL/dataset_a_000740.jpg,male,82.0,ear
+dataset_a_001795,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001795.jpg,male,79.0,forearm
+dataset_b_010274,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010274.jpg,male,55.0,unknown
+dataset_b_012024,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012024.jpg,female,55.0,neck
+dataset_a_001204,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001204.jpg,male,48.0,chest
+dataset_b_005265,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005265.jpg,male,75.0,scalp
+dataset_a_000591,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000591.jpg,,68.0,forearm
+dataset_b_011546,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011546.jpg,female,15.0,chest
+dataset_b_008342,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008342.jpg,male,20.0,abdomen
+dataset_b_006505,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006505.jpg,male,80.0,abdomen
+dataset_b_012176,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012176.jpg,male,75.0,face
+dataset_b_011755,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011755.jpg,male,35.0,abdomen
+dataset_a_002035,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002035.jpg,male,51.0,hand
+dataset_a_000534,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000534.jpg,female,73.0,face
+dataset_b_004606,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004606.jpg,male,55.0,face
+dataset_b_003851,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003851.jpg,female,30.0,back
+dataset_b_009518,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009518.jpg,female,15.0,back
+dataset_a_000993,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000993.jpg,male,65.0,chest
+dataset_b_010786,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010786.jpg,female,60.0,back
+dataset_b_010070,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010070.jpg,male,45.0,lower extremity
+dataset_b_008633,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008633.jpg,male,60.0,upper extremity
+dataset_a_002183,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002183.jpg,female,75.0,back
+dataset_b_009350,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009350.jpg,female,35.0,lower extremity
+dataset_b_008352,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008352.jpg,male,45.0,trunk
+dataset_b_010439,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010439.jpg,male,65.0,upper extremity
+dataset_b_010929,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010929.jpg,male,60.0,neck
+dataset_a_002051,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002051.jpg,male,67.0,face
+dataset_b_006793,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006793.jpg,female,75.0,upper extremity
+dataset_b_004581,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004581.jpg,female,85.0,lower extremity
+dataset_b_004237,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004237.jpg,female,30.0,back
+dataset_b_009493,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009493.jpg,male,75.0,upper extremity
+dataset_b_006044,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006044.jpg,female,40.0,upper extremity
+dataset_b_007453,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007453.jpg,male,55.0,back
+dataset_b_003966,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003966.jpg,female,55.0,upper extremity
+dataset_a_001245,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001245.jpg,,62.0,forearm
+dataset_b_004459,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004459.jpg,male,75.0,back
+dataset_b_009096,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009096.jpg,male,40.0,back
+dataset_b_009228,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009228.jpg,male,35.0,abdomen
+dataset_b_011717,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011717.jpg,female,40.0,abdomen
+dataset_b_007409,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007409.jpg,female,60.0,abdomen
+dataset_b_006317,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006317.jpg,female,70.0,trunk
+dataset_b_010238,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010238.jpg,male,45.0,abdomen
+dataset_a_001507,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001507.jpg,female,52.0,face
+dataset_a_002216,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002216.jpg,female,57.0,chest
+dataset_b_005674,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005674.jpg,male,55.0,lower extremity
+dataset_b_009004,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009004.jpg,female,20.0,lower extremity
+dataset_b_009091,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009091.jpg,male,70.0,hand
+dataset_b_008772,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008772.jpg,female,40.0,lower extremity
+dataset_b_007920,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007920.jpg,female,40.0,back
+dataset_b_005415,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005415.jpg,female,45.0,abdomen
+dataset_b_004487,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004487.jpg,male,50.0,back
+dataset_b_010427,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010427.jpg,male,35.0,back
+dataset_b_004337,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004337.jpg,male,35.0,back
+dataset_a_000010,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000010.jpg,,45.0,neck
+dataset_b_007613,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007613.jpg,female,45.0,lower extremity
+dataset_b_011941,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011941.jpg,male,75.0,lower extremity
+dataset_b_010824,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010824.jpg,male,50.0,back
+dataset_b_009038,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009038.jpg,female,50.0,upper extremity
+dataset_b_008376,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008376.jpg,female,65.0,abdomen
+dataset_b_007469,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007469.jpg,male,35.0,back
+dataset_a_001237,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001237.jpg,male,60.0,face
+dataset_b_005056,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005056.jpg,male,80.0,back
+dataset_b_004780,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004780.jpg,male,70.0,back
+dataset_a_001690,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001690.jpg,,65.0,arm
+dataset_b_006726,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006726.jpg,male,70.0,trunk
+dataset_b_004944,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004944.jpg,male,65.0,back
+dataset_b_009148,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009148.jpg,male,70.0,back
+dataset_b_007235,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007235.jpg,female,55.0,lower extremity
+dataset_b_009288,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009288.jpg,male,30.0,lower extremity
+dataset_a_000707,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000707.jpg,female,73.0,nose
+dataset_b_010074,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010074.jpg,male,45.0,abdomen
+dataset_b_011543,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011543.jpg,male,10.0,upper extremity
+dataset_b_006213,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006213.jpg,female,50.0,back
+dataset_b_006474,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006474.jpg,female,40.0,trunk
+dataset_b_005703,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005703.jpg,male,55.0,lower extremity
+dataset_b_011231,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011231.jpg,male,35.0,back
+dataset_a_001909,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001909.jpg,male,63.0,ear
+dataset_b_007226,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007226.jpg,male,45.0,trunk
+dataset_b_006752,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006752.jpg,female,55.0,lower extremity
+dataset_b_011275,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011275.jpg,male,85.0,foot
+dataset_b_009509,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009509.jpg,female,30.0,lower extremity
+dataset_b_005770,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005770.jpg,male,45.0,trunk
+dataset_b_007725,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007725.jpg,male,75.0,abdomen
+dataset_b_009441,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009441.jpg,female,60.0,upper extremity
+dataset_a_001208,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001208.jpg,,75.0,hand
+dataset_b_003513,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003513.jpg,male,60.0,chest
+dataset_b_007994,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007994.jpg,male,40.0,trunk
+dataset_b_007690,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007690.jpg,female,45.0,lower extremity
+dataset_b_006616,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006616.jpg,male,50.0,lower extremity
+dataset_b_007678,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007678.jpg,male,55.0,abdomen
+dataset_b_004989,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004989.jpg,male,75.0,upper extremity
+dataset_b_008247,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008247.jpg,male,45.0,trunk
+dataset_b_010884,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010884.jpg,female,80.0,lower extremity
+dataset_b_004198,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004198.jpg,female,45.0,lower extremity
+dataset_b_010943,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010943.jpg,male,50.0,back
+dataset_a_000687,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000687.jpg,female,67.0,forearm
+dataset_b_008969,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008969.jpg,female,45.0,upper extremity
+dataset_b_004171,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004171.jpg,male,75.0,back
+dataset_b_004514,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004514.jpg,female,25.0,face
+dataset_b_007633,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007633.jpg,female,45.0,lower extremity
+dataset_b_009975,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009975.jpg,female,40.0,upper extremity
+dataset_b_010482,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010482.jpg,female,45.0,chest
+dataset_b_006037,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006037.jpg,female,45.0,lower extremity
+dataset_b_005611,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005611.jpg,female,40.0,lower extremity
+dataset_a_000641,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000641.jpg,male,71.0,forearm
+dataset_b_009099,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009099.jpg,male,40.0,lower extremity
+dataset_b_005300,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005300.jpg,male,50.0,upper extremity
+dataset_b_003692,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003692.jpg,male,85.0,back
+dataset_b_009588,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009588.jpg,female,15.0,abdomen
+dataset_b_008870,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008870.jpg,female,40.0,upper extremity
+dataset_b_006502,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006502.jpg,male,80.0,back
+dataset_b_011963,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011963.jpg,female,50.0,chest
+dataset_b_011687,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011687.jpg,male,50.0,back
+dataset_b_003642,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003642.jpg,male,45.0,unknown
+dataset_b_007830,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007830.jpg,male,50.0,trunk
+dataset_a_001917,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001917.jpg,,67.0,arm
+dataset_b_006748,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006748.jpg,female,35.0,abdomen
+dataset_b_004263,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004263.jpg,female,40.0,lower extremity
+dataset_b_007778,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007778.jpg,male,65.0,abdomen
+dataset_b_011385,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011385.jpg,male,70.0,upper extremity
+dataset_b_009766,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009766.jpg,male,55.0,back
+dataset_b_010261,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010261.jpg,male,80.0,back
+dataset_a_001743,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001743.jpg,male,59.0,neck
+dataset_b_011040,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011040.jpg,female,75.0,foot
+dataset_b_010178,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010178.jpg,female,40.0,back
+dataset_b_004890,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004890.jpg,female,50.0,back
+dataset_b_005951,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005951.jpg,female,45.0,back
+dataset_b_010831,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010831.jpg,female,25.0,unknown
+dataset_b_009421,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009421.jpg,male,25.0,back
+dataset_b_007883,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007883.jpg,male,45.0,back
+dataset_b_005847,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005847.jpg,female,35.0,trunk
+dataset_b_005543,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005543.jpg,male,50.0,trunk
+dataset_b_005227,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005227.jpg,female,60.0,upper extremity
+dataset_a_000436,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000436.jpg,female,77.0,face
+dataset_b_008998,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008998.jpg,male,30.0,upper extremity
+dataset_b_008711,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008711.jpg,male,35.0,abdomen
+dataset_b_007828,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007828.jpg,male,50.0,trunk
+dataset_b_004819,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004819.jpg,female,85.0,face
+dataset_b_010808,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010808.jpg,female,35.0,abdomen
+dataset_b_004312,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004312.jpg,female,40.0,trunk
+dataset_a_001460,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001460.jpg,,65.0,neck
+dataset_a_001960,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001960.jpg,,58.0,forearm
+dataset_a_000179,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000179.jpg,female,14.0,foot
+dataset_b_005890,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005890.jpg,female,50.0,upper extremity
+dataset_a_001412,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001412.jpg,,80.0,arm
+dataset_b_005458,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005458.jpg,female,50.0,foot
+dataset_b_007534,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007534.jpg,male,60.0,foot
+dataset_b_011172,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011172.jpg,male,15.0,foot
+dataset_a_001748,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001748.jpg,,41.0,forearm
+dataset_b_005044,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005044.jpg,female,70.0,back
+dataset_a_001834,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001834.jpg,male,55.0,chest
+dataset_b_009756,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009756.jpg,male,50.0,back
+dataset_b_008010,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008010.jpg,male,40.0,lower extremity
+dataset_b_003992,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003992.jpg,male,70.0,scalp
+dataset_b_005149,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005149.jpg,male,75.0,upper extremity
+dataset_b_011541,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011541.jpg,male,0.0,lower extremity
+dataset_b_004510,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004510.jpg,male,65.0,back
+dataset_b_011575,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011575.jpg,female,30.0,back
+dataset_b_005659,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005659.jpg,male,50.0,lower extremity
+dataset_b_005263,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005263.jpg,male,50.0,back
+dataset_a_001421,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001421.jpg,male,71.0,chest
+dataset_a_001672,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001672.jpg,male,68.0,face
+dataset_b_008413,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008413.jpg,female,45.0,lower extremity
+dataset_b_009066,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009066.jpg,female,55.0,abdomen
+dataset_b_005656,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005656.jpg,male,50.0,abdomen
+dataset_b_004604,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004604.jpg,male,55.0,upper extremity
+dataset_b_006533,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006533.jpg,female,50.0,upper extremity
+dataset_b_008232,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008232.jpg,female,50.0,trunk
+dataset_b_010195,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010195.jpg,male,30.0,lower extremity
+dataset_b_003526,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003526.jpg,male,75.0,neck
+dataset_b_007832,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007832.jpg,female,50.0,trunk
+dataset_b_009261,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009261.jpg,male,55.0,back
+dataset_b_003534,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003534.jpg,male,45.0,back
+dataset_b_011791,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011791.jpg,female,70.0,back
+dataset_b_007664,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007664.jpg,male,35.0,back
+dataset_b_011900,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011900.jpg,unknown,,unknown
+dataset_b_008393,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008393.jpg,male,45.0,abdomen
+dataset_b_005071,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005071.jpg,female,75.0,face
+dataset_b_012067,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012067.jpg,female,60.0,face
+dataset_b_004808,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004808.jpg,male,60.0,trunk
+dataset_b_011157,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011157.jpg,male,50.0,upper extremity
+dataset_a_001040,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001040.jpg,male,56.0,face
+dataset_b_004907,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004907.jpg,male,70.0,back
+dataset_b_012031,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012031.jpg,female,80.0,face
+dataset_b_005420,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005420.jpg,female,45.0,trunk
+dataset_b_006265,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006265.jpg,male,65.0,trunk
+dataset_b_007352,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007352.jpg,male,65.0,trunk
+dataset_b_007426,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007426.jpg,female,45.0,trunk
+dataset_b_004141,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004141.jpg,female,55.0,lower extremity
+dataset_b_011356,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011356.jpg,male,55.0,back
+dataset_b_009907,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009907.jpg,male,55.0,back
+dataset_b_011828,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011828.jpg,female,40.0,unknown
+dataset_b_011205,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011205.jpg,male,80.0,scalp
+dataset_b_004331,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004331.jpg,female,65.0,lower extremity
+dataset_b_005216,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005216.jpg,female,65.0,lower extremity
+dataset_a_001000,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001000.jpg,male,50.0,face
+dataset_b_005990,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005990.jpg,male,35.0,trunk
+dataset_a_002259,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002259.jpg,male,74.0,nose
+dataset_b_005706,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005706.jpg,female,45.0,abdomen
+dataset_b_010518,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010518.jpg,female,25.0,lower extremity
+dataset_a_000792,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000792.jpg,male,71.0,ear
+dataset_b_006835,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006835.jpg,female,45.0,chest
+dataset_b_005192,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005192.jpg,female,65.0,back
+dataset_b_005022,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005022.jpg,male,55.0,back
+dataset_b_006841,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006841.jpg,male,35.0,abdomen
+dataset_b_012175,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012175.jpg,male,55.0,face
+dataset_b_008287,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008287.jpg,male,55.0,lower extremity
+dataset_b_008671,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008671.jpg,female,30.0,trunk
+dataset_a_000625,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000625.jpg,,41.0,forearm
+dataset_b_008787,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008787.jpg,male,65.0,trunk
+dataset_b_009378,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009378.jpg,female,35.0,abdomen
+dataset_b_004120,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004120.jpg,male,65.0,neck
+dataset_a_002073,dataset_a,NEV,0,test,images/test/NEV/dataset_a_002073.jpg,female,27.0,arm
+dataset_b_010902,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010902.jpg,female,45.0,lower extremity
+dataset_a_000433,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000433.jpg,male,21.0,back
+dataset_b_010162,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010162.jpg,female,30.0,trunk
+dataset_b_011612,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011612.jpg,female,85.0,back
+dataset_b_009732,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009732.jpg,female,40.0,back
+dataset_b_005417,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005417.jpg,female,50.0,lower extremity
+dataset_b_003573,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003573.jpg,female,60.0,abdomen
+dataset_b_009439,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009439.jpg,male,50.0,upper extremity
+dataset_b_007708,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007708.jpg,male,70.0,lower extremity
+dataset_b_006131,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006131.jpg,female,50.0,lower extremity
+dataset_b_009516,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009516.jpg,male,40.0,abdomen
+dataset_b_008552,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008552.jpg,female,55.0,trunk
+dataset_b_011850,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011850.jpg,male,60.0,unknown
+dataset_b_012305,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012305.jpg,female,60.0,face
+dataset_b_006293,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006293.jpg,male,80.0,abdomen
+dataset_b_003667,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003667.jpg,female,65.0,lower extremity
+dataset_b_011188,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011188.jpg,female,85.0,upper extremity
+dataset_b_003564,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003564.jpg,female,55.0,lower extremity
+dataset_a_000170,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000170.jpg,male,56.0,forearm
+dataset_b_009471,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009471.jpg,female,60.0,upper extremity
+dataset_b_010412,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010412.jpg,male,30.0,abdomen
+dataset_b_006297,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006297.jpg,male,80.0,back
+dataset_b_007838,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007838.jpg,male,50.0,back
+dataset_a_000739,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000739.jpg,male,58.0,ear
+dataset_b_010598,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010598.jpg,male,60.0,back
+dataset_b_006041,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006041.jpg,female,45.0,lower extremity
+dataset_b_007122,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007122.jpg,female,55.0,abdomen
+dataset_a_000242,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000242.jpg,female,85.0,thigh
+dataset_a_001017,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001017.jpg,,79.0,arm
+dataset_b_011697,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011697.jpg,male,70.0,trunk
+dataset_a_001282,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001282.jpg,,36.0,chest
+dataset_b_003592,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003592.jpg,female,30.0,abdomen
+dataset_b_010724,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010724.jpg,male,75.0,back
+dataset_b_008226,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008226.jpg,male,30.0,hand
+dataset_b_012224,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012224.jpg,male,85.0,chest
+dataset_a_000890,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000890.jpg,male,69.0,back
+dataset_b_005718,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005718.jpg,female,55.0,trunk
+dataset_b_006291,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006291.jpg,male,55.0,face
+dataset_b_007271,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007271.jpg,female,50.0,trunk
+dataset_b_004438,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004438.jpg,male,60.0,back
+dataset_b_004433,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004433.jpg,female,70.0,upper extremity
+dataset_b_008306,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008306.jpg,male,50.0,trunk
+dataset_a_001320,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001320.jpg,female,75.0,face
+dataset_a_002237,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002237.jpg,male,57.0,face
+dataset_b_007860,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007860.jpg,male,40.0,upper extremity
+dataset_b_007944,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007944.jpg,female,45.0,upper extremity
+dataset_b_006989,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006989.jpg,female,50.0,trunk
+dataset_b_004152,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004152.jpg,female,35.0,upper extremity
+dataset_b_004419,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004419.jpg,female,50.0,face
+dataset_b_011787,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011787.jpg,male,30.0,back
+dataset_a_000504,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000504.jpg,male,59.0,back
+dataset_b_008515,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008515.jpg,male,45.0,back
+dataset_b_005234,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005234.jpg,female,80.0,lower extremity
+dataset_b_007447,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007447.jpg,male,55.0,abdomen
+dataset_b_011716,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011716.jpg,male,75.0,back
+dataset_b_007306,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007306.jpg,male,55.0,foot
+dataset_b_006196,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006196.jpg,male,45.0,foot
+dataset_b_005333,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005333.jpg,male,45.0,lower extremity
+dataset_b_010983,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010983.jpg,male,40.0,back
+dataset_b_005786,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005786.jpg,male,35.0,lower extremity
+dataset_b_005084,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005084.jpg,male,75.0,back
+dataset_b_009370,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009370.jpg,male,25.0,hand
+dataset_b_012102,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012102.jpg,male,60.0,face
+dataset_b_010997,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010997.jpg,male,55.0,back
+dataset_b_006270,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006270.jpg,female,45.0,back
+dataset_b_003683,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003683.jpg,male,45.0,upper extremity
+dataset_b_010384,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010384.jpg,female,40.0,trunk
+dataset_b_005919,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005919.jpg,female,50.0,trunk
+dataset_b_003816,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003816.jpg,female,80.0,face
+dataset_b_010094,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010094.jpg,male,60.0,trunk
+dataset_b_009277,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009277.jpg,female,75.0,ear
+dataset_b_005107,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005107.jpg,male,65.0,face
+dataset_a_000257,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000257.jpg,,38.0,face
+dataset_b_010386,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010386.jpg,female,25.0,lower extremity
+dataset_b_010606,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010606.jpg,male,35.0,chest
+dataset_b_008906,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008906.jpg,male,50.0,abdomen
+dataset_a_000333,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000333.jpg,female,86.0,arm
+dataset_b_005342,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005342.jpg,male,55.0,back
+dataset_b_007253,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007253.jpg,female,45.0,trunk
+dataset_b_004399,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004399.jpg,male,70.0,ear
+dataset_b_011492,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011492.jpg,male,70.0,upper extremity
+dataset_b_011585,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011585.jpg,male,45.0,back
+dataset_b_007612,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007612.jpg,female,45.0,trunk
+dataset_b_005165,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005165.jpg,male,85.0,upper extremity
+dataset_b_012220,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012220.jpg,male,65.0,ear
+dataset_a_000149,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000149.jpg,male,61.0,back
+dataset_b_011451,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011451.jpg,male,70.0,back
+dataset_a_001307,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001307.jpg,male,64.0,forearm
+dataset_b_003557,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003557.jpg,female,60.0,chest
+dataset_b_005472,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005472.jpg,female,50.0,trunk
+dataset_b_010078,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010078.jpg,male,45.0,abdomen
+dataset_b_010286,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010286.jpg,male,60.0,back
+dataset_b_007683,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007683.jpg,male,45.0,abdomen
+dataset_a_001101,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001101.jpg,,73.0,forearm
+dataset_b_005118,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005118.jpg,female,70.0,lower extremity
+dataset_b_009056,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009056.jpg,male,55.0,foot
+dataset_b_012089,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012089.jpg,male,75.0,lower extremity
+dataset_a_000855,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000855.jpg,female,81.0,back
+dataset_b_007817,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007817.jpg,male,55.0,upper extremity
+dataset_b_008604,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008604.jpg,male,50.0,lower extremity
+dataset_b_007706,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007706.jpg,male,75.0,trunk
+dataset_b_008895,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008895.jpg,female,40.0,abdomen
+dataset_a_001798,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001798.jpg,female,56.0,face
+dataset_b_011504,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011504.jpg,female,40.0,foot
+dataset_a_002212,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002212.jpg,,51.0,arm
+dataset_b_011731,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011731.jpg,female,50.0,back
+dataset_b_004108,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004108.jpg,female,70.0,neck
+dataset_b_005005,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005005.jpg,male,70.0,back
+dataset_b_005311,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005311.jpg,male,50.0,back
+dataset_a_001762,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001762.jpg,male,63.0,back
+dataset_b_012059,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012059.jpg,male,75.0,lower extremity
+dataset_b_011191,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011191.jpg,female,35.0,hand
+dataset_a_001232,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001232.jpg,,70.0,forearm
+dataset_b_012270,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012270.jpg,male,80.0,face
+dataset_b_005643,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005643.jpg,male,50.0,lower extremity
+dataset_b_010254,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010254.jpg,female,35.0,abdomen
+dataset_b_007834,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007834.jpg,female,50.0,trunk
+dataset_a_000585,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000585.jpg,male,64.0,chest
+dataset_b_012287,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012287.jpg,male,70.0,face
+dataset_b_005512,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005512.jpg,female,45.0,trunk
+dataset_b_008820,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008820.jpg,male,55.0,foot
+dataset_b_005169,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005169.jpg,female,70.0,neck
+dataset_b_009349,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009349.jpg,female,35.0,lower extremity
+dataset_a_001276,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001276.jpg,male,55.0,neck
+dataset_b_005053,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005053.jpg,female,65.0,back
+dataset_b_010591,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010591.jpg,female,30.0,lower extremity
+dataset_b_010562,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010562.jpg,female,30.0,lower extremity
+dataset_b_008928,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008928.jpg,female,35.0,trunk
+dataset_b_005904,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005904.jpg,male,45.0,lower extremity
+dataset_b_009978,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009978.jpg,male,45.0,lower extremity
+dataset_a_001280,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001280.jpg,female,61.0,forearm
+dataset_b_007103,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007103.jpg,female,35.0,upper extremity
+dataset_b_004316,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004316.jpg,male,40.0,face
+dataset_b_007625,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007625.jpg,male,75.0,trunk
+dataset_a_000578,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000578.jpg,female,58.0,nose
+dataset_b_007088,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007088.jpg,male,40.0,abdomen
+dataset_b_008642,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008642.jpg,male,60.0,lower extremity
+dataset_b_003857,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003857.jpg,male,30.0,back
+dataset_a_001239,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001239.jpg,,43.0,forearm
+dataset_b_010416,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010416.jpg,female,25.0,unknown
+dataset_b_007182,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007182.jpg,female,70.0,foot
+dataset_b_011670,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011670.jpg,male,0.0,chest
+dataset_b_011491,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011491.jpg,female,60.0,lower extremity
+dataset_a_001516,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001516.jpg,male,35.0,chest
+dataset_b_012253,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012253.jpg,male,85.0,upper extremity
+dataset_b_007685,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007685.jpg,female,45.0,trunk
+dataset_b_012110,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012110.jpg,male,45.0,back
+dataset_b_004955,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004955.jpg,female,45.0,unknown
+dataset_b_010289,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010289.jpg,male,35.0,neck
+dataset_a_000716,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000716.jpg,male,49.0,face
+dataset_b_011153,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011153.jpg,female,45.0,lower extremity
+dataset_b_011375,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011375.jpg,male,75.0,back
+dataset_b_011396,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011396.jpg,male,65.0,back
+dataset_b_012027,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012027.jpg,male,65.0,upper extremity
+dataset_b_008581,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008581.jpg,male,40.0,trunk
+dataset_b_012249,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012249.jpg,female,65.0,face
+dataset_b_010664,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010664.jpg,female,35.0,abdomen
+dataset_b_010025,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010025.jpg,female,25.0,back
+dataset_b_008395,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008395.jpg,male,45.0,lower extremity
+dataset_b_012117,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012117.jpg,female,80.0,upper extremity
+dataset_a_000968,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000968.jpg,male,62.0,face
+dataset_b_010189,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010189.jpg,female,65.0,abdomen
+dataset_b_006005,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006005.jpg,male,60.0,lower extremity
+dataset_b_009721,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009721.jpg,female,45.0,upper extremity
+dataset_a_000377,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000377.jpg,male,71.0,face
+dataset_b_008078,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008078.jpg,male,40.0,abdomen
+dataset_b_004236,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004236.jpg,female,65.0,upper extremity
+dataset_b_009852,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009852.jpg,female,30.0,upper extremity
+dataset_b_012114,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012114.jpg,male,75.0,lower extremity
+dataset_a_001112,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001112.jpg,,51.0,face
+dataset_a_001918,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001918.jpg,female,73.0,forearm
+dataset_b_009400,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009400.jpg,female,25.0,genital
+dataset_b_006940,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006940.jpg,male,60.0,abdomen
+dataset_b_011234,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011234.jpg,female,45.0,abdomen
+dataset_b_006366,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006366.jpg,male,55.0,trunk
+dataset_b_004362,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004362.jpg,female,30.0,upper extremity
+dataset_b_007501,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007501.jpg,male,45.0,abdomen
+dataset_b_009465,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009465.jpg,female,45.0,abdomen
+dataset_b_007815,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007815.jpg,male,55.0,abdomen
+dataset_b_010730,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010730.jpg,male,30.0,scalp
+dataset_b_004512,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004512.jpg,male,50.0,lower extremity
+dataset_b_009230,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009230.jpg,male,80.0,back
+dataset_b_005100,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005100.jpg,female,55.0,back
+dataset_b_009745,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009745.jpg,female,25.0,upper extremity
+dataset_b_010356,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010356.jpg,male,40.0,trunk
+dataset_b_005807,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005807.jpg,female,50.0,lower extremity
+dataset_b_004043,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004043.jpg,male,85.0,back
+dataset_b_003947,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003947.jpg,male,50.0,trunk
+dataset_b_003892,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003892.jpg,male,50.0,back
+dataset_a_000719,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000719.jpg,male,76.0,nose
+dataset_b_008835,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008835.jpg,female,40.0,trunk
+dataset_b_007991,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007991.jpg,female,45.0,abdomen
+dataset_b_006367,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006367.jpg,male,55.0,abdomen
+dataset_b_011123,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011123.jpg,male,80.0,abdomen
+dataset_b_010435,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010435.jpg,female,20.0,upper extremity
+dataset_b_008949,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008949.jpg,female,50.0,trunk
+dataset_b_004080,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004080.jpg,female,70.0,upper extremity
+dataset_b_008039,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008039.jpg,male,30.0,lower extremity
+dataset_b_010745,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010745.jpg,male,80.0,unknown
+dataset_b_010451,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010451.jpg,male,35.0,chest
+dataset_a_000904,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000904.jpg,male,53.0,face
+dataset_b_010914,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010914.jpg,male,50.0,face
+dataset_b_003976,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003976.jpg,female,65.0,back
+dataset_b_011387,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011387.jpg,female,45.0,abdomen
+dataset_b_009335,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009335.jpg,male,35.0,chest
+dataset_b_006876,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006876.jpg,female,60.0,lower extremity
+dataset_b_006360,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006360.jpg,male,65.0,back
+dataset_b_006725,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006725.jpg,male,70.0,back
+dataset_b_009229,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009229.jpg,male,35.0,trunk
+dataset_b_007687,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007687.jpg,female,45.0,abdomen
+dataset_b_007945,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007945.jpg,female,45.0,upper extremity
+dataset_b_009381,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009381.jpg,female,35.0,back
+dataset_a_002211,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002211.jpg,female,77.0,forearm
+dataset_b_009270,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009270.jpg,female,85.0,unknown
+dataset_b_008246,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008246.jpg,male,45.0,trunk
+dataset_b_004478,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004478.jpg,female,85.0,lower extremity
+dataset_b_010922,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010922.jpg,female,65.0,back
+dataset_b_008008,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008008.jpg,male,40.0,trunk
+dataset_b_009529,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009529.jpg,male,65.0,trunk
+dataset_b_011883,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011883.jpg,female,40.0,unknown
+dataset_a_002086,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002086.jpg,,75.0,hand
+dataset_b_004288,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004288.jpg,female,55.0,back
+dataset_b_010952,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010952.jpg,female,30.0,lower extremity
+dataset_b_008587,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008587.jpg,male,40.0,abdomen
+dataset_b_011564,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011564.jpg,female,60.0,abdomen
+dataset_b_006145,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006145.jpg,female,45.0,trunk
+dataset_b_011386,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011386.jpg,female,45.0,abdomen
+dataset_b_006676,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006676.jpg,female,65.0,lower extremity
+dataset_b_003758,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003758.jpg,male,60.0,lower extremity
+dataset_a_002049,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002049.jpg,female,68.0,nose
+dataset_b_004849,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004849.jpg,male,60.0,scalp
+dataset_b_010878,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010878.jpg,female,30.0,back
+dataset_b_003961,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003961.jpg,male,75.0,lower extremity
+dataset_b_011059,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011059.jpg,female,65.0,abdomen
+dataset_b_007313,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007313.jpg,female,45.0,genital
+dataset_b_011608,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011608.jpg,female,25.0,lower extremity
+dataset_b_004924,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004924.jpg,male,70.0,face
+dataset_b_010982,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010982.jpg,male,40.0,back
+dataset_b_010198,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010198.jpg,female,35.0,trunk
+dataset_b_009748,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009748.jpg,male,70.0,chest
+dataset_b_005135,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005135.jpg,female,50.0,back
+dataset_b_010660,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010660.jpg,female,25.0,abdomen
+dataset_b_011334,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011334.jpg,male,75.0,face
+dataset_b_005853,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005853.jpg,male,45.0,lower extremity
+dataset_b_011886,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011886.jpg,female,40.0,unknown
+dataset_b_004403,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004403.jpg,male,85.0,upper extremity
+dataset_b_003615,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003615.jpg,male,80.0,scalp
+dataset_b_008193,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008193.jpg,male,75.0,trunk
+dataset_b_007802,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007802.jpg,male,65.0,upper extremity
+dataset_b_012302,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012302.jpg,male,80.0,face
+dataset_b_011031,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011031.jpg,female,60.0,back
+dataset_b_008699,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008699.jpg,male,45.0,back
+dataset_b_003775,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003775.jpg,male,55.0,lower extremity
+dataset_b_009306,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009306.jpg,male,45.0,back
+dataset_b_004571,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004571.jpg,female,55.0,lower extremity
+dataset_b_009609,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009609.jpg,male,30.0,lower extremity
+dataset_b_009998,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009998.jpg,female,50.0,lower extremity
+dataset_b_012223,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012223.jpg,male,75.0,neck
+dataset_b_010814,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010814.jpg,male,25.0,abdomen
+dataset_b_003888,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003888.jpg,female,85.0,back
+dataset_b_003925,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003925.jpg,female,30.0,upper extremity
+dataset_b_011005,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011005.jpg,male,85.0,back
+dataset_b_007906,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007906.jpg,male,55.0,trunk
+dataset_a_001747,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001747.jpg,,74.0,hand
+dataset_b_007287,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007287.jpg,male,60.0,upper extremity
+dataset_b_008149,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008149.jpg,male,60.0,lower extremity
+dataset_a_001888,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001888.jpg,male,65.0,face
+dataset_b_010073,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010073.jpg,male,45.0,abdomen
+dataset_b_005899,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005899.jpg,female,20.0,back
+dataset_b_005116,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005116.jpg,female,80.0,upper extremity
+dataset_b_006308,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006308.jpg,female,70.0,foot
+dataset_b_005097,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005097.jpg,male,45.0,chest
+dataset_b_010609,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010609.jpg,male,60.0,back
+dataset_b_011750,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011750.jpg,male,35.0,unknown
+dataset_b_005598,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005598.jpg,male,55.0,lower extremity
+dataset_b_003584,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003584.jpg,male,70.0,unknown
+dataset_b_008388,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008388.jpg,male,25.0,trunk
+dataset_b_011077,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011077.jpg,male,70.0,upper extremity
+dataset_b_008930,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008930.jpg,female,35.0,abdomen
+dataset_a_001657,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001657.jpg,male,44.0,chest
+dataset_a_000480,dataset_a,MEL,1,test,images/test/MEL/dataset_a_000480.jpg,female,43.0,neck
+dataset_a_001396,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001396.jpg,female,79.0,chest
+dataset_b_006058,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006058.jpg,male,5.0,upper extremity
+dataset_b_003575,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003575.jpg,male,55.0,lower extremity
+dataset_a_000035,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000035.jpg,female,49.0,face
+dataset_b_011002,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011002.jpg,male,50.0,back
+dataset_b_008616,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008616.jpg,female,55.0,trunk
+dataset_b_005768,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005768.jpg,male,45.0,back
+dataset_b_011200,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011200.jpg,female,30.0,hand
+dataset_b_006407,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006407.jpg,female,50.0,lower extremity
+dataset_b_011227,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011227.jpg,female,60.0,upper extremity
+dataset_b_008471,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008471.jpg,male,70.0,lower extremity
+dataset_b_005315,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005315.jpg,male,50.0,trunk
+dataset_b_006630,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006630.jpg,female,40.0,back
+dataset_a_001212,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001212.jpg,male,47.0,back
+dataset_b_011686,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011686.jpg,male,50.0,back
+dataset_b_009625,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009625.jpg,male,40.0,lower extremity
+dataset_b_006245,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006245.jpg,female,65.0,trunk
+dataset_b_009455,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009455.jpg,female,35.0,trunk
+dataset_b_007595,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007595.jpg,male,50.0,back
+dataset_b_006866,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006866.jpg,female,45.0,trunk
+dataset_b_009054,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009054.jpg,female,55.0,hand
+dataset_b_009274,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009274.jpg,male,55.0,lower extremity
+dataset_b_011269,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011269.jpg,female,75.0,foot
+dataset_b_004428,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004428.jpg,female,50.0,back
+dataset_b_005488,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005488.jpg,male,40.0,abdomen
+dataset_b_005791,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005791.jpg,male,35.0,trunk
+dataset_b_003625,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003625.jpg,male,55.0,trunk
+dataset_b_006547,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006547.jpg,male,50.0,trunk
+dataset_b_008742,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008742.jpg,female,30.0,back
+dataset_b_008952,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008952.jpg,female,55.0,upper extremity
+dataset_b_004779,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004779.jpg,male,70.0,back
+dataset_a_002156,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002156.jpg,male,70.0,nose
+dataset_b_005355,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005355.jpg,male,55.0,upper extremity
+dataset_b_007776,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007776.jpg,male,65.0,abdomen
+dataset_a_000006,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000006.jpg,female,52.0,face
+dataset_b_004421,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004421.jpg,male,55.0,back
+dataset_b_011351,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011351.jpg,female,45.0,back
+dataset_b_007097,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007097.jpg,male,40.0,trunk
+dataset_a_000165,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000165.jpg,female,76.0,face
+dataset_b_005393,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005393.jpg,female,45.0,lower extremity
+dataset_b_006727,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006727.jpg,male,40.0,lower extremity
+dataset_b_006125,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006125.jpg,female,45.0,trunk
+dataset_a_000997,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000997.jpg,female,56.0,face
+dataset_b_008980,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008980.jpg,male,20.0,lower extremity
+dataset_a_000402,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000402.jpg,male,68.0,forearm
+dataset_a_000853,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000853.jpg,,62.0,forearm
+dataset_a_000392,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000392.jpg,,44.0,hand
+dataset_b_009577,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009577.jpg,female,30.0,abdomen
+dataset_b_006312,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006312.jpg,female,50.0,abdomen
+dataset_b_012084,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012084.jpg,female,80.0,face
+dataset_b_011789,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011789.jpg,male,30.0,back
+dataset_b_008018,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008018.jpg,male,65.0,trunk
+dataset_b_006122,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006122.jpg,female,55.0,trunk
+dataset_b_008243,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008243.jpg,male,60.0,trunk
+dataset_b_010355,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010355.jpg,female,25.0,trunk
+dataset_b_008798,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008798.jpg,male,65.0,trunk
+dataset_b_008445,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008445.jpg,male,45.0,lower extremity
+dataset_b_011349,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011349.jpg,male,40.0,back
+dataset_b_009948,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009948.jpg,male,60.0,abdomen
+dataset_b_008935,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008935.jpg,female,35.0,back
+dataset_b_011503,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011503.jpg,female,45.0,foot
+dataset_b_008751,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008751.jpg,female,30.0,back
+dataset_b_004479,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004479.jpg,female,65.0,foot
+dataset_b_010873,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010873.jpg,female,50.0,lower extremity
+dataset_a_001734,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001734.jpg,,57.0,face
+dataset_b_009352,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009352.jpg,male,45.0,abdomen
+dataset_a_002206,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002206.jpg,,70.0,nose
+dataset_b_011623,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011623.jpg,female,15.0,lower extremity
+dataset_b_009194,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009194.jpg,male,70.0,trunk
+dataset_b_008251,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008251.jpg,male,45.0,back
+dataset_b_008883,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008883.jpg,female,65.0,lower extremity
+dataset_b_005072,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005072.jpg,female,65.0,upper extremity
+dataset_b_008850,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008850.jpg,male,50.0,trunk
+dataset_b_010877,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010877.jpg,female,60.0,face
+dataset_b_010714,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010714.jpg,male,50.0,back
+dataset_b_011086,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011086.jpg,female,60.0,face
+dataset_b_004015,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004015.jpg,male,70.0,upper extremity
+dataset_b_006553,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006553.jpg,male,50.0,trunk
+dataset_b_007978,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007978.jpg,female,45.0,trunk
+dataset_b_008609,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008609.jpg,female,55.0,upper extremity
+dataset_a_001939,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001939.jpg,,41.0,face
+dataset_b_012208,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012208.jpg,male,80.0,face
+dataset_b_003617,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003617.jpg,female,75.0,face
+dataset_b_005051,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005051.jpg,male,65.0,back
+dataset_b_010756,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010756.jpg,male,30.0,back
+dataset_b_006620,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006620.jpg,female,50.0,foot
+dataset_a_001474,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001474.jpg,,41.0,face
+dataset_b_011815,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011815.jpg,male,45.0,trunk
+dataset_b_008503,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008503.jpg,female,30.0,back
+dataset_b_011771,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011771.jpg,female,40.0,lower extremity
+dataset_b_005978,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005978.jpg,female,45.0,lower extremity
+dataset_b_007825,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007825.jpg,male,50.0,lower extremity
+dataset_a_001667,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001667.jpg,male,67.0,back
+dataset_b_004323,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004323.jpg,female,35.0,lower extremity
+dataset_b_011814,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011814.jpg,male,35.0,upper extremity
+dataset_b_011993,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_011993.jpg,male,65.0,lower extremity
+dataset_b_007662,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007662.jpg,male,80.0,abdomen
+dataset_b_011990,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_011990.jpg,male,80.0,face
+dataset_a_001967,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001967.jpg,male,54.0,chest
+dataset_b_007990,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007990.jpg,female,45.0,trunk
+dataset_b_009781,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009781.jpg,male,70.0,back
+dataset_b_011778,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011778.jpg,female,20.0,lower extremity
+dataset_b_010783,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010783.jpg,female,50.0,back
+dataset_b_009112,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009112.jpg,male,35.0,foot
+dataset_a_000448,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000448.jpg,male,64.0,face
+dataset_b_010908,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010908.jpg,female,70.0,back
+dataset_a_001797,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001797.jpg,male,69.0,face
+dataset_a_001150,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001150.jpg,female,71.0,nose
+dataset_a_001961,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001961.jpg,,61.0,thigh
+dataset_a_000329,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000329.jpg,female,57.0,forearm
+dataset_b_007975,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007975.jpg,male,50.0,foot
+dataset_b_004159,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004159.jpg,female,75.0,back
+dataset_b_004551,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004551.jpg,male,65.0,upper extremity
+dataset_b_007794,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007794.jpg,female,50.0,trunk
+dataset_b_004923,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004923.jpg,male,70.0,face
+dataset_a_001894,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001894.jpg,male,84.0,face
+dataset_b_008205,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008205.jpg,female,25.0,upper extremity
+dataset_b_007438,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007438.jpg,male,45.0,lower extremity
+dataset_a_001217,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001217.jpg,,65.0,forearm
+dataset_b_005155,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005155.jpg,male,80.0,back
+dataset_b_012163,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012163.jpg,male,85.0,upper extremity
+dataset_a_001920,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001920.jpg,,38.0,back
+dataset_b_004258,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004258.jpg,female,75.0,back
+dataset_b_008454,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008454.jpg,male,40.0,back
+dataset_b_008936,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008936.jpg,female,35.0,back
+dataset_b_011866,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011866.jpg,female,40.0,unknown
+dataset_b_007462,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007462.jpg,male,35.0,lower extremity
+dataset_b_007756,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007756.jpg,female,40.0,lower extremity
+dataset_b_005402,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005402.jpg,male,75.0,trunk
+dataset_b_008808,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008808.jpg,male,70.0,abdomen
+dataset_b_009620,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009620.jpg,male,35.0,upper extremity
+dataset_b_004273,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004273.jpg,male,75.0,upper extremity
+dataset_b_011137,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011137.jpg,female,45.0,lower extremity
+dataset_b_006061,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006061.jpg,male,5.0,abdomen
+dataset_a_000295,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000295.jpg,male,57.0,back
+dataset_a_002071,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002071.jpg,female,66.0,chest
+dataset_a_000607,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000607.jpg,,54.0,forearm
+dataset_b_011434,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011434.jpg,female,30.0,back
+dataset_b_007398,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007398.jpg,female,45.0,back
+dataset_a_001913,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001913.jpg,,40.0,chest
+dataset_b_012189,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012189.jpg,male,60.0,back
+dataset_b_010100,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010100.jpg,male,70.0,back
+dataset_a_001167,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001167.jpg,female,39.0,foot
+dataset_a_000116,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000116.jpg,female,41.0,nose
+dataset_b_008991,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008991.jpg,female,10.0,back
+dataset_b_007751,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007751.jpg,female,40.0,lower extremity
+dataset_b_004883,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004883.jpg,male,75.0,back
+dataset_b_003990,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003990.jpg,female,60.0,lower extremity
+dataset_b_009037,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009037.jpg,female,50.0,upper extremity
+dataset_b_006705,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006705.jpg,female,45.0,abdomen
+dataset_a_000684,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000684.jpg,male,54.0,face
+dataset_b_006936,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006936.jpg,male,45.0,foot
+dataset_b_010599,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010599.jpg,male,35.0,upper extremity
+dataset_b_004904,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004904.jpg,male,75.0,abdomen
+dataset_b_004861,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004861.jpg,male,40.0,back
+dataset_a_001327,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001327.jpg,female,52.0,face
+dataset_b_003855,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003855.jpg,male,30.0,trunk
+dataset_b_004389,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004389.jpg,male,75.0,chest
+dataset_b_006578,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006578.jpg,male,50.0,trunk
+dataset_b_004928,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004928.jpg,male,45.0,abdomen
+dataset_b_006387,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006387.jpg,male,40.0,lower extremity
+dataset_b_009706,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009706.jpg,female,45.0,back
+dataset_b_003569,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003569.jpg,female,65.0,scalp
+dataset_b_005594,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005594.jpg,male,45.0,back
+dataset_b_010618,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010618.jpg,male,65.0,upper extremity
+dataset_a_002192,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002192.jpg,female,89.0,chest
+dataset_b_010519,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010519.jpg,female,25.0,abdomen
+dataset_b_005241,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005241.jpg,female,60.0,back
+dataset_a_002042,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002042.jpg,,71.0,forearm
+dataset_b_005567,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005567.jpg,male,50.0,lower extremity
+dataset_a_001053,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001053.jpg,female,78.0,hand
+dataset_a_001381,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001381.jpg,male,33.0,chest
+dataset_b_008427,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008427.jpg,male,35.0,abdomen
+dataset_a_001156,dataset_a,MEL,1,test,images/test/MEL/dataset_a_001156.jpg,female,66.0,forearm
+dataset_b_010039,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010039.jpg,female,30.0,lower extremity
+dataset_b_010157,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010157.jpg,female,15.0,lower extremity
+dataset_b_008641,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008641.jpg,male,60.0,trunk
+dataset_a_000092,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000092.jpg,female,67.0,nose
+dataset_b_011052,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011052.jpg,female,55.0,lower extremity
+dataset_b_011038,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011038.jpg,male,45.0,lower extremity
+dataset_b_004508,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004508.jpg,female,75.0,upper extremity
+dataset_b_003978,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003978.jpg,male,75.0,foot
+dataset_a_001132,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001132.jpg,,51.0,forearm
+dataset_b_011865,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011865.jpg,female,40.0,unknown
+dataset_b_007466,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007466.jpg,male,35.0,back
+dataset_b_006569,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006569.jpg,female,75.0,upper extremity
+dataset_a_001923,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001923.jpg,female,78.0,face
+dataset_b_007623,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007623.jpg,male,50.0,trunk
+dataset_b_005120,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005120.jpg,male,80.0,upper extremity
+dataset_b_008436,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008436.jpg,male,45.0,abdomen
+dataset_b_010504,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010504.jpg,male,35.0,back
+dataset_b_006715,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006715.jpg,male,45.0,lower extremity
+dataset_b_009701,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009701.jpg,male,70.0,chest
+dataset_a_000385,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000385.jpg,male,65.0,neck
+dataset_b_010027,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010027.jpg,male,55.0,upper extremity
+dataset_b_004063,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004063.jpg,male,45.0,back
+dataset_b_011394,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011394.jpg,female,65.0,back
+dataset_b_008625,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008625.jpg,female,35.0,lower extremity
+dataset_a_000637,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000637.jpg,,67.0,forearm
+dataset_b_003717,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003717.jpg,male,75.0,abdomen
+dataset_b_008164,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008164.jpg,female,50.0,trunk
+dataset_a_001704,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001704.jpg,female,53.0,neck
+dataset_b_011258,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011258.jpg,female,30.0,back
+dataset_a_001852,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001852.jpg,female,64.0,face
+dataset_b_007149,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007149.jpg,female,50.0,trunk
+dataset_a_000849,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000849.jpg,female,36.0,back
+dataset_b_005114,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005114.jpg,female,65.0,face
+dataset_a_001039,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001039.jpg,female,59.0,arm
+dataset_a_001477,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001477.jpg,,74.0,hand
+dataset_a_000581,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000581.jpg,female,56.0,chest
+dataset_b_005305,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005305.jpg,male,50.0,back
+dataset_b_008725,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008725.jpg,male,50.0,trunk
+dataset_b_008648,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008648.jpg,female,30.0,abdomen
+dataset_b_007904,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007904.jpg,female,55.0,abdomen
+dataset_b_009928,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009928.jpg,male,70.0,chest
+dataset_a_002294,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002294.jpg,female,55.0,chest
+dataset_a_002228,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002228.jpg,male,45.0,neck
+dataset_b_012062,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012062.jpg,female,55.0,hand
+dataset_b_009543,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009543.jpg,female,30.0,back
+dataset_a_001345,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001345.jpg,male,67.0,forearm
+dataset_b_009116,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009116.jpg,male,75.0,back
+dataset_b_011692,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011692.jpg,male,80.0,upper extremity
+dataset_a_000714,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000714.jpg,,75.0,face
+dataset_b_004840,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004840.jpg,female,65.0,upper extremity
+dataset_b_007829,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007829.jpg,male,50.0,lower extremity
+dataset_b_011668,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011668.jpg,female,55.0,lower extremity
+dataset_b_009695,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009695.jpg,male,40.0,back
+dataset_b_006335,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006335.jpg,male,80.0,back
+dataset_b_007522,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007522.jpg,male,50.0,abdomen
+dataset_b_010752,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010752.jpg,male,60.0,back
+dataset_a_002058,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002058.jpg,female,66.0,arm
+dataset_b_011337,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011337.jpg,male,35.0,hand
+dataset_b_003856,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003856.jpg,male,75.0,face
+dataset_b_004900,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004900.jpg,female,75.0,face
+dataset_b_004126,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004126.jpg,male,85.0,trunk
+dataset_b_009996,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009996.jpg,female,40.0,back
+dataset_b_007952,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007952.jpg,female,45.0,lower extremity
+dataset_b_009266,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009266.jpg,male,40.0,back
+dataset_b_008755,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008755.jpg,female,40.0,trunk
+dataset_b_007017,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007017.jpg,male,60.0,lower extremity
+dataset_b_006008,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006008.jpg,male,55.0,upper extremity
+dataset_b_003998,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003998.jpg,male,70.0,upper extremity
+dataset_b_008799,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008799.jpg,female,35.0,back
+dataset_b_009344,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009344.jpg,female,65.0,back
+dataset_b_003806,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003806.jpg,female,25.0,lower extremity
+dataset_b_010665,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010665.jpg,female,35.0,abdomen
+dataset_b_008527,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008527.jpg,female,45.0,trunk
+dataset_b_007532,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007532.jpg,male,60.0,upper extremity
+dataset_b_008590,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008590.jpg,male,65.0,back
+dataset_b_011964,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011964.jpg,female,50.0,chest
+dataset_b_011037,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011037.jpg,female,40.0,lower extremity
+dataset_b_003605,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003605.jpg,male,75.0,trunk
+dataset_b_005542,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005542.jpg,male,50.0,trunk
+dataset_b_006903,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006903.jpg,female,40.0,lower extremity
+dataset_b_009135,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009135.jpg,male,45.0,upper extremity
+dataset_a_000028,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000028.jpg,male,64.0,face
+dataset_b_007993,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007993.jpg,female,45.0,back
+dataset_b_008389,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008389.jpg,male,25.0,trunk
+dataset_b_010218,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010218.jpg,female,45.0,back
+dataset_b_006943,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006943.jpg,female,40.0,upper extremity
+dataset_b_008266,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008266.jpg,male,40.0,lower extremity
+dataset_b_011500,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011500.jpg,male,85.0,back
+dataset_b_010291,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010291.jpg,female,30.0,back
+dataset_a_000651,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000651.jpg,female,50.0,foot
+dataset_b_008417,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008417.jpg,male,40.0,lower extremity
+dataset_b_008241,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008241.jpg,female,50.0,back
+dataset_b_005825,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005825.jpg,female,40.0,back
+dataset_b_011082,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011082.jpg,male,75.0,back
+dataset_a_000744,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000744.jpg,,45.0,arm
+dataset_b_011488,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011488.jpg,female,45.0,chest
+dataset_b_007323,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007323.jpg,female,55.0,lower extremity
+dataset_b_007459,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007459.jpg,male,35.0,upper extremity
+dataset_b_010019,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010019.jpg,female,30.0,upper extremity
+dataset_b_005171,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005171.jpg,male,65.0,face
+dataset_b_006830,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006830.jpg,female,45.0,back
+dataset_b_006287,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006287.jpg,male,55.0,upper extremity
+dataset_a_001031,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001031.jpg,female,55.0,nose
+dataset_b_003805,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003805.jpg,female,25.0,lower extremity
+dataset_b_005644,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005644.jpg,female,50.0,abdomen
+dataset_b_009175,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009175.jpg,male,30.0,back
+dataset_a_000032,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000032.jpg,,52.0,face
+dataset_a_000529,dataset_a,MEL,1,test,images/test/MEL/dataset_a_000529.jpg,female,49.0,thigh
+dataset_b_006734,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006734.jpg,male,60.0,trunk
+dataset_b_006093,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006093.jpg,female,35.0,lower extremity
+dataset_a_001226,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001226.jpg,male,54.0,chest
+dataset_b_009364,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009364.jpg,male,45.0,foot
+dataset_b_008095,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008095.jpg,male,35.0,back
+dataset_b_004805,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004805.jpg,female,40.0,trunk
+dataset_b_007901,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007901.jpg,male,40.0,lower extremity
+dataset_b_010222,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010222.jpg,male,65.0,upper extremity
+dataset_a_002121,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002121.jpg,female,73.0,face
+dataset_a_002270,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002270.jpg,male,70.0,forearm
+dataset_a_000811,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000811.jpg,,77.0,forearm
+dataset_b_004086,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004086.jpg,male,40.0,upper extremity
+dataset_b_005587,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005587.jpg,male,45.0,abdomen
+dataset_b_003574,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003574.jpg,male,65.0,back
+dataset_a_000864,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000864.jpg,female,20.0,back
+dataset_b_007793,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007793.jpg,female,50.0,back
+dataset_b_005914,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005914.jpg,female,20.0,upper extremity
+dataset_a_001830,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001830.jpg,,30.0,thigh
+dataset_b_004191,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004191.jpg,female,50.0,face
+dataset_b_010965,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010965.jpg,male,20.0,lower extremity
+dataset_b_012197,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012197.jpg,female,75.0,lower extremity
+dataset_a_001022,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001022.jpg,male,78.0,face
+dataset_b_006052,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006052.jpg,female,35.0,abdomen
+dataset_b_011465,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011465.jpg,male,35.0,abdomen
+dataset_a_002036,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002036.jpg,,47.0,nose
+dataset_b_008703,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008703.jpg,male,45.0,upper extremity
+dataset_b_011788,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011788.jpg,male,30.0,back
+dataset_b_006215,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006215.jpg,female,50.0,trunk
+dataset_a_001984,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001984.jpg,female,60.0,nose
+dataset_a_000105,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000105.jpg,male,52.0,face
+dataset_b_006931,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006931.jpg,male,45.0,back
+dataset_a_000201,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000201.jpg,male,58.0,face
+dataset_b_008335,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008335.jpg,male,40.0,back
+dataset_b_005888,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005888.jpg,female,50.0,lower extremity
+dataset_b_008933,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008933.jpg,female,35.0,trunk
+dataset_a_001722,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001722.jpg,female,80.0,nose
+dataset_b_009161,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009161.jpg,female,35.0,unknown
+dataset_a_000669,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000669.jpg,,56.0,chest
+dataset_b_009796,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009796.jpg,male,70.0,chest
+dataset_b_010733,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010733.jpg,female,50.0,upper extremity
+dataset_b_010860,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010860.jpg,female,35.0,hand
+dataset_b_010446,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010446.jpg,male,40.0,foot
+dataset_b_008838,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008838.jpg,female,40.0,abdomen
+dataset_b_003971,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003971.jpg,female,55.0,lower extremity
+dataset_a_001116,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001116.jpg,,37.0,back
+dataset_b_010846,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010846.jpg,female,25.0,chest
+dataset_b_003560,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003560.jpg,male,50.0,abdomen
+dataset_b_011997,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_011997.jpg,female,80.0,upper extremity
+dataset_b_010813,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010813.jpg,female,70.0,back
+dataset_b_010635,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010635.jpg,male,35.0,lower extremity
+dataset_a_002057,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002057.jpg,,65.0,forearm
+dataset_a_001993,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001993.jpg,male,48.0,face
+dataset_b_011196,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011196.jpg,male,40.0,neck
+dataset_b_004997,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004997.jpg,male,60.0,neck
+dataset_a_000509,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000509.jpg,,77.0,face
+dataset_b_006596,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006596.jpg,female,55.0,lower extremity
+dataset_a_000355,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000355.jpg,female,57.0,neck
+dataset_a_001697,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001697.jpg,female,83.0,back
+dataset_a_000822,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000822.jpg,male,81.0,arm
+dataset_b_003691,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003691.jpg,male,85.0,back
+dataset_a_001872,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001872.jpg,male,51.0,chest
+dataset_b_010899,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010899.jpg,female,20.0,back
+dataset_b_010623,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010623.jpg,female,15.0,back
+dataset_a_002137,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002137.jpg,,83.0,arm
+dataset_b_003823,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003823.jpg,male,70.0,abdomen
+dataset_a_001588,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001588.jpg,,54.0,chest
+dataset_b_009486,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009486.jpg,male,70.0,abdomen
+dataset_b_006261,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006261.jpg,male,65.0,back
+dataset_b_008228,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008228.jpg,male,30.0,upper extremity
+dataset_a_001159,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001159.jpg,,47.0,abdomen
+dataset_b_011446,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011446.jpg,female,55.0,upper extremity
+dataset_b_008574,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008574.jpg,male,35.0,upper extremity
+dataset_b_010081,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010081.jpg,female,25.0,face
+dataset_b_004490,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004490.jpg,female,70.0,upper extremity
+dataset_b_010234,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010234.jpg,female,45.0,lower extremity
+dataset_b_007358,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007358.jpg,male,40.0,trunk
+dataset_b_005913,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005913.jpg,female,65.0,upper extremity
+dataset_b_010086,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010086.jpg,female,40.0,trunk
+dataset_b_005804,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005804.jpg,male,35.0,lower extremity
+dataset_b_009338,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009338.jpg,female,65.0,upper extremity
+dataset_b_011383,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011383.jpg,male,70.0,chest
+dataset_b_006580,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006580.jpg,male,50.0,lower extremity
+dataset_b_007856,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007856.jpg,male,40.0,trunk
+dataset_b_003996,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003996.jpg,female,45.0,upper extremity
+dataset_b_006503,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006503.jpg,male,80.0,trunk
+dataset_a_000675,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000675.jpg,,77.0,face
+dataset_b_009686,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009686.jpg,female,30.0,lower extremity
+dataset_b_006975,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006975.jpg,female,50.0,trunk
+dataset_b_010461,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010461.jpg,male,85.0,back
+dataset_b_011519,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011519.jpg,male,5.0,upper extremity
+dataset_b_011358,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011358.jpg,female,50.0,upper extremity
+dataset_b_007924,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007924.jpg,female,40.0,trunk
+dataset_a_001238,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001238.jpg,,46.0,chest
+dataset_b_004493,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004493.jpg,male,60.0,back
+dataset_b_005608,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005608.jpg,female,45.0,lower extremity
+dataset_b_008793,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008793.jpg,male,65.0,abdomen
+dataset_b_010810,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010810.jpg,female,50.0,back
+dataset_b_007279,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007279.jpg,female,25.0,lower extremity
+dataset_b_005998,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005998.jpg,male,60.0,trunk
+dataset_b_003588,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003588.jpg,male,50.0,abdomen
+dataset_a_000067,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000067.jpg,male,63.0,chest
+dataset_a_002263,dataset_a,NEV,0,test,images/test/NEV/dataset_a_002263.jpg,,23.0,face
+dataset_b_011001,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011001.jpg,male,75.0,back
+dataset_b_008000,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008000.jpg,male,40.0,abdomen
+dataset_b_005257,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005257.jpg,male,60.0,abdomen
+dataset_b_005518,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005518.jpg,female,25.0,lower extremity
+dataset_b_003521,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003521.jpg,female,85.0,lower extremity
+dataset_b_008102,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008102.jpg,female,35.0,trunk
+dataset_b_003618,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003618.jpg,male,85.0,face
+dataset_b_011678,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011678.jpg,male,70.0,foot
+dataset_b_007645,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007645.jpg,male,35.0,upper extremity
+dataset_b_008299,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008299.jpg,male,55.0,lower extremity
+dataset_b_011965,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011965.jpg,male,55.0,upper extremity
+dataset_b_004281,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004281.jpg,female,50.0,upper extremity
+dataset_b_007324,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007324.jpg,female,55.0,lower extremity
+dataset_a_000384,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000384.jpg,,63.0,forearm
+dataset_b_007490,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007490.jpg,female,45.0,lower extremity
+dataset_b_009961,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009961.jpg,female,35.0,foot
+dataset_b_012214,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012214.jpg,male,70.0,upper extremity
+dataset_b_003688,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003688.jpg,male,85.0,face
+dataset_b_010680,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010680.jpg,female,30.0,chest
+dataset_b_007081,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007081.jpg,male,55.0,lower extremity
+dataset_b_004187,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004187.jpg,female,45.0,back
+dataset_a_000489,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000489.jpg,,47.0,face
+dataset_b_011808,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011808.jpg,male,70.0,upper extremity
+dataset_b_005095,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005095.jpg,female,70.0,lower extremity
+dataset_b_005932,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005932.jpg,male,40.0,lower extremity
+dataset_b_011095,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011095.jpg,female,30.0,abdomen
+dataset_b_006842,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006842.jpg,male,35.0,lower extremity
+dataset_a_001932,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001932.jpg,female,13.0,thigh
+dataset_b_005898,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005898.jpg,female,20.0,neck
+dataset_b_009551,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009551.jpg,male,40.0,upper extremity
+dataset_b_003919,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003919.jpg,male,80.0,face
+dataset_b_005326,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005326.jpg,male,45.0,trunk
+dataset_b_009872,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009872.jpg,female,35.0,back
+dataset_b_007570,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007570.jpg,male,40.0,upper extremity
+dataset_b_005376,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005376.jpg,male,55.0,lower extremity
+dataset_b_007892,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007892.jpg,female,55.0,lower extremity
+dataset_b_011898,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011898.jpg,unknown,,unknown
+dataset_b_005516,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005516.jpg,female,25.0,neck
+dataset_a_002123,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002123.jpg,,76.0,chest
+dataset_a_000960,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000960.jpg,female,75.0,forearm
+dataset_b_007359,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007359.jpg,male,40.0,foot
+dataset_b_007269,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007269.jpg,male,35.0,lower extremity
+dataset_b_006847,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006847.jpg,male,45.0,abdomen
+dataset_b_011436,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011436.jpg,male,60.0,abdomen
+dataset_b_010602,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010602.jpg,male,25.0,chest
+dataset_b_003764,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003764.jpg,female,70.0,lower extremity
+dataset_b_008506,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008506.jpg,female,30.0,lower extremity
+dataset_b_005920,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005920.jpg,male,40.0,chest
+dataset_b_005133,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005133.jpg,female,65.0,hand
+dataset_a_000886,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000886.jpg,female,72.0,hand
+dataset_b_009770,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009770.jpg,male,50.0,lower extremity
+dataset_b_008414,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008414.jpg,male,40.0,abdomen
+dataset_b_005042,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005042.jpg,male,65.0,back
+dataset_a_001940,dataset_a,MEL,1,test,images/test/MEL/dataset_a_001940.jpg,female,45.0,arm
+dataset_b_011537,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011537.jpg,female,30.0,abdomen
+dataset_b_007146,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007146.jpg,female,50.0,neck
+dataset_b_006654,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006654.jpg,male,60.0,trunk
+dataset_b_009886,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009886.jpg,female,40.0,lower extremity
+dataset_b_010307,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010307.jpg,male,65.0,back
+dataset_b_007697,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007697.jpg,female,65.0,lower extremity
+dataset_b_010127,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010127.jpg,female,20.0,chest
+dataset_b_009546,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009546.jpg,female,20.0,abdomen
+dataset_b_009262,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009262.jpg,male,55.0,back
+dataset_a_000443,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000443.jpg,,55.0,forearm
+dataset_b_008628,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008628.jpg,female,35.0,foot
+dataset_b_007030,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007030.jpg,female,50.0,lower extremity
+dataset_b_006919,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006919.jpg,male,45.0,lower extremity
+dataset_b_012146,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012146.jpg,male,75.0,chest
+dataset_b_010474,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010474.jpg,male,30.0,chest
+dataset_b_007378,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007378.jpg,female,50.0,abdomen
+dataset_b_009937,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009937.jpg,male,20.0,chest
+dataset_b_010708,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010708.jpg,female,,abdomen
+dataset_b_008880,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008880.jpg,female,35.0,back
+dataset_b_010611,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010611.jpg,female,20.0,back
+dataset_b_005695,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005695.jpg,female,25.0,upper extremity
+dataset_b_006801,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006801.jpg,female,40.0,upper extremity
+dataset_b_005023,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005023.jpg,male,85.0,back
+dataset_a_000082,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000082.jpg,male,83.0,chest
+dataset_b_011747,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011747.jpg,male,35.0,unknown
+dataset_b_004356,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004356.jpg,male,65.0,face
+dataset_b_006280,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006280.jpg,female,60.0,foot
+dataset_b_011611,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011611.jpg,female,85.0,back
+dataset_b_009237,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009237.jpg,female,15.0,neck
+dataset_a_000100,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000100.jpg,,60.0,arm
+dataset_b_007321,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007321.jpg,female,55.0,trunk
+dataset_b_012307,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012307.jpg,female,75.0,lower extremity
+dataset_b_004566,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004566.jpg,female,80.0,lower extremity
+dataset_a_000330,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000330.jpg,female,88.0,ear
+dataset_b_012241,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012241.jpg,female,55.0,face
+dataset_a_001254,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001254.jpg,male,34.0,back
+dataset_b_011602,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011602.jpg,female,10.0,upper extremity
+dataset_b_011685,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011685.jpg,male,,foot
+dataset_a_002111,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002111.jpg,female,32.0,back
+dataset_b_004991,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004991.jpg,female,75.0,back
+dataset_a_002205,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002205.jpg,female,73.0,forearm
+dataset_b_010716,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010716.jpg,male,35.0,lower extremity
+dataset_b_004839,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004839.jpg,female,65.0,upper extremity
+dataset_b_008220,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008220.jpg,male,45.0,trunk
+dataset_b_003818,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003818.jpg,female,80.0,face
+dataset_b_010277,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010277.jpg,male,55.0,unknown
+dataset_b_012179,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012179.jpg,female,40.0,chest
+dataset_b_011027,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011027.jpg,female,60.0,lower extremity
+dataset_b_007895,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007895.jpg,female,55.0,lower extremity
+dataset_b_011253,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011253.jpg,male,55.0,chest
+dataset_b_010841,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010841.jpg,male,45.0,back
+dataset_b_006777,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006777.jpg,female,60.0,trunk
+dataset_b_004322,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004322.jpg,male,45.0,foot
+dataset_b_008049,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008049.jpg,female,40.0,trunk
+dataset_b_011501,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011501.jpg,male,85.0,back
+dataset_b_006298,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006298.jpg,male,80.0,lower extremity
+dataset_b_011074,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011074.jpg,male,60.0,abdomen
+dataset_b_011285,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011285.jpg,female,45.0,abdomen
+dataset_b_008925,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008925.jpg,male,50.0,lower extremity
+dataset_b_011051,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011051.jpg,male,40.0,back
+dataset_b_011934,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011934.jpg,male,10.0,unknown
+dataset_b_004545,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004545.jpg,male,65.0,back
+dataset_a_000072,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000072.jpg,,60.0,arm
+dataset_b_010197,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010197.jpg,female,35.0,trunk
+dataset_b_008728,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008728.jpg,male,50.0,trunk
+dataset_b_004379,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004379.jpg,male,80.0,neck
+dataset_b_003863,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003863.jpg,male,55.0,lower extremity
+dataset_b_008594,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008594.jpg,male,60.0,abdomen
+dataset_b_004401,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004401.jpg,male,70.0,abdomen
+dataset_b_007867,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007867.jpg,male,45.0,back
+dataset_b_006476,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006476.jpg,female,40.0,back
+dataset_b_011535,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011535.jpg,female,5.0,foot
+dataset_a_000929,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000929.jpg,male,46.0,chest
+dataset_b_007902,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007902.jpg,male,40.0,lower extremity
+dataset_b_010405,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010405.jpg,female,30.0,abdomen
+dataset_b_005272,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005272.jpg,female,40.0,abdomen
+dataset_b_012272,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012272.jpg,female,75.0,lower extremity
+dataset_b_005414,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005414.jpg,female,50.0,trunk
+dataset_b_006838,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006838.jpg,male,35.0,lower extremity
+dataset_b_007187,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007187.jpg,male,40.0,abdomen
+dataset_b_011641,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011641.jpg,female,15.0,lower extremity
+dataset_b_012111,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012111.jpg,male,45.0,back
+dataset_b_005159,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005159.jpg,female,80.0,foot
+dataset_a_000021,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000021.jpg,male,61.0,chest
+dataset_b_007172,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007172.jpg,female,55.0,trunk
+dataset_b_011600,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011600.jpg,male,0.0,foot
+dataset_b_008651,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008651.jpg,female,30.0,back
+dataset_b_007071,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007071.jpg,male,60.0,upper extremity
+dataset_b_011880,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011880.jpg,female,40.0,unknown
+dataset_b_007580,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007580.jpg,male,40.0,lower extremity
+dataset_b_010001,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010001.jpg,female,35.0,foot
+dataset_b_009892,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009892.jpg,female,50.0,foot
+dataset_a_000287,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000287.jpg,,67.0,forearm
+dataset_b_007334,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007334.jpg,female,60.0,lower extremity
+dataset_b_011689,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011689.jpg,male,25.0,neck
+dataset_b_009787,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009787.jpg,female,40.0,back
+dataset_b_008961,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008961.jpg,female,45.0,trunk
+dataset_b_009355,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009355.jpg,female,60.0,foot
+dataset_b_011033,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011033.jpg,female,75.0,foot
+dataset_b_007066,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007066.jpg,male,60.0,abdomen
+dataset_b_011868,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011868.jpg,female,40.0,unknown
+dataset_b_004222,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004222.jpg,male,80.0,upper extremity
+dataset_b_011238,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011238.jpg,male,65.0,back
+dataset_b_004617,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004617.jpg,male,65.0,back
+dataset_b_008853,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008853.jpg,male,50.0,trunk
+dataset_b_007048,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007048.jpg,male,50.0,lower extremity
+dataset_b_005148,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005148.jpg,male,85.0,back
+dataset_b_003979,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003979.jpg,male,75.0,back
+dataset_b_004142,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004142.jpg,male,55.0,neck
+dataset_b_007129,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007129.jpg,female,55.0,upper extremity
+dataset_b_009067,dataset_b,MEL,1,test,images/test/MEL/dataset_b_009067.jpg,male,25.0,upper extremity
+dataset_b_004413,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004413.jpg,male,45.0,lower extremity
+dataset_a_001273,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001273.jpg,male,54.0,face
+dataset_b_007023,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007023.jpg,male,50.0,lower extremity
+dataset_b_006942,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006942.jpg,female,50.0,unknown
+dataset_b_012134,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012134.jpg,male,70.0,scalp
+dataset_b_009218,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009218.jpg,female,30.0,back
+dataset_b_009243,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009243.jpg,female,60.0,chest
+dataset_a_000601,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000601.jpg,,54.0,face
+dataset_b_010223,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010223.jpg,male,65.0,upper extremity
+dataset_b_009212,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009212.jpg,male,70.0,back
+dataset_b_010710,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010710.jpg,female,50.0,lower extremity
+dataset_b_008878,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008878.jpg,female,35.0,lower extremity
+dataset_b_011594,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011594.jpg,female,65.0,lower extremity
+dataset_b_009788,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009788.jpg,male,40.0,lower extremity
+dataset_b_012212,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012212.jpg,male,60.0,face
+dataset_b_011365,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011365.jpg,female,25.0,lower extremity
+dataset_b_010367,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010367.jpg,male,25.0,back
+dataset_b_010720,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010720.jpg,female,35.0,abdomen
+dataset_b_006603,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006603.jpg,female,50.0,trunk
+dataset_b_011518,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011518.jpg,male,5.0,upper extremity
+dataset_b_010955,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010955.jpg,male,30.0,chest
+dataset_b_003648,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003648.jpg,male,60.0,back
+dataset_b_007966,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007966.jpg,male,50.0,lower extremity
+dataset_b_003644,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003644.jpg,male,80.0,back
+dataset_b_007635,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007635.jpg,male,35.0,upper extremity
+dataset_b_005384,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005384.jpg,male,45.0,genital
+dataset_b_003864,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003864.jpg,male,55.0,lower extremity
+dataset_a_001049,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001049.jpg,,46.0,abdomen
+dataset_b_010779,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010779.jpg,female,55.0,foot
+dataset_b_009897,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009897.jpg,male,65.0,lower extremity
+dataset_a_000844,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000844.jpg,,46.0,neck
+dataset_b_011654,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011654.jpg,male,0.0,foot
+dataset_b_008692,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008692.jpg,male,35.0,foot
+dataset_b_011088,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011088.jpg,male,70.0,chest
+dataset_b_005306,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005306.jpg,male,50.0,lower extremity
+dataset_b_010397,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010397.jpg,female,35.0,lower extremity
+dataset_b_005983,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005983.jpg,male,50.0,lower extremity
+dataset_b_011303,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011303.jpg,male,70.0,back
+dataset_b_008014,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008014.jpg,female,50.0,upper extremity
+dataset_b_005944,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005944.jpg,female,45.0,abdomen
+dataset_b_003759,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003759.jpg,female,40.0,upper extremity
+dataset_b_005886,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005886.jpg,female,50.0,upper extremity
+dataset_b_010090,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010090.jpg,female,35.0,back
+dataset_b_008403,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008403.jpg,female,45.0,trunk
+dataset_b_008670,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008670.jpg,female,30.0,trunk
+dataset_b_011629,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011629.jpg,male,30.0,foot
+dataset_b_007124,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007124.jpg,female,55.0,trunk
+dataset_b_009835,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009835.jpg,female,40.0,lower extremity
+dataset_b_006719,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006719.jpg,male,45.0,trunk
+dataset_b_012147,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012147.jpg,male,60.0,lower extremity
+dataset_b_011185,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011185.jpg,male,40.0,abdomen
+dataset_b_011314,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011314.jpg,male,55.0,back
+dataset_b_009717,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009717.jpg,male,40.0,back
+dataset_b_005960,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005960.jpg,female,50.0,trunk
+dataset_b_005117,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005117.jpg,male,55.0,back
+dataset_b_004865,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004865.jpg,male,85.0,face
+dataset_b_012112,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012112.jpg,male,45.0,back
+dataset_b_005627,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005627.jpg,female,45.0,trunk
+dataset_b_006117,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006117.jpg,female,50.0,unknown
+dataset_b_003921,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003921.jpg,female,50.0,back
+dataset_b_007015,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007015.jpg,male,60.0,trunk
+dataset_a_000442,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000442.jpg,male,67.0,forearm
+dataset_b_009044,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009044.jpg,male,55.0,face
+dataset_b_003812,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003812.jpg,male,70.0,chest
+dataset_b_008383,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008383.jpg,male,30.0,trunk
+dataset_b_005369,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005369.jpg,male,55.0,trunk
+dataset_b_006690,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006690.jpg,male,45.0,trunk
+dataset_b_003685,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003685.jpg,female,85.0,face
+dataset_b_003953,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003953.jpg,male,85.0,back
+dataset_b_006057,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006057.jpg,female,45.0,foot
+dataset_b_007208,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007208.jpg,male,50.0,upper extremity
+dataset_b_007130,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007130.jpg,female,55.0,upper extremity
+dataset_b_008371,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008371.jpg,female,65.0,trunk
+dataset_b_004899,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004899.jpg,male,50.0,lower extremity
+dataset_b_008261,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008261.jpg,male,55.0,back
+dataset_b_004953,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004953.jpg,male,65.0,neck
+dataset_b_008431,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008431.jpg,male,35.0,foot
+dataset_a_000425,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000425.jpg,female,62.0,face
+dataset_b_008443,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008443.jpg,male,45.0,back
+dataset_b_009586,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009586.jpg,female,40.0,scalp
+dataset_b_009046,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009046.jpg,female,30.0,face
+dataset_a_002165,dataset_a,NEV,0,test,images/test/NEV/dataset_a_002165.jpg,,35.0,face
+dataset_b_003673,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003673.jpg,female,70.0,back
+dataset_b_005719,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005719.jpg,female,40.0,abdomen
+dataset_b_005298,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005298.jpg,male,50.0,lower extremity
+dataset_a_000466,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000466.jpg,,62.0,neck
+dataset_b_005066,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005066.jpg,male,55.0,chest
+dataset_a_000502,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000502.jpg,,55.0,face
+dataset_b_004909,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004909.jpg,male,65.0,face
+dataset_b_006284,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006284.jpg,male,55.0,trunk
+dataset_a_002053,dataset_a,MEL,1,test,images/test/MEL/dataset_a_002053.jpg,male,65.0,arm
+dataset_b_009138,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009138.jpg,male,50.0,lower extremity
+dataset_a_001426,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001426.jpg,female,30.0,back
+dataset_b_009760,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009760.jpg,male,55.0,lower extremity
+dataset_b_007729,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007729.jpg,male,60.0,upper extremity
+dataset_b_009489,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009489.jpg,female,20.0,lower extremity
+dataset_b_007833,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007833.jpg,female,50.0,back
+dataset_b_008059,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008059.jpg,female,45.0,back
+dataset_a_002066,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002066.jpg,,79.0,forearm
+dataset_b_004917,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004917.jpg,female,60.0,face
+dataset_b_012050,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012050.jpg,female,80.0,face
+dataset_b_009560,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009560.jpg,male,25.0,back
+dataset_b_009812,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009812.jpg,female,15.0,lower extremity
+dataset_b_007970,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007970.jpg,female,35.0,lower extremity
+dataset_b_006818,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006818.jpg,male,55.0,abdomen
+dataset_b_006229,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006229.jpg,female,45.0,back
+dataset_b_008636,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008636.jpg,male,60.0,lower extremity
+dataset_a_001465,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001465.jpg,female,70.0,face
+dataset_b_004824,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004824.jpg,male,80.0,scalp
+dataset_b_005215,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005215.jpg,male,55.0,back
+dataset_b_009590,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009590.jpg,female,25.0,hand
+dataset_a_001724,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001724.jpg,,31.0,back
+dataset_b_008900,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008900.jpg,male,50.0,trunk
+dataset_b_006857,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006857.jpg,female,70.0,trunk
+dataset_b_005689,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005689.jpg,female,40.0,trunk
+dataset_b_003629,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003629.jpg,female,80.0,lower extremity
+dataset_b_006420,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006420.jpg,male,75.0,back
+dataset_a_001114,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001114.jpg,male,67.0,arm
+dataset_b_004869,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004869.jpg,male,55.0,upper extremity
+dataset_a_002028,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002028.jpg,female,48.0,arm
+dataset_b_007455,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007455.jpg,male,45.0,abdomen
+dataset_b_009956,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009956.jpg,male,50.0,abdomen
+dataset_a_001484,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001484.jpg,female,78.0,forearm
+dataset_a_002043,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002043.jpg,male,58.0,face
+dataset_b_010314,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010314.jpg,unknown,0.0,back
+dataset_b_003522,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003522.jpg,female,85.0,lower extremity
+dataset_b_007872,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007872.jpg,female,25.0,lower extremity
+dataset_b_009414,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009414.jpg,female,35.0,trunk
+dataset_b_004058,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004058.jpg,male,55.0,upper extremity
+dataset_a_000228,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000228.jpg,female,53.0,face
+dataset_b_006977,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006977.jpg,female,55.0,neck
+dataset_b_006695,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006695.jpg,female,35.0,back
+dataset_b_008091,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008091.jpg,male,45.0,back
+dataset_b_007874,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007874.jpg,male,85.0,trunk
+dataset_b_010163,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010163.jpg,female,30.0,trunk
+dataset_b_012023,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012023.jpg,female,70.0,face
+dataset_b_004227,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004227.jpg,male,85.0,chest
+dataset_b_007681,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007681.jpg,male,45.0,trunk
+dataset_b_010032,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010032.jpg,female,30.0,back
+dataset_b_011299,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011299.jpg,male,40.0,chest
+dataset_b_011301,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011301.jpg,female,70.0,abdomen
+dataset_b_010138,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010138.jpg,female,65.0,back
+dataset_b_008507,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008507.jpg,female,30.0,foot
+dataset_b_008777,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008777.jpg,female,35.0,lower extremity
+dataset_b_006264,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006264.jpg,male,65.0,trunk
+dataset_b_003677,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003677.jpg,male,65.0,back
+dataset_b_011542,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011542.jpg,male,10.0,upper extremity
+dataset_a_001377,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001377.jpg,male,27.0,thigh
+dataset_b_011004,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011004.jpg,male,60.0,back
+dataset_b_006634,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006634.jpg,female,75.0,abdomen
+dataset_a_001446,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001446.jpg,female,73.0,face
+dataset_a_000780,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000780.jpg,male,69.0,back
+dataset_b_004935,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004935.jpg,female,80.0,back
+dataset_b_012288,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012288.jpg,male,45.0,trunk
+dataset_b_011826,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011826.jpg,female,40.0,unknown
+dataset_b_010818,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010818.jpg,male,60.0,back
+dataset_b_010886,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010886.jpg,male,70.0,back
+dataset_b_008840,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008840.jpg,female,40.0,back
+dataset_b_011450,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011450.jpg,female,40.0,abdomen
+dataset_b_005636,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005636.jpg,female,75.0,lower extremity
+dataset_b_005526,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005526.jpg,male,55.0,abdomen
+dataset_b_009491,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009491.jpg,male,75.0,upper extremity
+dataset_b_007979,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007979.jpg,female,45.0,trunk
+dataset_b_004954,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004954.jpg,male,65.0,neck
+dataset_b_005665,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005665.jpg,male,55.0,abdomen
+dataset_b_008500,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008500.jpg,female,30.0,neck
+dataset_b_003877,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003877.jpg,male,65.0,foot
+dataset_b_008245,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008245.jpg,male,45.0,neck
+dataset_b_003659,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003659.jpg,female,45.0,lower extremity
+dataset_b_007215,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007215.jpg,female,40.0,abdomen
+dataset_a_002293,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002293.jpg,,73.0,hand
+dataset_b_008958,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008958.jpg,female,45.0,lower extremity
+dataset_a_002161,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002161.jpg,,46.0,face
+dataset_a_001886,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001886.jpg,female,59.0,forearm
+dataset_b_007509,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007509.jpg,female,50.0,abdomen
+dataset_b_008674,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008674.jpg,female,30.0,upper extremity
+dataset_b_009190,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009190.jpg,male,50.0,back
+dataset_b_007177,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007177.jpg,female,40.0,lower extremity
+dataset_b_005709,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005709.jpg,male,55.0,lower extremity
+dataset_b_008282,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008282.jpg,male,55.0,trunk
+dataset_a_001864,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001864.jpg,,51.0,hand
+dataset_a_000102,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000102.jpg,,45.0,face
+dataset_b_006724,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006724.jpg,male,70.0,lower extremity
+dataset_b_011861,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011861.jpg,female,40.0,unknown
+dataset_a_000846,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000846.jpg,male,34.0,abdomen
+dataset_b_012304,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012304.jpg,female,55.0,face
+dataset_b_006853,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006853.jpg,female,55.0,trunk
+dataset_b_010459,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010459.jpg,male,15.0,trunk
+dataset_a_001389,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001389.jpg,,53.0,thigh
+dataset_b_011124,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011124.jpg,male,80.0,abdomen
+dataset_b_009196,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009196.jpg,female,40.0,face
+dataset_a_001334,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001334.jpg,,37.0,back
+dataset_a_002193,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002193.jpg,male,71.0,arm
+dataset_b_012093,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012093.jpg,male,50.0,upper extremity
+dataset_b_005238,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005238.jpg,female,45.0,back
+dataset_a_000629,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000629.jpg,male,80.0,hand
+dataset_b_005101,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005101.jpg,female,55.0,back
+dataset_b_009093,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009093.jpg,male,70.0,hand
+dataset_b_005925,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005925.jpg,male,40.0,lower extremity
+dataset_b_009652,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009652.jpg,male,30.0,upper extremity
+dataset_b_004577,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004577.jpg,male,80.0,lower extremity
+dataset_b_009042,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009042.jpg,male,25.0,back
+dataset_b_006012,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006012.jpg,male,55.0,abdomen
+dataset_a_001007,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001007.jpg,female,41.0,back
+dataset_b_010349,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010349.jpg,male,25.0,trunk
+dataset_b_006254,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006254.jpg,female,65.0,lower extremity
+dataset_b_006997,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006997.jpg,female,50.0,back
+dataset_b_012049,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012049.jpg,male,60.0,lower extremity
+dataset_b_009034,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009034.jpg,male,70.0,foot
+dataset_b_005728,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005728.jpg,male,60.0,trunk
+dataset_b_010250,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010250.jpg,female,45.0,abdomen
+dataset_b_004079,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004079.jpg,male,55.0,lower extremity
+dataset_b_005600,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005600.jpg,female,45.0,upper extremity
+dataset_b_010321,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010321.jpg,unknown,45.0,abdomen
+dataset_b_004503,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004503.jpg,male,75.0,upper extremity
+dataset_b_010906,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010906.jpg,male,45.0,back
+dataset_b_007529,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007529.jpg,male,60.0,trunk
+dataset_b_009807,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009807.jpg,male,70.0,trunk
+dataset_b_008464,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008464.jpg,male,35.0,back
+dataset_b_008885,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008885.jpg,female,65.0,trunk
+dataset_b_010279,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010279.jpg,male,55.0,unknown
+dataset_b_008460,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008460.jpg,male,25.0,trunk
+dataset_b_003809,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003809.jpg,male,70.0,chest
+dataset_a_000926,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000926.jpg,male,68.0,forearm
+dataset_b_004402,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004402.jpg,male,60.0,lower extremity
+dataset_b_005625,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005625.jpg,female,45.0,back
+dataset_b_009353,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009353.jpg,female,15.0,upper extremity
+dataset_b_006785,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006785.jpg,female,55.0,genital
+dataset_b_006419,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006419.jpg,male,75.0,abdomen
+dataset_b_005974,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005974.jpg,female,45.0,genital
+dataset_b_009011,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009011.jpg,male,45.0,face
+dataset_b_011751,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011751.jpg,male,35.0,unknown
+dataset_b_004467,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004467.jpg,male,35.0,back
+dataset_a_000721,dataset_a,NEV,0,test,images/test/NEV/dataset_a_000721.jpg,male,34.0,abdomen
+dataset_b_004858,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004858.jpg,female,80.0,chest
+dataset_a_000773,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000773.jpg,male,53.0,arm
+dataset_b_011063,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011063.jpg,male,20.0,back
+dataset_b_009959,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009959.jpg,female,35.0,acral
+dataset_b_006577,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006577.jpg,male,50.0,trunk
+dataset_a_000763,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000763.jpg,,39.0,face
+dataset_b_010689,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010689.jpg,female,35.0,abdomen
+dataset_b_010062,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010062.jpg,female,5.0,lower extremity
+dataset_b_012021,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012021.jpg,male,85.0,back
+dataset_b_007541,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007541.jpg,male,50.0,foot
+dataset_b_006028,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006028.jpg,male,45.0,back
+dataset_b_005738,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005738.jpg,female,45.0,foot
+dataset_a_001289,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001289.jpg,male,61.0,back
+dataset_b_006522,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006522.jpg,female,50.0,lower extremity
+dataset_b_006781,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006781.jpg,female,55.0,back
+dataset_b_003610,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003610.jpg,female,35.0,abdomen
+dataset_b_007941,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007941.jpg,female,40.0,trunk
+dataset_b_006392,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006392.jpg,male,40.0,lower extremity
+dataset_b_006164,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006164.jpg,female,45.0,upper extremity
+dataset_b_004292,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004292.jpg,male,35.0,upper extremity
+dataset_b_008589,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008589.jpg,male,55.0,foot
+dataset_b_005016,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005016.jpg,male,45.0,chest
+dataset_b_011876,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011876.jpg,female,40.0,unknown
+dataset_b_009947,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009947.jpg,male,60.0,abdomen
+dataset_b_008545,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008545.jpg,female,40.0,back
+dataset_b_004862,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004862.jpg,male,40.0,back
+dataset_b_010179,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010179.jpg,female,40.0,back
+dataset_a_001203,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001203.jpg,female,21.0,face
+dataset_b_006702,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006702.jpg,male,50.0,trunk
+dataset_b_009427,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009427.jpg,male,40.0,trunk
+dataset_b_009708,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009708.jpg,female,40.0,acral
+dataset_b_010826,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010826.jpg,male,60.0,back
+dataset_b_006115,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006115.jpg,male,40.0,upper extremity
+dataset_b_006575,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006575.jpg,male,50.0,lower extremity
+dataset_a_001246,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001246.jpg,,47.0,face
+dataset_b_007803,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007803.jpg,male,65.0,lower extremity
+dataset_a_000465,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000465.jpg,,40.0,arm
+dataset_b_009659,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009659.jpg,male,45.0,upper extremity
+dataset_a_001010,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001010.jpg,,58.0,face
+dataset_b_010361,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010361.jpg,male,40.0,trunk
+dataset_b_005335,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005335.jpg,male,45.0,back
+dataset_b_007857,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007857.jpg,male,40.0,back
+dataset_a_001430,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001430.jpg,female,58.0,face
+dataset_b_009621,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009621.jpg,male,35.0,upper extremity
+dataset_b_003604,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003604.jpg,female,35.0,ear
+dataset_b_011669,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011669.jpg,male,0.0,chest
+dataset_a_001694,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001694.jpg,,25.0,arm
+dataset_b_010055,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010055.jpg,male,45.0,back
+dataset_b_006080,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006080.jpg,female,45.0,foot
+dataset_b_009487,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009487.jpg,male,70.0,abdomen
+dataset_b_007715,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007715.jpg,male,60.0,abdomen
+dataset_b_003939,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003939.jpg,male,35.0,back
+dataset_b_009904,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009904.jpg,female,30.0,back
+dataset_b_003616,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003616.jpg,male,80.0,scalp
+dataset_b_005972,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005972.jpg,female,45.0,trunk
+dataset_b_006740,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006740.jpg,female,55.0,lower extremity
+dataset_b_005648,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005648.jpg,female,45.0,trunk
+dataset_b_004440,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004440.jpg,female,80.0,upper extremity
+dataset_a_002284,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_002284.jpg,female,60.0,face
+dataset_b_008075,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008075.jpg,female,50.0,back
+dataset_b_007590,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007590.jpg,male,45.0,upper extremity
+dataset_b_003955,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003955.jpg,male,65.0,ear
+dataset_b_005760,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005760.jpg,male,45.0,upper extremity
+dataset_a_001622,dataset_a,BCC,2,test,images/test/BCC/dataset_a_001622.jpg,male,47.0,chest
+dataset_b_007022,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007022.jpg,male,50.0,lower extremity
+dataset_b_008605,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008605.jpg,male,50.0,lower extremity
+dataset_b_011783,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011783.jpg,male,30.0,back
+dataset_b_010072,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010072.jpg,male,45.0,abdomen
+dataset_a_001794,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001794.jpg,,44.0,face
+dataset_b_003544,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003544.jpg,female,35.0,neck
+dataset_b_009865,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009865.jpg,female,35.0,back
+dataset_b_008491,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008491.jpg,male,45.0,abdomen
+dataset_b_011208,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011208.jpg,male,30.0,lower extremity
+dataset_b_010790,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010790.jpg,male,35.0,face
+dataset_b_010991,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010991.jpg,male,60.0,lower extremity
+dataset_b_009960,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009960.jpg,female,35.0,acral
+dataset_b_009524,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009524.jpg,female,60.0,back
+dataset_a_002218,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002218.jpg,female,77.0,nose
+dataset_a_001064,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001064.jpg,,50.0,face
+dataset_b_004002,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004002.jpg,male,65.0,back
+dataset_b_008101,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008101.jpg,female,35.0,trunk
+dataset_b_007363,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007363.jpg,female,45.0,lower extremity
+dataset_b_007533,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007533.jpg,male,60.0,back
+dataset_b_009501,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009501.jpg,female,10.0,trunk
+dataset_b_005247,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005247.jpg,female,75.0,upper extremity
+dataset_b_004851,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004851.jpg,female,65.0,scalp
+dataset_b_005434,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005434.jpg,female,35.0,genital
+dataset_b_011146,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011146.jpg,male,80.0,back
+dataset_b_005075,dataset_b,BCC,2,test,images/test/BCC/dataset_b_005075.jpg,male,80.0,chest
+dataset_b_005312,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005312.jpg,male,50.0,trunk
+dataset_b_008369,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008369.jpg,female,35.0,lower extremity
+dataset_b_011626,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011626.jpg,female,50.0,back
+dataset_b_009436,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009436.jpg,male,70.0,back
+dataset_b_009387,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009387.jpg,female,65.0,upper extremity
+dataset_b_011107,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011107.jpg,female,75.0,back
+dataset_b_007093,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007093.jpg,male,40.0,back
+dataset_b_007700,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007700.jpg,female,45.0,neck
+dataset_b_009827,dataset_b,NEV,0,test,images/test/NEV/dataset_b_009827.jpg,male,40.0,back
+dataset_b_005685,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005685.jpg,female,40.0,lower extremity
+dataset_b_004802,dataset_b,BCC,2,test,images/test/BCC/dataset_b_004802.jpg,female,85.0,face
+dataset_b_007491,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007491.jpg,female,45.0,upper extremity
+dataset_b_008655,dataset_b,NEV,0,test,images/test/NEV/dataset_b_008655.jpg,male,50.0,trunk
+dataset_b_006961,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006961.jpg,female,55.0,lower extremity
+dataset_b_010815,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010815.jpg,male,20.0,lower extremity
+dataset_a_001542,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001542.jpg,,55.0,face
+dataset_b_006114,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006114.jpg,female,50.0,upper extremity
+dataset_b_010329,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010329.jpg,female,10.0,lower extremity
+dataset_a_001414,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_001414.jpg,,55.0,hand
+dataset_b_004199,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004199.jpg,female,45.0,lower extremity
+dataset_b_012046,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012046.jpg,female,70.0,face
+dataset_b_004412,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004412.jpg,male,45.0,lower extremity
+dataset_a_000944,dataset_a,BCC,2,test,images/test/BCC/dataset_a_000944.jpg,female,52.0,face
+dataset_b_012086,dataset_b,AKIEC,3,test,images/test/AKIEC/dataset_b_012086.jpg,male,85.0,lower extremity
+dataset_b_007368,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007368.jpg,female,35.0,lower extremity
+dataset_b_011506,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011506.jpg,female,10.0,hand
+dataset_b_006286,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006286.jpg,male,55.0,genital
+dataset_b_004332,dataset_b,MEL,1,test,images/test/MEL/dataset_b_004332.jpg,female,85.0,lower extremity
+dataset_b_005383,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005383.jpg,male,45.0,lower extremity
+dataset_b_007370,dataset_b,NEV,0,test,images/test/NEV/dataset_b_007370.jpg,female,35.0,upper extremity
+dataset_b_011799,dataset_b,NEV,0,test,images/test/NEV/dataset_b_011799.jpg,male,45.0,abdomen
+dataset_a_002271,dataset_a,BCC,2,test,images/test/BCC/dataset_a_002271.jpg,female,81.0,forearm
+dataset_b_010240,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010240.jpg,female,35.0,back
+dataset_b_006135,dataset_b,NEV,0,test,images/test/NEV/dataset_b_006135.jpg,female,45.0,abdomen
+dataset_a_001091,dataset_a,NEV,0,test,images/test/NEV/dataset_a_001091.jpg,,17.0,back
+dataset_a_000297,dataset_a,AKIEC,3,test,images/test/AKIEC/dataset_a_000297.jpg,male,59.0,abdomen
+dataset_b_010251,dataset_b,NEV,0,test,images/test/NEV/dataset_b_010251.jpg,female,45.0,abdomen
+dataset_b_003710,dataset_b,MEL,1,test,images/test/MEL/dataset_b_003710.jpg,female,45.0,lower extremity
+dataset_b_005545,dataset_b,NEV,0,test,images/test/NEV/dataset_b_005545.jpg,female,55.0,back

@@ -217,3 +217,11 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 node_modules/
+
+
+dataset/augmentation/augmented_train_images
+dataset/validation/processed_images
+
+dataset/final_dataset/images
+dataset/final_dataset/*.json
+dataset/validate_and_consolidate.py
