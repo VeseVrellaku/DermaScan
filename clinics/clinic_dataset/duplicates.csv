@@ -1,0 +1,55 @@
+name,address,website,phone_number,reviews_count,reviews_average,latitude,longitude,category,location,source_file
+American Beauty Clinic,"Agi Kos, Nr c2, Objekti 3, Rruga Vicianum, lokali4.1 2, Prishtinë 10000",https://americanbeautyclinic.com/,+383 48 596 596,10.0,5.0,42.6605313,21.1509951,dermatologist,Albania,dermatologist_in_Albania.csv
+American Beauty Clinic,"Agi Kos, Nr c2, Objekti 3, Rruga Vicianum, lokali4.1 2, Prishtinë 10000",https://americanbeautyclinic.com/,+383 48 596 596,10.0,5.0,42.6605313,21.1509951,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Anaderm Aesthetic Surgery Hospital,"Prishtinë , Kosovo, Street Zef Jubani, Prishtina 10000",https://www.klinikaanaderm.com/,+383 45 707 744,73.0,4.8,42.631382,21.1484613,dermatologist,Albania,dermatologist_in_Albania.csv
+Anaderm Aesthetic Surgery Hospital,"Prishtinë , Kosovo, Street Zef Jubani, Prishtina 10000",https://www.klinikaanaderm.com/,+383 45 707 744,73.0,4.8,42.631382,21.1484613,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Anaderm Dermatologic & Cosmetic Clinic,"nr 50 Hilmi Rakovica, Prishtinë 10000",http://www.anadermks.com/,+383 44 300 298,87.0,4.3,42.6544037,21.1712872,dermatologist,Albania,dermatologist_in_Albania.csv
+Anaderm Dermatologic & Cosmetic Clinic,"nr 50 Hilmi Rakovica, Prishtinë 10000",http://www.anadermks.com/,+383 44 300 298,87.0,4.3,42.6544037,21.1712872,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Bioderm - Dr. Hatixhe Mulliqi,"Motrat Qiriazi, Prishtina 10000",https://instagram.com/bioderm.ks?igshid=MzRlODBiNWFlZA==,+383 44 169 327,5.0,5.0,42.6475631,21.1602897,dermatologist,Albania,dermatologist_in_Albania.csv
+Bioderm - Dr. Hatixhe Mulliqi,"Motrat Qiriazi, Prishtina 10000",https://instagram.com/bioderm.ks?igshid=MzRlODBiNWFlZA==,+383 44 169 327,5.0,5.0,42.6475631,21.1602897,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Bonsai Clinic,"22 Rruga Bajram Kelmendi, Prishtinë 10000",,+383 49 288 433,104.0,4.9,42.6634826,21.1661093,dermatologist,Albania,dermatologist_in_Albania.csv
+Bonsai Clinic,"22 Rruga Bajram Kelmendi, Prishtinë 10000",,+383 49 288 433,104.0,4.9,42.6634826,21.1661093,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma ART,"Ahmet Gashi OBJ-4 H-1 LOK Nr.1 Prishtinë, 10000",https://derma-arti.com/,+383 49 263 339,65.0,4.5,42.6445581,21.1696239,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma ART,"Ahmet Gashi OBJ-4 H-1 LOK Nr.1 Prishtinë, 10000",https://derma-arti.com/,+383 49 263 339,65.0,4.5,42.6445581,21.1696239,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma Aesthetic Center by Ndricimi-RM,"Rruga Çameria Nr:6 Rru, Pejë 30000",,+383 48 222 977,4.0,5.0,42.6621038,20.2877494,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma Aesthetic Center by Ndricimi-RM,"Rruga Çameria Nr:6 Rru, Pejë 30000",,+383 48 222 977,4.0,5.0,42.6621038,20.2877494,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma Line Klinika Dermatologjike & Estetike,"Arberi, Rr.Vicianum nr 186/7, Prishtinë 10000",,+383 45 100 450,48.0,4.9,42.6596874,21.1494122,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma Line Klinika Dermatologjike & Estetike,"Arberi, Rr.Vicianum nr 186/7, Prishtinë 10000",,+383 45 100 450,48.0,4.9,42.6596874,21.1494122,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma Plus,"10000 Rruga B, Prishtina 10000",http://www.dp-ks.com/,+383 46 224 224,10.0,4.2,42.6464937,21.1709853,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma Plus,"10000 Rruga B, Prishtina 10000",http://www.dp-ks.com/,+383 46 224 224,10.0,4.2,42.6464937,21.1709853,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma Pure,"Wesley Clark, Pejë 30000",https://www.facebook.com/dermapure.clinicks,+383 49 164 343,30.0,4.9,42.6610654,20.2808265,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma Pure,"Wesley Clark, Pejë 30000",https://www.facebook.com/dermapure.clinicks,+383 49 164 343,30.0,4.9,42.6610654,20.2808265,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Derma R Clinic,"28 Nëntori, Fushë-Kosovë 10000",,+383 49 157 543,2.0,5.0,42.6415672,21.0953951,dermatologist,Albania,dermatologist_in_Albania.csv
+Derma R Clinic,"28 Nëntori, Fushë-Kosovë 10000",,+383 49 157 543,2.0,5.0,42.6415672,21.0953951,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+DermaCare,"14 Ukë Bytyqi, Prishtina 10000",http://www.dermacareks.com/,+383 44 761 000,52.0,4.5,42.6552983,21.1658724,dermatologist,Albania,dermatologist_in_Albania.csv
+DermaCare,"14 Ukë Bytyqi, Prishtina 10000",http://www.dermacareks.com/,+383 44 761 000,52.0,4.5,42.6552983,21.1658724,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+DermaD,"Afrim Vitia, 1 Svetozar Markoviq, Prishtinë 10000",,+383 44 161 317,18.0,3.9,42.6625136,21.1675858,dermatologist,Albania,dermatologist_in_Albania.csv
+DermaD,"Afrim Vitia, 1 Svetozar Markoviq, Prishtinë 10000",,+383 44 161 317,18.0,3.9,42.6625136,21.1675858,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Dermatovenerolog Mujadin Tërshnjaku(Estetika),"Rr William Walker, Prizren 20000",,+383 44 315 413,2.0,5.0,42.2079321,20.7246258,dermatologist,Albania,dermatologist_in_Albania.csv
+Dermatovenerolog Mujadin Tërshnjaku(Estetika),"Rr William Walker, Prizren 20000",,+383 44 315 413,2.0,5.0,42.2079321,20.7246258,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+DuoDerm,"Rr Motrat Qiriazi, Prishtina 10000",,,5.0,5.0,42.6482963,21.1601626,dermatologist,Albania,dermatologist_in_Albania.csv
+DuoDerm,"Rr Motrat Qiriazi, Prishtina 10000",,,5.0,5.0,42.6482963,21.1601626,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Fiziomed,"Nysret Seharsoj, Prizren 20000",http://www.fiziomed.com/,+383 44 366 009,16.0,4.8,42.2058716,20.7318058,dermatologist,Albania,dermatologist_in_Albania.csv
+Fiziomed,"Nysret Seharsoj, Prizren 20000",http://www.fiziomed.com/,+383 44 366 009,16.0,4.8,42.2058716,20.7318058,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Kirurgjia estetike italiane Prishtine - DaVINCI,"Jusuf Gervalla, Lagja, Prishtinë 10000",http://www.davinci.al/,,173.0,4.9,42.6494541,21.1507998,dermatologist,Albania,dermatologist_in_Albania.csv
+Kirurgjia estetike italiane Prishtine - DaVINCI,"Jusuf Gervalla, Lagja, Prishtinë 10000",http://www.davinci.al/,,173.0,4.9,42.6494541,21.1507998,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Miliona Aesthetic,"Rruga B, Prishtinë 10000",http://miliona.com/,+383 44 911 222,84.0,4.6,42.6550665,21.1782976,dermatologist,Albania,dermatologist_in_Albania.csv
+Miliona Aesthetic,"Rruga B, Prishtinë 10000",http://miliona.com/,+383 44 911 222,84.0,4.6,42.6550665,21.1782976,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+"Ordinanca ""Pro-Derm""","Rruga B, Prishtinë 10000",,+383 44 238 745,99.0,4.9,42.649209,21.1734649,dermatologist,Albania,dermatologist_in_Albania.csv
+"Ordinanca ""Pro-Derm""","Rruga B, Prishtinë 10000",,+383 44 238 745,99.0,4.9,42.649209,21.1734649,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Ordinanca për sëmundje të lëkurës Dr Arsim Riza “Leta”,"114 Deshmoret e Lirise, Gjakova 50000",,+383 44 247 327,1.0,5.0,42.3705377,20.4305078,dermatologist,Albania,dermatologist_in_Albania.csv
+Ordinanca për sëmundje të lëkurës Dr Arsim Riza “Leta”,"114 Deshmoret e Lirise, Gjakova 50000",,+383 44 247 327,1.0,5.0,42.3705377,20.4305078,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Rare Clinic Aesthetic,"Nënë Tereza, Fushë-Kosovë 12000",,+383 48 511 955,18.0,5.0,42.6422579,21.1099006,dermatologist,Albania,dermatologist_in_Albania.csv
+Rare Clinic Aesthetic,"Nënë Tereza, Fushë-Kosovë 12000",,+383 48 511 955,18.0,5.0,42.6422579,21.1099006,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Shpresa Derm,"Fatos Limani, Prishtina 10000",https://www.instagram.com/shpresaderm?igsh=NWNhbDYza2gwYW85,+383 44 159 405,20.0,5.0,42.6474817,21.1709469,dermatologist,Albania,dermatologist_in_Albania.csv
+Shpresa Derm,"Fatos Limani, Prishtina 10000",https://www.instagram.com/shpresaderm?igsh=NWNhbDYza2gwYW85,+383 44 159 405,20.0,5.0,42.6474817,21.1709469,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+TITI HAIR CLINIC,"Sllatine e madhe, Fushe",,+383 49 337 300,,,42.5986532,21.0210462,dermatologist,Albania,dermatologist_in_Albania.csv
+TITI HAIR CLINIC,"Sllatine e madhe, Fushe",,+383 49 337 300,,,42.5986532,21.0210462,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+TrueLife Clinic,"Rruga B, Prishtinë 10000",,+383 48 811 555,21.0,5.0,42.6496501,21.1738625,dermatologist,Albania,dermatologist_in_Albania.csv
+TrueLife Clinic,"Rruga B, Prishtinë 10000",,+383 48 811 555,21.0,5.0,42.6496501,21.1738625,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+estethica,"30 Rrugë Nekibe Kelmendi, Prishtinë 10000",http://www.estethica-ks.com/,+383 49 660 660,1206.0,5.0,42.6299485,21.1608969,dermatologist,Albania,dermatologist_in_Albania.csv
+estethica,"30 Rrugë Nekibe Kelmendi, Prishtinë 10000",http://www.estethica-ks.com/,+383 49 660 660,1206.0,5.0,42.6299485,21.1608969,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+iDerm,"65 Azem Bejta, Prizren 20000",https://www.facebook.com/idermpz,+383 44 515 105,9.0,3.8,42.2135357,20.7322064,dermatologist,Albania,dermatologist_in_Albania.csv
+iDerm,"65 Azem Bejta, Prizren 20000",https://www.facebook.com/idermpz,+383 44 515 105,9.0,3.8,42.2135357,20.7322064,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
+Éclat - Aesthetic Clinic,"Jakov Xoxa, Prishtinë 10000",,+383 49 757 888,19.0,4.8,42.6470239,21.1722713,dermatologist,Albania,dermatologist_in_Albania.csv
+Éclat - Aesthetic Clinic,"Jakov Xoxa, Prishtinë 10000",,+383 49 757 888,19.0,4.8,42.6470239,21.1722713,dermatologist,Kosovo,dermatologist_in_Kosovo.csv
