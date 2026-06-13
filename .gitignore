@@ -225,3 +225,6 @@ dataset/validation/processed_images
 dataset/final_dataset/images
 dataset/final_dataset/*.json
 dataset/validate_and_consolidate.py
+
+ham_dataset/mel
+ham_dataset/nv
